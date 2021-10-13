@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { LanguageContext } from "../../hocs/languageContext";
 
 function Conferences() {
-
   const data = useContext(LanguageContext).data;
 
   return (
@@ -12,14 +11,14 @@ function Conferences() {
         <div className="content">
           <ul className="list-unstyled">
             <li>
-              <i className="far fa-calendar-alt"></i>{" "}
+              <span className="iconify" data-icon="bi:calendar-event"></span>{" "}
               <a href="." target="_blank">
                 SQL Saturday 2020
               </a>{" "}
               (Belo Horizonte)
             </li>
             <li>
-              <i className="far fa-calendar-alt"></i>{" "}
+              <span className="iconify" data-icon="bi:calendar-event"></span>{" "}
               <a href=".">Dev Summit 2021</a> (Online)
             </li>
           </ul>

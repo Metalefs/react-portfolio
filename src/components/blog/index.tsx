@@ -2,6 +2,7 @@ import SourcedRSSComponent from "./rss/sourcedRSS";
 import Parser from "rss-parser";
 import { useState, useEffect, useContext } from "react";
 import { LanguageContext } from "../../hocs/languageContext";
+import axios from 'axios';
 type CustomFeed = { foo: string };
 type CustomItem = { bar: number };
 
@@ -11,14 +12,19 @@ function Blog() {
   const [MDfeed, setMDFeed] = useState();
 
   useEffect(() => {
-    parser
-      .parseURL("https://stackoverflow.com/feeds/user/10509394")
-      .then((res: any) => setSOFeed(res))
-      .catch(err=>{console.error(err)});
-    parser
-      .parseURL("https://medium.com/feed/@jackson-ramalho")
-      .then((res: any) => setMDFeed(res))
-      .catch(err=>{console.error(err)});
+    axios.get("https://stackoverflow.com/feeds/user/10509394").then((res: any)=>{
+      return parser
+        .parseString(res.data)
+        .then((res: any) => setSOFeed(res))
+        .catch(err => { console.error(err); });
+    })
+    axios.get("https://medium.com/feed/@jackson-ramalho").then((res: any)=>{
+      return parser
+        .parseString(res.data)
+        .then((res: any) => setMDFeed(res))
+        .catch(err => { console.error(err); });
+    })
+    
   }, []);
 
   const data = useContext(LanguageContext).data;

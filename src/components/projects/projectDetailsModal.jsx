@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -85,10 +86,10 @@ class ProjectDetailsModal extends Component {
                 rel="noopener noreferrer"
                 className="link-href"
                 >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                    ></i>
+                  <span
+                    className="iconify mr-2"
+                    data-icon="akar-icons:link-chain"
+                  ></span>
                     {title}
                 </a>
               ) : null}

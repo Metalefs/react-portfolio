@@ -81,7 +81,6 @@ function Experience() {
     );
   });
   
-
   return (
     <section id="resume" className="pb-5">
     <div className="col-md-12 mx-auto">
@@ -113,51 +112,3 @@ function Experience() {
 }
 
 export default Experience;
-const experiences = [
-  {
-    title: "Freelance",
-    company: "PluralSystems",
-    companyWebsite: "https://pluralsystems.com.br/",
-    timeSpan: "(2020 - 2021)",
-    description: [
-      <p>
-        Desenvolvimento de aplicação de agendamento de consultas de pet-shop
-      </p>,
-    ],
-    key: 1
-  },
-  {
-    title: "Analista Desenvolvedor .NET Júnior",
-    company: "Rumo Soluções",
-    companyWebsite: "https://rumosolucoes.com.br",
-    timeSpan: "(2021 - Presente)",
-    description: [
-      <p>
-        {" "}
-        Atuação com desenvolvimento WEB. <br /> Tecnologias: Angular, NodeJS,
-        Asp.Net, Web Forms, C#.
-      </p>,
-      <p>
-        {" "}
-        Atuação com desenvolvimento Mobile. <br /> Tecnologias: Xamarin.{" "}
-      </p>,
-      <p>
-        {" "}
-        Banco de dados: <br /> Mongo, Redis, SQL Server.
-      </p>,
-      <p> Desenvolvimento de Web-Crawlers</p>,
-    ],
-    key: 2
-  },
-  {
-    title: "Estágio de Analise e Desenvolvimento",
-    company: "Rumo Soluções",
-    companyWebsite: "https://rumosolucoes.com.br",
-    timeSpan: "(2019 - 2021)",
-    description: [
-      <p>Estágio com foco em desenvolvimento C#</p>,
-      <p>Manutenção de aplicações: Asp.Net MVC, Asp.Net Web Forms,</p>
-    ],
-    key: 3
-  },
-];

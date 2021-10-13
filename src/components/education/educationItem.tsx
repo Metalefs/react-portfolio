@@ -1,8 +1,9 @@
-function EducationItem(props:any) {
+function EducationItem(props: any) {
   return (
     <div className="item">
       <h3 className="title">
-        <i className="fas fa-graduation-cap"></i> {props.source.title}
+        <span className="iconify mr-2" data-icon="fa:graduation-cap"></span>
+        {props.source.title}
       </h3>
       <h4 className="university">
         {props.source.university}

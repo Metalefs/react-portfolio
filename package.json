@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/react": "^17.0.27",
+    "axios": "^0.23.0",
     "bootstrap": "^4.5.2",
     "github-calendar": "^2.2.7",
     "react": "^17.0.2",

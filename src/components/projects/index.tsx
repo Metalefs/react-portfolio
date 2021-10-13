@@ -13,9 +13,9 @@ function Projects() {
     setState({ detailsModalShow: true, deps: data });
   };
 
-  let detailsModalClose = () =>
-    setState({ deps: state.deps, detailsModalShow: false });
+  let detailsModalClose = () => setState({ deps: state.deps, detailsModalShow: false });
   var sectionName = resumeInfo.data.basic_info.section_name.projects;
+  
   var projects = resumeInfo.data.projects.map(function (projects) {
     return (
       <div
@@ -52,9 +52,7 @@ function Projects() {
       <div className="col-md-12">
         <div className="col-md-12">
           <h2 className="section-title heading">
-            <span className="text-black-50">
-              {sectionName}
-            </span>
+            <span className="text-black-50">{sectionName}</span>
           </h2>
         </div>
         <div className="col-md-12 mx-auto">

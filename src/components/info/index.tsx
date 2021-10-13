@@ -13,7 +13,7 @@ function Info() {
             <li>
               <span className="iconify mr-2" data-icon="carbon:email-new"></span>
               <span className="sr-only">Email:</span>
-              <a href=".">jacksonpires@devship.com</a>
+              <a href=".">jacksonpires@devportable.com</a>
             </li>
             <li>
               <span

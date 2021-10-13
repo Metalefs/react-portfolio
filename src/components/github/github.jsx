@@ -10,7 +10,6 @@ function Github() {
   const [events, setEvents] = useState([]);
 
   useEffect(()=>{
-    
     async function fetchData() {
     
       setEvents(await (await fetch('https://api.github.com/users/Metalefs/events')).json());

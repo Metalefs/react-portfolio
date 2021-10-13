@@ -13,7 +13,7 @@ export const data = {
         class: "fab fa-instagram",
       },
     ],
-    image: "myProfile.jpg",
+    image: "/images/myProfile.jpg",
   },
   skills: {
     icons: [

@@ -1,27 +1,11 @@
 import { useContext } from 'react';
+
 import { LanguageContext } from '../../hocs/languageContext';
+import TestimonialItem from './testimonialItem';
+
 import './testimonials.scss'
 
-function TestimonialItem(props:any) {
-  return (
-    <div className="item">
-      <blockquote className="quote">
-        <p>
-          <i className="fas fa-quote-left"></i>
-          {props.testimonial.quote}
-        </p>
-      </blockquote>
-      <p className="source">
-        <span className="name">{props.testimonial.from}</span>
-        <br />
-        <span className="title"></span>
-      </p>
-    </div>
-  );
-}
-
 function Testimonials() {
-
   const data = useContext(LanguageContext).data;
   return (
     <aside className="testimonials aside section">
@@ -40,6 +24,7 @@ function Testimonials() {
               <i className="fas fa-external-link-alt"></i>{data.testimonials.seeMoreLabel}
             </a>
           </p>
+          
         </div>
       </div>
     </aside>

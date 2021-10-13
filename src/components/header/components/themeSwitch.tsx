@@ -66,20 +66,6 @@ class ThemeSwitch extends Component {
         }
         id="icon-switch"
         />
-        return (
-          <div className="dark-mode-switch d-flex">
-            <div className="form-check form-switch mx-auto mx-md-0">
-              <input
-                type="checkbox"
-                className="form-check-input me-2"
-                id="darkSwitch"
-              />
-              <label className="custom-control-label" htmlFor="darkSwitch">
-                Modo claro
-              </label>
-            </div>
-          </div>
-      );
     };
 }
 

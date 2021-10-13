@@ -1,4 +1,4 @@
-import React, { Component, useContext, useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 // @ts-ignore
 import Typical from "react-typical";
 import ProfileLinks from "./components/profileLinks";
@@ -13,12 +13,8 @@ function ContactButton(props: any) {
   const [{ y, color }, set] = useSpring(() => ({ y: 100, color: "#fff" }));
   return (
     <button
-    onMouseEnter={() => set({ y: 0, color: "#000" })}
-    onMouseLeave={() => set({ y: 100, color: "#fff" })}
-  >
-    <animated.div
-      style={{ transform: y.interpolate((v) => `translateY(${v}%`) }}
-      className="glance"
+      onMouseEnter={() => set({ y: 0, color: "#000" })}
+      onMouseLeave={() => set({ y: 100, color: "#fff" })}
     >
       <a
         className="btn btn-cta-primary"
@@ -26,14 +22,14 @@ function ContactButton(props: any) {
         target="_blank"
         rel="noreferrer"
       >
-        <span
-          className="iconify mr-3"
-          data-icon="ion:paper-plane-sharp"
-        ></span>
+        <span className="iconify mr-3" data-icon="ion:paper-plane-sharp"></span>
         <span> Contato</span>
       </a>
-    </animated.div>
-  </button>
+      <animated.div
+        style={{ transform: y.interpolate((v) => `translateY(${v}%`) }}
+        className="glance"
+      ></animated.div>
+    </button>
   );
 }
 
@@ -77,12 +73,12 @@ function Header(props) {
     <header
       className="header"
       id="home"
-      style={{ height: window.innerHeight - 200, display: "block" }}
+      style={{ height: window.innerHeight - 300, display: "block" }}
     >
       {/* <ProfileImage /> */}
       <div className="profile-content">
+        {animatedCoffed}
         <div>
-          {animatedCoffed}
           <h1 className="mb-0 name">
             <Typical className="name" steps={[name]} wrapper="p" />
           </h1>

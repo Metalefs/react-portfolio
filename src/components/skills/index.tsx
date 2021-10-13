@@ -1,9 +1,11 @@
 import { useContext } from "react";
-import { IResumeData, LanguageContext } from "../../hocs/languageContext";
-import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
-import SkillItem from "./skillItem";
-import "./skills.scss";
 import ScrollAnimation from "react-animate-on-scroll";
+
+import { LanguageContext } from "../../hocs/languageContext";
+import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
+import "./skills.scss";
+
+import SkillLevels from "./skillLevels";
 
 function Skills() {
   const sharedBasicInfo = useContext(SharedDataContext) as SharedData;
@@ -43,8 +45,8 @@ function Skills() {
                     );
                   })}
                 </ul>
-                <ScrollAnimation duration={.5} animateIn="zoomIn">
-                  <SkillsAside></SkillsAside>
+                <ScrollAnimation duration={0.5} animateIn="zoomIn">
+                  <SkillLevels></SkillLevels>
                 </ScrollAnimation>
               </div>
             </div>
@@ -55,37 +57,3 @@ function Skills() {
   );
 }
 export default Skills;
-
-export function SkillsAside() {
-  const data = useContext(LanguageContext) as IResumeData;
-  return (
-    <aside className="skills aside section mb-0 pt-0">
-      <div className="section-inner shadow-sm rounded">
-        <div className="content">
-          {/* <p className="intro">
-           {data.data.skills.title}
-          </p>
-          <p>
-           {data.data.skills.description}
-          </p> */}
-          <div className="skillset">
-            {data.data.skills.technologies.map((skill,i) => (
-              <SkillItem key={i} skill={{ ...skill }} />
-            ))}
-
-            <p>
-              <a
-                className="more-link"
-                href="https://github.com/Metalefs/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fas fa-external-link-alt"></i>{data.data.skills.seeMoreLabel}
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-  );
-}
