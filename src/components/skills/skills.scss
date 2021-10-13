@@ -1,0 +1,62 @@
+$color: #778492;
+$color-2: #3AAA64;
+$btn-color: #54ba4e;
+$btn-color-2: #479FC8;
+$text-color: #434343;
+$text-color-secondary: #666;
+$grey: #999;
+$divider: #e8e8e8;
+$lighter-grey: #ccc;
+$darker-grey: #666;
+$smoky-white: #f5f5f5;
+$background: #DAE3E7;
+$heart: #fb866a;
+
+$dm-background: #17191c;
+$dm-text-color: rgba(256, 256, 256, 0.9);
+$dm-text-color-secondary: rgba(256, 256, 256, 0.7);
+
+/* Skills Section */
+/* Skills Section */
+.skills {
+  
+  .intro {
+      margin-bottom: 30px;
+  }
+  .skillset {
+
+      .item {
+          margin-bottom: 30px;
+      }
+      .level-title {
+          font-size: 16px;
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 10;
+          .level-label {
+              color: lighten($color, 30%);
+              font-size: 14px;
+              font-weight: 400;
+              font-family: "Lato", arial, sans-serif;
+              position: absolute;
+              right: 0;
+              top: 0;
+          }
+          
+      }
+      .level-bar {
+          height: 15px;
+          background: darken($smoky-white, 5%);
+      }
+      .level-bar-inner {
+          height: 15px;
+          background: lighten($color-2, 15%);
+      }
+  }
+  .svg-inline--fa {
+    margin-right: 3px;
+    position: relative;
+    top: 0;
+  }
+  
+}

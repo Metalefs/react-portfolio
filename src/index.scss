@@ -1,0 +1,12 @@
+body {
+  font-family: "Lato", arial, sans-serif;
+  color: #434343;
+  background: #c6cacf3d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section.github.section > div > div{
+  min-width: 100% !important;
+  min-height: 500px !important;
+}
