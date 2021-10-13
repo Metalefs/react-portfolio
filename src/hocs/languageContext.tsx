@@ -24,6 +24,7 @@ export declare type ResumeData = {
       blog: string;
       music: string;
       conferences: string;
+      source_code: string;
     };
   };
   projects: {

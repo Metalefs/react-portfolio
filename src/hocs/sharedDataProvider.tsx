@@ -9,6 +9,7 @@ export declare type SharedData = {
             url: string;
             class: string;
         }[];
+        source_code:string;
         image: string;
     };
     skills: {

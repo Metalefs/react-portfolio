@@ -10,14 +10,14 @@ import OtherProjects from "./components/projects/otherProjects";
 import Experience from "./components/experience/experience";
 import Github from "./components/github/github";
 import Info from "./components/info";
-import Skills, { SkillsAside } from "./components/skills";
+import Skills from "./components/skills";
 import Testimonials from "./components/testimonials";
 import Education from "./components/education";
 import Languages from "./components/languages/languages";
 import Blog from "./components/blog";
 import Music from "./components/music";
 import Conferences from "./components/conferences";
-import queryString from 'query-string';
+import queryString from "query-string";
 
 import * as PT_BR from "./data/res_primaryLanguage";
 import * as EN_US from "./data/res_secondaryLanguage";
@@ -31,60 +31,9 @@ import {
 import Footer from "./components/Footer";
 import { withRouter } from "react-router-dom";
 import ThemeSwitch from "./components/header/components/themeSwitch";
+import LanguageSwitch from "./languageSwitch";
 import ScrollAnimation from "react-animate-on-scroll";
-
-class LanguageSwitch extends Component<{ language: Language }, {}> {
-  constructor(props: any) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <LanguageContext.Consumer>
-        {({ language, toggleLanguage }) => (
-          <div className="col-md-12 mx-auto text-center language d-flex justify-content-start">
-            <div
-              onClick={() => {
-                toggleLanguage(Language.PT_BR);
-              }}
-              className={`${
-                this.props.language === Language.EN_US && "see-through"
-              } delay`}
-              style={{
-                display: "inline",
-              }}
-            >
-              <span
-                className="iconify language-icon"
-                data-icon="twemoji-flag-for-flag-brazil"
-                data-width="45"
-                data-inline="false"
-              ></span>
-            </div>
-            <div
-              onClick={() => {
-                toggleLanguage(Language.EN_US);
-              }}
-              className={`${
-                this.props.language === Language.PT_BR && "see-through"
-              } delay`}
-              style={{
-                display: "inline",
-              }}
-            >
-              <span
-                className="iconify language-icon"
-                data-icon="twemoji-flag-for-flag-united-states"
-                data-width="45"
-                data-inline="false"
-              ></span>
-            </div>
-          </div>
-        )}
-      </LanguageContext.Consumer>
-    );
-  }
-}
+import { SharedData, SharedDataContext } from "./hocs/sharedDataProvider";
 
 class App extends Component<
   { history: any; match: any; location: any },
@@ -105,11 +54,11 @@ class App extends Component<
       language: language,
     }));
     const sLang = Language[language];
-    const params = new URLSearchParams()
+    const params = new URLSearchParams();
     if (sLang) {
-      params.append("lang", sLang)
+      params.append("lang", sLang);
     } else {
-      params.delete("name")
+      params.delete("name");
     }
     if (Language[sLang] !== undefined) {
       this.props.history.push({
@@ -155,19 +104,19 @@ class App extends Component<
                 <div>
                   <About></About>
 
-                  <ScrollAnimation duration={.5} animateIn="fadeInUp">
+                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
                     <Skills></Skills>
                   </ScrollAnimation>
 
-                  <ScrollAnimation duration={.5} animateIn="fadeInUp">
+                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
                     <Projects></Projects>
                   </ScrollAnimation>
 
-                  <ScrollAnimation duration={.5} animateIn="fadeInUp">
+                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
                     <OtherProjects></OtherProjects>
                   </ScrollAnimation>
 
-                  <ScrollAnimation duration={.5} animateIn="fadeInUp">
+                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
                     <Experience></Experience>
                   </ScrollAnimation>
 
@@ -178,20 +127,34 @@ class App extends Component<
                         <Blog></Blog>
                       </ScrollAnimation>
                     </div>
-                    <ScrollAnimation animateIn="slideInRight" className="secondary col-lg-4 col-12">
-                        <Info></Info>
-                        <Testimonials></Testimonials>
-                        <Education></Education>
-                        <Conferences></Conferences>
-                        <Languages></Languages>
-                        <Music></Music>
+                    <ScrollAnimation
+                      animateIn="slideInRight"
+                      className="secondary col-lg-4 col-12"
+                    >
+                      <Info></Info>
+
+                      <Testimonials></Testimonials>
+
+                      <Education></Education>
+
+                      <Conferences></Conferences>
+
+                      <Languages></Languages>
+
+                      <Music></Music>
                     </ScrollAnimation>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <SharedDataContext.Consumer>
+          {( data : SharedData|{}) => (
+            <a href={(data as SharedData).basic_info.source_code} rel="noreferrer" target="_blank">
+              {this.state.data.basic_info.section_name.source_code}
+            </a>
+          )}
+          </SharedDataContext.Consumer>
           <Footer></Footer>
         </div>
       </LanguageContext.Provider>

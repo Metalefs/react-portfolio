@@ -4,9 +4,9 @@ import { LanguageContext } from "../../hocs/languageContext";
 function SongItem(props:any) {
   return (
     <li>
-      <span className="iconify" data-icon="twemoji:headphone"></span>
+      <span className="iconify mr-2" data-icon="twemoji:headphone"></span>
 
-      <a href={props.song.href} target="_blank">
+      <a href={props.song.href} target="_blank" rel="noreferrer">
         {props.song.name}
       </a>
     </li>

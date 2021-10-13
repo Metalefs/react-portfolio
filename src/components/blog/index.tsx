@@ -25,7 +25,7 @@ function Blog() {
         .catch(err => { console.error(err); });
     })
     
-  }, []);
+  });
 
   const data = useContext(LanguageContext).data;
 

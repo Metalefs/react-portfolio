@@ -5,6 +5,7 @@ export const data = {
       "Fullstack Developer",
       "Fullcycle Developer",
     ],
+    source_code: "https://github.com/Metalefs/react-portfolio",
     social: [
       { name: "github", url: "https://github.com", class: "fab fa-github" },
       {

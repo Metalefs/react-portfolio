@@ -2,7 +2,7 @@ export const data = {
   basic_info: {
     description_header: "Olá",
     description:
-      "👋 Meu nome é Jackson Ramalho. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue.",
+      "👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue.",
     section_name: {
       about: "Sobre mim",
       projects: "Projetos",
@@ -17,6 +17,7 @@ export const data = {
       blog: "Últimas postagens minhas no StackOverflow e Medium",
       music: "Minha música favorita para codar",
       conferences: "Conferências",
+      source_code: "Veja o código fonte deste site",
     },
   },
   projects: [
@@ -99,6 +100,10 @@ export const data = {
           class: "devicon-nodejs-plain",
           name: "Nodejs",
         },
+        {
+          class: "devicon-mongodb-plain",
+          name: "MongoDB",
+        },
       ],
     },    
     {
@@ -112,16 +117,16 @@ export const data = {
       url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies",
       technologies: [
         {
-          class: "devicon-angularjs-plain",
-          name: "Angular",
+          class: "devicon-vuejs-plain",
+          name: "Vuejs",
         },
         {
           class: "devicon-typescript-plain",
           name: "TypeScript",
         },
         {
-          class: "devicon-csharp-plain",
-          name: "C#",
+          class: "simple-icons:nestjs",
+          name: "Nestjs",
         },
       ],
     },   
@@ -142,6 +147,10 @@ export const data = {
         {
           class: "devicon-typescript-plain",
           name: "TypeScript",
+        },
+        {
+          class: "devicon-sql-server-plain",
+          name: "SQL Server",
         },
       ],
     },

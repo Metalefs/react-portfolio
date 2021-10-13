@@ -1,6 +1,4 @@
-
-import React from 'react';
-import rssEnhancer, { InjectionRSSProps } from 'react-rss';
+import rssEnhancer from 'react-rss';
  
 const DefaultRSSComponent = (props:any) => (
     <div>

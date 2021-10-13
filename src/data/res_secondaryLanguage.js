@@ -2,7 +2,7 @@ export const data = {
   basic_info: {
     description_header: "Hi",
     description:
-      "👋 My name is Jackson Ramalho. I'm working with the newest front-end frameworks like Angular, React and Vue.",
+      "👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue.",
     section_name: {
       about: "About me",
       projects: "Projects",
@@ -17,6 +17,7 @@ export const data = {
       blog: "My latests posts on StackOverflow and Medium",
       music: "My favorite songs to code to",
       conferences: "Conferences",
+      source_code: "Check out this website's source code",
     },
   },
   projects: [

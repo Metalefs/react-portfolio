@@ -26,7 +26,7 @@ function Github() {
       <div className="section-inner shadow-sm rounded">
         <h2 className="heading">{data.basic_info.section_name.github}</h2>
 
-        <div class="calendar">
+        <div className="calendar">
         </div>
         <GitHubFeed
           fullName={fullName} // Provide Full Name as displayed on GitHub

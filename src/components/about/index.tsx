@@ -1,4 +1,4 @@
-import React, { Component, useContext } from "react";
+import React, { useContext } from "react";
 
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
@@ -24,7 +24,7 @@ function About() {
               <div className="col-md-4 mb-5 d-flex justify-content-center">
                 <div className="polaroid">
                   <span style={{ cursor: "auto" }}>
-                    <img width="70" src={profilepic} alt="Avatar placeholder" />
+                    <img width="70" src={process.env.PUBLIC_URL +profilepic} alt="Avatar placeholder" />
                     <Icon
                       icon={angularIcon}
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}

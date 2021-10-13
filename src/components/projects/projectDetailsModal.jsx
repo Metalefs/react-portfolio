@@ -88,7 +88,7 @@ class ProjectDetailsModal extends Component {
                 >
                   <span
                     className="iconify mr-2"
-                    data-icon="akar-icons:link-chain"
+                    data-icon="fa-solid:external-link-alt"
                   ></span>
                     {title}
                 </a>

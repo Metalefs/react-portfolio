@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 // @ts-ignore
 import Typical from "react-typical";
 import ProfileLinks from "./components/profileLinks";
@@ -16,17 +16,18 @@ function ContactButton(props: any) {
       onMouseEnter={() => set({ y: 0, color: "#000" })}
       onMouseLeave={() => set({ y: 100, color: "#fff" })}
     >
-      <a
+      <animated.a
         className="btn btn-cta-primary"
         href={`mailto:${props.mailto}`}
         target="_blank"
         rel="noreferrer"
+        style={{color:color}}
       >
         <span className="iconify mr-3" data-icon="ion:paper-plane-sharp"></span>
         <span> Contato</span>
-      </a>
+      </animated.a>
       <animated.div
-        style={{ transform: y.interpolate((v) => `translateY(${v}%`) }}
+        style={{ transform: y.to((v) => `translateY(${v}%`) }}
         className="glance"
       ></animated.div>
     </button>
