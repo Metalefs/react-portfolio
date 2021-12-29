@@ -1,4 +1,3 @@
-
 function SourcedRSSComponent(props: any) {
   return (
     <div className="items">
@@ -11,7 +10,11 @@ function SourcedRSSComponent(props: any) {
         <div>
           <p>{props?.feed?.shortBodyPlain}</p>
           <a className="more-link" href="{url}" target="_blank">
-            <i className="fas fa-external-link-alt"></i>Leia mais
+            <span
+              className="iconify mr-2"
+              data-icon="fa-solid:external-link-alt"
+            ></span>
+            Read more
           </a>
         </div>
       </div>

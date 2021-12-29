@@ -13,7 +13,7 @@
 //   }
   header {
     position: relative;
-    // height: 520px;
+    height: 100%;
     min-height: 450px;
     width: 100%;
     background-size: cover;
@@ -30,7 +30,14 @@
     background-color:#d8dce048;
     // padding: 76px 0;
     background-image: url(../../images/header_background.jpg);
+    
   }
+
+  // @media only screen and (min-width:780px) {
+  //   header{
+  //     -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+  //   }
+  // }
   
   .header .btn {
     font-weight: bold;

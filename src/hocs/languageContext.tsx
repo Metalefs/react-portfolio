@@ -1,9 +1,10 @@
 import React from "react";
-import * as primary from "../data/res_primaryLanguage";
+import * as primary from "../data/res_portuguese";
 
 export enum Language {
   PT_BR,
   EN_US,
+  GER
 }
 
 export declare type ResumeData = {

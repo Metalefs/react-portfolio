@@ -1,21 +1,17 @@
-import React, { useContext } from "react";
-
+import React from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
-import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
 import { LanguageContext } from "../../hocs/languageContext";
 import AboutCard from './aboutCard';
 
 function About() {
-  const sharedBasicInfo = useContext(SharedDataContext) as SharedData;
-  const profilepic = sharedBasicInfo.basic_info.image;
-
+ 
   return (
     <LanguageContext.Consumer>
       {({ language, data, toggleLanguage }) => (
-        <section id="about section">
+        <section id="about" className="about section mb-0 pt-0">
           <div className="col-md-12 section-inner shadow-sm rounded">
             <h2 className="heading" style={{ color: "black" }}>
               <span>{data.basic_info.section_name.about}</span>
@@ -24,7 +20,6 @@ function About() {
               <div className="col-md-4 mb-5 d-flex justify-content-center">
                 <div className="polaroid">
                   <span style={{ cursor: "auto" }}>
-                    <img width="70" src={process.env.PUBLIC_URL +profilepic} alt="Avatar placeholder" />
                     <Icon
                       icon={angularIcon}
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}

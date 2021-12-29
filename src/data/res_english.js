@@ -1,31 +1,31 @@
 export const data = {
   basic_info: {
-    description_header: "Olá",
+    description_header: "Hi",
     description:
-      "👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue.",
+      "👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue.",
     section_name: {
-      about: "Sobre mim",
-      projects: "Projetos",
-      otherProjects: "Outros Projetos",
-      skills: "Habilidades",
-      experience: "Experiência",
-      github: "Meu GitHub",
-      recommendations: "Recomendações",
-      education: "Educação",
-      languages: "Idiomas",
-      proficiency: "Proficiência Conversacional",
-      blog: "Últimas postagens minhas no StackOverflow e Medium",
-      music: "Minha música favorita para codar",
-      conferences: "Conferências",
-      source_code: "Veja o código fonte deste site",
+      about: "About me",
+      projects: "Projects",
+      otherProjects: "Other Projects",
+      skills: "Skills",
+      experience: "Experience",
+      github: "My GitHub",
+      recommendations: "Recommendations",
+      education: "Education",
+      languages: "Languages",
+      proficiency: "Proficiency",
+      blog: "My latests posts on StackOverflow and Medium",
+      music: "My favorite songs to code to",
+      conferences: "Conferences",
+      source_code: "Check out this website's source code",
     },
   },
   projects: [
     {
-      title: "Assistente de Estágio",
+      title: "Internship Assistant",
       startDate: "2019",
       description:
-        "MVP em estado de testes de gestão online do processo de estágio desenvolvido em Asp .Net Core.",
+        "MVP in online management testing status of the internship process developed in Asp .Net Core.",
       images: [
         "images/portfolio/ADE/p1.gif",
         "images/portfolio/ADE/p2.jpeg",
@@ -52,10 +52,10 @@ export const data = {
       ],
     },
     {
-      title: "Funções de Estatistica Online",
+      title: "Online Statistics Functions",
       startDate: "2020",
       description:
-        "Um aplicativo de resolução de questões de estátistica com Angular e backend em C#.",
+        "A stats solving app with Angular and C# backend.",
       images: [
         "images/portfolio/statistics/p1.jpeg",
       ],
@@ -76,10 +76,10 @@ export const data = {
       ],
     },
     {
-      title: "Loja de costumização de acessórios",
+      title: "Custom accessories store",
       startDate: "2020",
       description:
-        "O aplicativo lida com todos os processos de compra e gerenciamento de produtos personalizados.",
+        "The app handles all the processes of purchasing and managing custom products.",
       images: [
         "images/portfolio/personalizados-lopes/p2.jpeg",
         "images/portfolio/personalizados-lopes/p3.jpeg",
@@ -100,41 +100,37 @@ export const data = {
           class: "devicon-nodejs-plain",
           name: "Nodejs",
         },
-        {
-          class: "devicon-mongodb-plain",
-          name: "MongoDB",
-        },
       ],
-    },    
+    },
     {
-      title: "Gestão de Cookies",
+      title: "Cookie Management",
       startDate: "2020",
       description:
-        "MVP em estado de prova de conceito com back-end em Nest e front-end em VueJS.",
+        "MVP in proof-of-concept state with back-end in Nest and front-end in VueJS.",
       images: [
         "images/portfolio/cookie-manager/p1.jpeg",
       ],
       url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies",
       technologies: [
         {
-          class: "devicon-vuejs-plain",
-          name: "Vuejs",
+          class: "devicon-angularjs-plain",
+          name: "Angular",
         },
         {
           class: "devicon-typescript-plain",
           name: "TypeScript",
         },
         {
-          class: "simple-icons:nestjs",
-          name: "Nestjs",
+          class: "devicon-csharp-plain",
+          name: "C#",
         },
       ],
-    },   
+    },
     {
-      title: "Agendamento Veterinário",
+      title: "Veterinary Scheduling",
       startDate: "2020",
       description:
-        "Um projeto onde atuei como desenvolvedor frontend em conjunto com um desenvolvedor Angular Sênior na primeira clinica com agendamento online.",
+        "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
       images: [
         "images/portfolio/schedule/p1.jpeg",
       ],
@@ -148,85 +144,77 @@ export const data = {
           class: "devicon-typescript-plain",
           name: "TypeScript",
         },
-        {
-          class: "devicon-sql-server-plain",
-          name: "SQL Server",
-        },
       ],
     },
   ],
   otherProjects: {
-    seeMoreLabel: "Veja mais no Github",
+    seeMoreLabel: "See More on Github",
     projects: [
       {
         href: "https://github.com/Metalefs/MVP-PHP-EuMotorista",
-        title: "Eumotorista - Aprendizado gameficado de direção",
-        description: `Assista ao nosso pitch no botão abaixo. (Narração e Edição por Guilherme
-      Neubaner- Front-end por mim e Backend por mim e por Guilherme Neubaner).`,
-        badge: "Grátis",
+        title: "Eumotorista - Gamified Driving School",
+        description: `Watch our pitch by clicking on the button below. (Narration and Editing by Guilherme
+      Neubaner- Front-end by me and Backend by me and Guilherme Neubaner).`,
+        badge: "Free",
         pitchSrc: "https://youtu.be/o_LTPT1F4H8",
         iframeSrc: "https://www.youtube.com/embed/o_LTPT1F4H8?controls=0",
       },
     ],
   },
   skills: {
-    title: `Sou um Autodidata no aprendizado de novas tecnologias de
-    desenvolvimento web e aspirante a 1/10x (Fullstack) programmer.`,
-    description: `Estou focado no aprendizado de tecnologias de descentralização, como
-    mensageria e microserviços e também estou voltado ao desenvolvimento
-    de aplicações Blockchain de De-fi (Decentralized Finance)`,
-    seeMoreLabel: "Veja mais no Github",
+    title: `I am a web developer generalist and aspiring 10x programmer.`,
+    description: `ATM I'm focused on learning microservice design and applications and I'm also interested in the De-fi Blockchain Application field (Decentralized Finance)`,
+    seeMoreLabel: "See more on Github",
     technologies: [
       {
         name: ".NET",
         level: "Pro",
-        levelTitle: "2 anos de experiencia com desenvolvimento e manutenção.",
+        levelTitle: "2 years experience with development and maintenance.",
         progress: "86%",
       },
       {
         name: "React",
         level: "Advanced",
-        levelTitle: "Estou trabalhando em tempo integral com React.",
+        levelTitle: "I'm currently working fulltime with React.",
         progress: "75%",
       },
       {
         name: "Angular",
         level: "Pro",
         levelTitle:
-          "Eu trabalhei em 2 projetos grandes e um par de projetos menores.",
+          "I have worked on two big projects and a couple smaller ones.",
         progress: "86%",
       },
       {
         name: "Vue",
         level: "Intermediate",
         levelTitle:
-          "Eu desenvolvi um gerenciador de cookies simples com este framework.",
+          "I have created a simple cookie managing tool with this technology.",
         progress: "64%",
       },
       {
         name: "Docker",
         level: "Intermediate",
-        levelTitle:
-          "Eu uso Docker na maior parte para publicar containeres de APIs.",
+        levelTitle: "I use Docker mostly to publish API containers.",
         progress: "64%",
       },
       {
         name: "Kubernetes",
         level: "Intermediate",
-        levelTitle: "Eu uso Kubernetes para escalar containeres do Docker.",
+        levelTitle: "I use Kubernetes to scale Docker containers.",
         progress: "64%",
       },
       {
         name: "NodeJS",
         level: "Intermediate",
-        levelTitle: "Crio API's maneiras com nodeJS",
+        levelTitle: "I create rad APIs with Nodejs",
         progress: "70%",
       },
       {
         name: "MongoDB",
         level: "Pro",
         levelTitle:
-          "Posso desenvolver serviços mínimos / otimizados usando este banco de dados",
+          "I can develop very minimal/optimized services using this database",
         progress: "86%",
       },
     ],
@@ -234,9 +222,9 @@ export const data = {
   experience: [
     {
       company: "Santander",
-      companyWebsite: "https://pluralsystems.com.br/",
+      companyWebsite: "https://www.oleconsignado.com.br",
       title: "Front-End Developer",
-      years: "2021 - Presente",
+      years: "2021 - Present",
       mainTech: ["Angular 8/9/10, React"],
       technologies: [
         "REST API",
@@ -268,8 +256,8 @@ export const data = {
     {
       company: "Rumo Soluções",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: "Analista Desenvolvedor .NET Júnior",
-      years: "01.2021 - Presente",
+      title: ".NET Junior Developer",
+      years: "01.2021 - Present",
       mainTech: [".Net/C#"],
       technologies: [
         "C#",
@@ -287,7 +275,7 @@ export const data = {
     {
       company: "Rumo Soluções",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: "Estágio de Analise e Desenvolvimento",
+      title: "Internship",
       years: "01.2019 - 2021",
       mainTech: [".Net/C#"],
       technologies: [
@@ -305,20 +293,20 @@ export const data = {
     },
   ],
   testimonials: {
-    seeMoreLabel: "Mais no LinkedIn",
+    seeMoreLabel: "More on LinkedIn",
     sources: [
       {
         from: "Daniel Fiedler",
-        quote: `Profissional extremamente
-        preocupado com a qualidade do código, proativo, busca documentar tudo
-        e procurar soluções melhores para os problemas, sempre busca aprender
-        mais sobre o projeto e as linguagens.`,
+        quote: `A developer extremely
+        concerned about the quality of the code. Proactive, documents everything
+        and is always looking for better solutions to the problems, always looking to learn
+        more about the project and the languages used.`,
       },
     ],
   },
   education: [
     {
-      title: "Análise e Desenvolvimento de Sistemas",
+      title: "Systems Analysis and Development",
       university: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
       period: "(2019-2021)",
     },
@@ -327,17 +315,17 @@ export const data = {
     {
       name: "Português",
       stars: 5,
-      proficiency: 'Conversacional'
+      proficiency: 'Native'
     },
     {
       name: "English",
       stars: 4,
-      proficiency: 'Conversacional'
+      proficiency: 'Conversational'
     },
     {
       name: "Deutsch",
       stars: 3,
-      proficiency: 'Conversacional'
+      proficiency: 'Conversational'
     },
   ],
 };

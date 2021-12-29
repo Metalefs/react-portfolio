@@ -38,8 +38,8 @@ function Projects() {
                 }}
               />
               <span className="project-date">{projects.startDate}</span>
-              <br />
-              <p className="project-title-settings mt-3">{projects.title}</p>
+              {/* <br />
+              <p className="project-title-settings mt-3">{projects.title}</p> */}
             </div>
           </div>
         </span>

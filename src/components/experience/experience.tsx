@@ -8,24 +8,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-// function ExperienceItem(props:any) {
-//   return (
-//     <div className="item">
-//       <h3 className="title">
-//         {props.experience.title} - 
-//         <span className="place">
-//           <a href={props.experience.companyWebsite} target="_blank">
-//             {props.experience.company}
-//           </a>
-//         </span> - 
-//         <span className="year">{props.experience.timeSpan}</span>
-//       </h3>
-//       {props.experience.description.map((paragraph:any, index) =>  <React.Fragment key={props.experience.key+'p'+index}>{paragraph}</React.Fragment>)}
-//         <hr />
-//     </div>
-//   );
-// }
-
 function Experience() {
   const data = useContext(LanguageContext).data;
   const sectionName = data.basic_info.section_name.experience;

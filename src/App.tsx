@@ -19,8 +19,9 @@ import Music from "./components/music";
 import Conferences from "./components/conferences";
 import queryString from "query-string";
 
-import * as PT_BR from "./data/res_primaryLanguage";
-import * as EN_US from "./data/res_secondaryLanguage";
+import * as PT_BR from "./data/res_portuguese";
+import * as EN_US from "./data/res_english";
+import * as GER from "./data/res_german";
 
 import {
   LanguageContext,
@@ -34,6 +35,12 @@ import ThemeSwitch from "./components/header/components/themeSwitch";
 import LanguageSwitch from "./languageSwitch";
 import ScrollAnimation from "react-animate-on-scroll";
 import { SharedData, SharedDataContext } from "./hocs/sharedDataProvider";
+
+export const Translations ={
+  PT_BR: PT_BR,
+  EN_US: EN_US,
+  GER: GER
+}
 
 class App extends Component<
   { history: any; match: any; location: any },
@@ -78,14 +85,13 @@ class App extends Component<
   }
 
   getDataByLanguage(language: Language): ResumeData {
-    switch (+language) {
-      case Language.PT_BR:
-        return PT_BR.data;
-
-      case Language.EN_US:
-        return EN_US.data;
+    try{
+      return Translations[Language[language]].data;
     }
-    throw Error("Invalid language: " + language);
+    catch(ex){
+      return EN_US.data;
+      //throw Error("Invalid language: " + language);
+    }
   }
 
   render() {
@@ -96,13 +102,14 @@ class App extends Component<
 
           <Header></Header>
 
-          <LanguageSwitch language={this.state.language} />
-
-          <div className=" sections-wrapper py-3">
+          <div className="sections-wrapper pb-3">
+            <LanguageSwitch language={this.state.language} />
             <div className="row" style={{ position: "relative" }}>
               <div className="primary col-12">
                 <div>
-                  <About></About>
+                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
+                    <About></About>
+                  </ScrollAnimation>
 
                   <ScrollAnimation duration={0.5} animateIn="fadeInUp">
                     <Skills></Skills>
@@ -149,11 +156,21 @@ class App extends Component<
             </div>
           </div>
           <SharedDataContext.Consumer>
-          {( data : SharedData|{}) => (
-            <a href={(data as SharedData).basic_info.source_code} rel="noreferrer" target="_blank">
-              {this.state.data.basic_info.section_name.source_code}
-            </a>
-          )}
+            {(data: SharedData | {}) => (
+              <div className="d-flex justify-content-center pb-3">
+                <span
+                  className="iconify mr-2"
+                  data-icon="fa-solid:external-link-alt"
+                ></span>
+                <a
+                  href={(data as SharedData).basic_info.source_code}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  {this.state.data.basic_info.section_name.source_code}
+                </a>
+              </div>
+            )}
           </SharedDataContext.Consumer>
           <Footer></Footer>
         </div>

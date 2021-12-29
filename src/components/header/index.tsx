@@ -8,6 +8,7 @@ import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
 
 import "./header.scss";
+import ProfileImage from "./components/profileImage";
 
 function ContactButton(props: any) {
   const [{ y, color }, set] = useSpring(() => ({ y: 100, color: "#fff" }));
@@ -21,7 +22,7 @@ function ContactButton(props: any) {
         href={`mailto:${props.mailto}`}
         target="_blank"
         rel="noreferrer"
-        style={{color:color}}
+        style={{ color: color }}
       >
         <span className="iconify mr-3" data-icon="ion:paper-plane-sharp"></span>
         <span> Contato</span>
@@ -52,17 +53,14 @@ function Header(props) {
     ],
     duration: 500,
   });
-  const animatedCoffed = (
-    <animated.div style={springConfig}>
-      <div className="mx-4">
-        <span
-          className="iconify"
-          data-icon="fontelico:emo-coffee"
-          data-width="150"
-        ></span>
-      </div>
-    </animated.div>
-  );
+  // <div className="mx-4">
+  //   <span
+  //     className="iconify"
+  //     data-icon="fontelico:emo-coffee"
+  //     data-width="150"
+  //   ></span>
+  // </div>
+  const animatedCoffed = <ProfileImage />;
   const HeaderTitleTypeAnimation = React.memo(
     () => {
       return <Typical className="title-styles desc" steps={titles} loop={1} />;
@@ -74,20 +72,19 @@ function Header(props) {
     <header
       className="header"
       id="home"
-      style={{ height: window.innerHeight - 300, display: "block" }}
+      style={{ height: window.innerHeight - 0, display: "block" }}
     >
-      {/* <ProfileImage /> */}
       <div className="profile-content">
         {animatedCoffed}
-        <div>
-          <h1 className="mb-0 name">
+        <animated.div style={springConfig}>
+          <h1 className="mb-0 name" >
             <Typical className="name" steps={[name]} wrapper="p" />
           </h1>
           <div className="title-container">
             <HeaderTitleTypeAnimation />
           </div>
           <ProfileLinks />
-        </div>
+        </animated.div>
       </div>
       <ContactButton mailto={mailto}></ContactButton>
     </header>
