@@ -148,7 +148,7 @@ export const data = {
       },
     ],
     otherProjects: {
-      seeMoreLabel: "Mehr auf Github sehen",
+      seeMoreLabel: "Mehr auf Github",
       projects: [
         {
           href: "https://github.com/Metalefs/MVP-PHP-EuMotorista",
