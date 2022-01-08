@@ -46,6 +46,7 @@ class ThemeSwitch extends Component {
               textAlign: "end",
               marginLeft: "20px",
               border: "1px solid black",
+              borderRadius: "50%",
               color: "#",
             }}
           ></span>

@@ -1,6 +1,6 @@
 export const data = {
   basic_info: {
-    description_header: "Hallo",
+    description_header: "Hello World!",
     description: `👋 Ich heiße Jackson Pires. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. 
         Ich arbeite mit den folgenden Technologien:
           Knoten,

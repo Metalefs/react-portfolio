@@ -1,6 +1,6 @@
 export const data = {
   basic_info: {
-    description_header: "Hi",
+    description_header: "Hello World!",
     description: `👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue. 
       I work with technologies:
         Nodejs,

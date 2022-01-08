@@ -1,6 +1,6 @@
 export const data = {
   basic_info: {
-    description_header: "Olá",
+    description_header: "Olá Mundo!",
     description: `👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue. Aprendendo as novas tecnologias de front e back-end, buscando ativamente minimizar os processos manuais, em detrimento dos processos automatizados.
 
       Atuo no desenvolvimento de aplicações utilizando as tecnologias:
