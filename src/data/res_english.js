@@ -1,9 +1,25 @@
 export const data = {
   basic_info: {
     description_header: "Hi",
-    description:
-      "👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue.",
+    description: `👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue. 
+      I work with technologies:
+        Nodejs,
+        .Net Core,
+        Angular &
+        React.
+      
+      My main interest at the moment has been to decouple monolithic applications by orchestrating them following a microservice architecture pattern.
+      
+      I have extra knowledge of technologies:
+        Asp.Net MVC and Web Forms &
+        PHP.
+      
+      I work with native Application development in technologies:
+        Xamarin.Forms,
+      
+      I am interested in developing native applications with React Native, or other Cross-Platform frameworks in the future. `,
     section_name: {
+      contact: "Contact",
       about: "About me",
       projects: "Projects",
       otherProjects: "Other Projects",
@@ -54,11 +70,8 @@ export const data = {
     {
       title: "Online Statistics Functions",
       startDate: "2020",
-      description:
-        "A stats solving app with Angular and C# backend.",
-      images: [
-        "images/portfolio/statistics/p1.jpeg",
-      ],
+      description: "A stats solving app with Angular and C# backend.",
+      images: ["images/portfolio/statistics/p1.jpeg"],
       url: "https://distribuicao-dados-agrupados.web.app/",
       technologies: [
         {
@@ -107,9 +120,7 @@ export const data = {
       startDate: "2020",
       description:
         "MVP in proof-of-concept state with back-end in Nest and front-end in VueJS.",
-      images: [
-        "images/portfolio/cookie-manager/p1.jpeg",
-      ],
+      images: ["images/portfolio/cookie-manager/p1.jpeg"],
       url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies",
       technologies: [
         {
@@ -131,9 +142,7 @@ export const data = {
       startDate: "2020",
       description:
         "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
-      images: [
-        "images/portfolio/schedule/p1.jpeg",
-      ],
+      images: ["images/portfolio/schedule/p1.jpeg"],
       url: "http://191.252.156.153:8010/",
       technologies: [
         {
@@ -163,7 +172,7 @@ export const data = {
   },
   skills: {
     title: `I am a web developer generalist and aspiring 10x programmer.`,
-    description: `ATM I'm focused on learning microservice design and applications and I'm also interested in the De-fi Blockchain Application field (Decentralized Finance)`,
+    description: `ATM I'm focused on learning microservice design and applications and I'm also interested in De-fi Blockchain Applications (Decentralized Finance)`,
     seeMoreLabel: "See more on Github",
     technologies: [
       {
@@ -315,17 +324,17 @@ export const data = {
     {
       name: "Português",
       stars: 5,
-      proficiency: 'Native'
+      proficiency: "Native",
     },
     {
       name: "English",
       stars: 4,
-      proficiency: 'Conversational'
+      proficiency: "Conversational",
     },
     {
       name: "Deutsch",
       stars: 3,
-      proficiency: 'Conversational'
+      proficiency: "Conversational",
     },
   ],
 };

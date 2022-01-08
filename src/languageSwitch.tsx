@@ -13,7 +13,7 @@ export default class LanguageSwitch extends Component<{ language: Language }, {}
                   toggleLanguage(Language.PT_BR);
                 }}
                 className={`${
-                  this.props.language != Language.PT_BR && "see-through"
+                  this.props.language !== Language.PT_BR && "see-through"
                 } delay`}
                 style={{
                   display: "inline",
@@ -31,7 +31,7 @@ export default class LanguageSwitch extends Component<{ language: Language }, {}
                   toggleLanguage(Language.EN_US);
                 }}
                 className={`${
-                  this.props.language != Language.EN_US && "see-through"
+                  this.props.language !== Language.EN_US && "see-through"
                 } delay`}
                 style={{
                   display: "inline",
@@ -49,7 +49,7 @@ export default class LanguageSwitch extends Component<{ language: Language }, {}
                   toggleLanguage(Language.GER);
                 }}
                 className={`${
-                  this.props.language != Language.GER && "see-through"
+                  this.props.language !== Language.GER && "see-through"
                 } delay`}
                 style={{
                   display: "inline",

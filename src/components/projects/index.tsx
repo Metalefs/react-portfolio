@@ -19,7 +19,7 @@ function Projects() {
   var projects = resumeInfo.data.projects.map(function (projects) {
     return (
       <div
-        className="col-sm-12 col-md-6 col-lg-4"
+        className="col-sm-12 col-md-6 col-lg-6 "
         key={projects.title}
         style={{ cursor: "pointer" }}
       >
@@ -48,7 +48,7 @@ function Projects() {
   });
 
   return (
-    <section id="portfolio" className="">
+    <section id="portfolio" className=" pb-0 mb-0">
       <div className="col-md-12">
         <div className="col-md-12">
           <h2 className="section-title heading">

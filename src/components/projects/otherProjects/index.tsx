@@ -7,7 +7,7 @@ import "./otherProjects.scss";
 function OtherProjects() {
   const data = useContext(LanguageContext).data;
   return (
-    <section className="projects section portfolio">
+    <section className="projects section portfolio  pb-0 mb-0">
       <div className="section-inner shadow-sm rounded">
         <h2 className="heading ">
           {data.basic_info.section_name.otherProjects}

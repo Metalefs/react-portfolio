@@ -2,7 +2,12 @@ export const data = {
   basic_info: {
     name: "Jackson Pires",
     titles: [
-      "Fullstack Developer",
+      "Website Developer",
+      "React Developer",
+      "Angular Developer",
+      "Node.js Developer",
+      "DotNet Developer",
+      "C# Developer",
       "Fullcycle Developer",
     ],
     source_code: "https://github.com/Metalefs/react-portfolio",

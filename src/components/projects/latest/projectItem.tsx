@@ -9,10 +9,11 @@ function ProjectItem(props: any) {
         } has-ribbon foto `}
       >
         <div>
-          <a href={props.project.href} target="_blank">
+          <a href={props.project.href} target="_blank" rel="noreferrer">
             <img
               className="img-fluid project-image rounded shadow-sm"
               src={props.project.imgSrc}
+              width="300"
               alt="project name"
             />
           </a>
@@ -23,7 +24,7 @@ function ProjectItem(props: any) {
           <span className="project-date">{props.project.startDate ?? ""}</span>
           <br />
           <h3 className="title mb-3">
-            <a href={props.project.href} target="_blank">
+            <a href={props.project.href} target="_blank" rel="noreferrer">
               {props.project.title}
             </a>
           </h3>
@@ -35,6 +36,7 @@ function ProjectItem(props: any) {
           {props.project.featured && (
             <a
               className="btn btn-cta-secondary"
+              rel="noreferrer"
               href={props.project.href}
               target="_blank"
             >
@@ -48,7 +50,7 @@ function ProjectItem(props: any) {
     </div>
   ) : (
     <div className="item row ">
-      <a className="col-md-4 col-12 " href={props.project.href} target="_blank">
+      <a className="col-md-4 col-12 " href={props.project.href} target="_blank" rel="noreferrer">
         <img
           className="img-fluid project-image rounded shadow-sm"
           src={props.project.imgSrc}
@@ -57,13 +59,13 @@ function ProjectItem(props: any) {
       </a>
       <div className="desc col-md-8 col-12">
         <h3 className="title">
-          <a href={props.project.href} target="_blank">
+          <a href={props.project.href} target="_blank" rel="noreferrer">
             {props.project.title}
           </a>
         </h3>
         <p className="mb-2">{props.project.description}</p>
         <p>
-          <a className="more-link" href={props.project.href} target="_blank">
+          <a className="more-link" href={props.project.href} target="_blank" rel="noreferrer">
             <i className="fas fa-external-link-alt"></i>{" "}
             {props.project.customSeeMoreText || "Veja mais"}
           </a>

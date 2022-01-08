@@ -9,29 +9,30 @@ import { config } from "react-spring";
 
 import "./header.scss";
 import ProfileImage from "./components/profileImage";
+import { LanguageContext } from "../../hocs/languageContext";
 
 function ContactButton(props: any) {
-  const [{ y, color }, set] = useSpring(() => ({ y: 100, color: "#fff" }));
+  const [{ y, background }, set] = useSpring(() => ({ y: 100, background: "green" }));
+  const data = useContext(LanguageContext).data;
+  const sectionName = data.basic_info.section_name.contact;
   return (
-    <button
-      onMouseEnter={() => set({ y: 0, color: "#000" })}
-      onMouseLeave={() => set({ y: 100, color: "#fff" })}
-    >
       <animated.a
-        className="btn btn-cta-primary"
+        className="btn btn-cta-primary mt-3"
         href={`mailto:${props.mailto}`}
         target="_blank"
         rel="noreferrer"
-        style={{ color: color }}
+        style={{ background: background }}
+        
       >
         <span className="iconify mr-3" data-icon="ion:paper-plane-sharp"></span>
-        <span> Contato</span>
+        <span> {sectionName}</span>
+        <animated.div
+          style={{ transform: y.to((v) => `translateY(${v}%`) }}
+          className="glance"
+          onMouseEnter={() => set({ y: 0, background: "#000" })}
+        onMouseLeave={() => set({ y: 100, background: "#fff" })}
+        ></animated.div>
       </animated.a>
-      <animated.div
-        style={{ transform: y.to((v) => `translateY(${v}%`) }}
-        className="glance"
-      ></animated.div>
-    </button>
   );
 }
 
@@ -70,12 +71,13 @@ function Header(props) {
 
   return (
     <header
-      className="header"
+      className="header row align-items-center justify-content-center"
       id="home"
-      style={{ height: window.innerHeight - 0, display: "block" }}
     >
-      <div className="profile-content">
+      <div className="col-2">
         {animatedCoffed}
+      </div>
+      <div className="col-10 profile-content">
         <animated.div style={springConfig}>
           <h1 className="mb-0 name" >
             <Typical className="name" steps={[name]} wrapper="p" />
@@ -85,8 +87,8 @@ function Header(props) {
           </div>
           <ProfileLinks />
         </animated.div>
+        <ContactButton mailto={mailto}></ContactButton>
       </div>
-      <ContactButton mailto={mailto}></ContactButton>
     </header>
   );
 }

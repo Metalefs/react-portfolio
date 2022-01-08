@@ -4,7 +4,7 @@ import GitHubFeed from 'react-github-activity';
 import { LanguageContext } from "../../hocs/languageContext";
 
 function Github() {
-  const fullName = "Jackson Geid";
+  const fullName = "Jackson Ramalho";
   const userName = "Metalefs";
   const avatarUrl = "https://avatars.githubusercontent.com/u/40893204?v=4";
   const [events, setEvents] = useState([]);

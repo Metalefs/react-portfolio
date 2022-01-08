@@ -1,9 +1,26 @@
 export const data = {
   basic_info: {
     description_header: "Olá",
-    description:
-      "👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue.",
+    description: `👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue. Aprendendo as novas tecnologias de front e back-end, buscando ativamente minimizar os processos manuais, em detrimento dos processos automatizados.
+
+      Atuo no desenvolvimento de aplicações utilizando as tecnologias:
+       Nodejs,
+       .Net Core,
+       Angular &
+       React.
+      
+      Meu maior interesse no momento tem sido desacoplar aplicações monolíticas orquestrando-as seguindo um padrão de arquitetura de micro serviços.
+      
+      Possuo conhecimento extra das tecnologias: 
+       Asp.Net MVC e Web Forms &
+       PHP.
+      
+      Atuo com desenvolvimento de Aplicativos nativos nas tecnologias: 
+       Xamarin.Forms,
+      
+      Tenho interesse em desenvolver aplicações nativas com React Native, ou outras frameworks Cross-Platform no futuro.`,
     section_name: {
+      contact: "Contato",
       about: "Sobre mim",
       projects: "Projetos",
       otherProjects: "Outros Projetos",
@@ -56,9 +73,7 @@ export const data = {
       startDate: "2020",
       description:
         "Um aplicativo de resolução de questões de estátistica com Angular e backend em C#.",
-      images: [
-        "images/portfolio/statistics/p1.jpeg",
-      ],
+      images: ["images/portfolio/statistics/p1.jpeg"],
       url: "https://distribuicao-dados-agrupados.web.app/",
       technologies: [
         {
@@ -105,15 +120,13 @@ export const data = {
           name: "MongoDB",
         },
       ],
-    },    
+    },
     {
       title: "Gestão de Cookies",
       startDate: "2020",
       description:
         "MVP em estado de prova de conceito com back-end em Nest e front-end em VueJS.",
-      images: [
-        "images/portfolio/cookie-manager/p1.jpeg",
-      ],
+      images: ["images/portfolio/cookie-manager/p1.jpeg"],
       url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies",
       technologies: [
         {
@@ -129,15 +142,13 @@ export const data = {
           name: "Nestjs",
         },
       ],
-    },   
+    },
     {
       title: "Agendamento Veterinário",
       startDate: "2020",
       description:
         "Um projeto onde atuei como desenvolvedor frontend em conjunto com um desenvolvedor Angular Sênior na primeira clinica com agendamento online.",
-      images: [
-        "images/portfolio/schedule/p1.jpeg",
-      ],
+      images: ["images/portfolio/schedule/p1.jpeg"],
       url: "http://191.252.156.153:8010/",
       technologies: [
         {
@@ -327,17 +338,17 @@ export const data = {
     {
       name: "Português",
       stars: 5,
-      proficiency: 'Nativo'
+      proficiency: "Nativo",
     },
     {
       name: "English",
       stars: 4,
-      proficiency: 'Conversacional'
+      proficiency: "Conversacional",
     },
     {
       name: "Deutsch",
       stars: 3,
-      proficiency: 'Conversacional'
+      proficiency: "Conversacional",
     },
   ],
 };

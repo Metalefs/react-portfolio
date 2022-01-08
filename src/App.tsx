@@ -36,11 +36,11 @@ import LanguageSwitch from "./languageSwitch";
 import ScrollAnimation from "react-animate-on-scroll";
 import { SharedData, SharedDataContext } from "./hocs/sharedDataProvider";
 
-export const Translations ={
+export const Translations = {
   PT_BR: PT_BR,
   EN_US: EN_US,
-  GER: GER
-}
+  GER: GER,
+};
 
 class App extends Component<
   { history: any; match: any; location: any },
@@ -85,10 +85,9 @@ class App extends Component<
   }
 
   getDataByLanguage(language: Language): ResumeData {
-    try{
+    try {
       return Translations[Language[language]].data;
-    }
-    catch(ex){
+    } catch (ex) {
       return EN_US.data;
       //throw Error("Invalid language: " + language);
     }
@@ -98,58 +97,54 @@ class App extends Component<
     return (
       <LanguageContext.Provider value={this.state}>
         <div className="App">
-          <ThemeSwitch />
-
-          <Header></Header>
-
           <div className="sections-wrapper pb-3">
-            <LanguageSwitch language={this.state.language} />
+            <ThemeSwitch />
             <div className="row" style={{ position: "relative" }}>
+              <Header></Header>
+              <LanguageSwitch language={this.state.language} />
               <div className="primary col-12">
                 <div>
-                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                    <About></About>
-                  </ScrollAnimation>
-
-                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                    <Skills></Skills>
-                  </ScrollAnimation>
-
-                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                    <Projects></Projects>
-                  </ScrollAnimation>
-
-                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                    <OtherProjects></OtherProjects>
-                  </ScrollAnimation>
-
-                  <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                    <Experience></Experience>
-                  </ScrollAnimation>
-
                   <div className="row" style={{ position: "relative" }}>
                     <div className="primary col-lg-8 col-12">
                       <ScrollAnimation animateIn="slideInLeft">
+                        <ScrollAnimation duration={0.5} animateIn="fadeInUp">
+                          <About></About>
+                        </ScrollAnimation>
+
+                        <div>
+                          <Skills></Skills>
+                        </div>
+
+                        <div>
+                          <Projects></Projects>
+                        </div>
+
+                        <div>
+                          <OtherProjects></OtherProjects>
+                        </div>
+
+                        <ScrollAnimation duration={0.5} animateIn="fadeInUp">
+                          <Experience></Experience>
+                        </ScrollAnimation>
                         <Github></Github>
                         <Blog></Blog>
                       </ScrollAnimation>
                     </div>
-                    <ScrollAnimation
-                      animateIn="slideInRight"
-                      className="secondary col-lg-4 col-12"
-                    >
-                      <Info></Info>
+                    <div className="secondary col-lg-4 col-12">
+                      <div>
+                        <Info></Info>
 
-                      <Testimonials></Testimonials>
+                        <Testimonials></Testimonials>
 
-                      <Education></Education>
+                        <Education></Education>
 
-                      <Conferences></Conferences>
+                        <Conferences></Conferences>
 
-                      <Languages></Languages>
+                        <Languages></Languages>
 
-                      <Music></Music>
-                    </ScrollAnimation>
+                        <Music></Music>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

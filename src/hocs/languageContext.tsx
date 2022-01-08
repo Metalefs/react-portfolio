@@ -12,6 +12,7 @@ export declare type ResumeData = {
     description_header: string;
     description: string;
     section_name: {
+      contact: string;
       about: string;
       projects: string;
       otherProjects: string;
