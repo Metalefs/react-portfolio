@@ -18,6 +18,7 @@ import Blog from "./components/blog";
 import Music from "./components/music";
 import Conferences from "./components/conferences";
 import queryString from "query-string";
+import ScrollTop from "./components/scroll-top";
 
 import * as PT_BR from "./data/res_portuguese";
 import * as EN_US from "./data/res_english";
@@ -96,6 +97,8 @@ class App extends Component<
   render() {
     return (
       <LanguageContext.Provider value={this.state}>
+        <ScrollTop />
+        
         <div className="App">
           <div className="sections-wrapper pb-3">
             <ThemeSwitch />

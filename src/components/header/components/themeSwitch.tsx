@@ -26,11 +26,11 @@ class ThemeSwitch extends Component {
 
   render() {
     return (
+      // offColor="#000000"
+      //   onColor="#fff"
       <Switch
         checked={(this.state as any).checked}
         onChange={this.onThemeSwitchChange}
-        offColor="#"
-        onColor="#"
         className="react-switch mx-auto"
         width={90}
         height={40}
@@ -45,8 +45,7 @@ class ThemeSwitch extends Component {
               fontSize: 25,
               textAlign: "end",
               marginLeft: "20px",
-              border: "1px solid black",
-              borderRadius: "50%",
+              borderRadius: "10%",
               color: "#",
             }}
           ></span>

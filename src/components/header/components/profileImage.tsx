@@ -6,7 +6,7 @@ function ProfileImage() {
 
     const profilepic = sharedBasicInfo.basic_info.image;
     return ( <img
-        className="profile-image img-fluid float-start"
+        className="profile-image img-fluid mb-1"
         width="100"
         height="100"
         style={{ borderRadius: "20%" }}

@@ -74,10 +74,10 @@ function Header(props) {
       className="header row align-items-center justify-content-center"
       id="home"
     >
-      <div className="col-sm-12 col-2">
+      <div className="col-sm-12 col-md-2 col-lg-2 mr-0">
         {animatedCoffed}
       </div>
-      <div className="col-sm-12 col-10 profile-content">
+      <div className="col-sm-12 col-md-8 col-lg-8 profile-content">
         <animated.div style={springConfig}>
           <h1 className="mb-0 name" >
             <Typical className="name" steps={[name]} wrapper="p" />

@@ -48,11 +48,11 @@ function Projects() {
   });
 
   return (
-    <section id="portfolio" className=" pb-0 mb-0">
+    <section id="portfolio" className="section pb-0 mb-0">
       <div className="col-md-12">
         <div className="col-md-12">
           <h2 className="section-title heading">
-            <span className="text-black-50">{sectionName}</span>
+            <span className="">{sectionName}</span>
           </h2>
         </div>
         <div className="col-md-12 mx-auto">
