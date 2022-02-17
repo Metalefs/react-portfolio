@@ -46,7 +46,7 @@ class ThemeSwitch extends Component {
               textAlign: "end",
               marginLeft: "20px",
               borderRadius: "10%",
-              color: "#",
+              background: "rgb(183 183 183 / 34%)",
             }}
           ></span>
         }
@@ -61,7 +61,6 @@ class ThemeSwitch extends Component {
               fontSize: 25,
               textAlign: "end",
               marginLeft: "10px",
-              color: "#353239",
             }}
           ></span>
         }

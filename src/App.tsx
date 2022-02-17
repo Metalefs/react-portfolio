@@ -98,58 +98,50 @@ class App extends Component<
     return (
       <LanguageContext.Provider value={this.state}>
         <ScrollTop />
-        
+
         <div className="App">
-          <div className="sections-wrapper pb-3">
-            <ThemeSwitch />
-            <div className="row" style={{ position: "relative" }}>
-              <Header></Header>
-              <LanguageSwitch language={this.state.language} />
-              <div className="primary col-12">
+          <ThemeSwitch />
+          <Header></Header>
+          <LanguageSwitch language={this.state.language} />
+          <div className="rows sections-wrapper pb-3">
+            <div className="primary col-lg-8 col-12">
+              <ScrollAnimation animateIn="slideInLeft">
+                <ScrollAnimation duration={0.5} animateIn="fadeInUp">
+                  <About></About>
+                </ScrollAnimation>
+
                 <div>
-                  <div className="row" style={{ position: "relative" }}>
-                    <div className="primary col-lg-8 col-12">
-                      <ScrollAnimation animateIn="slideInLeft">
-                        <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                          <About></About>
-                        </ScrollAnimation>
-
-                        <div>
-                          <Skills></Skills>
-                        </div>
-
-                        <div>
-                          <Projects></Projects>
-                        </div>
-
-                        <div>
-                          <OtherProjects></OtherProjects>
-                        </div>
-
-                        <ScrollAnimation duration={0.5} animateIn="fadeInUp">
-                          <Experience></Experience>
-                        </ScrollAnimation>
-                        <Github></Github>
-                        <Blog></Blog>
-                      </ScrollAnimation>
-                    </div>
-                    <div className="secondary col-lg-4 col-12">
-                      <div>
-                        <Info></Info>
-
-                        <Testimonials></Testimonials>
-
-                        <Education></Education>
-
-                        <Conferences></Conferences>
-
-                        <Languages></Languages>
-
-                        <Music></Music>
-                      </div>
-                    </div>
-                  </div>
+                  <Skills></Skills>
                 </div>
+
+                <div>
+                  <Projects></Projects>
+                </div>
+
+                <div>
+                  <OtherProjects></OtherProjects>
+                </div>
+
+                <ScrollAnimation duration={0.5} animateIn="fadeInUp">
+                  <Experience></Experience>
+                </ScrollAnimation>
+                <Github></Github>
+                <Blog></Blog>
+              </ScrollAnimation>
+            </div>
+            <div className="secondary col-lg-4 col-12">
+              <div>
+                <Info></Info>
+
+                <Testimonials></Testimonials>
+
+                <Education></Education>
+
+                <Conferences></Conferences>
+
+                <Languages></Languages>
+
+                <Music></Music>
               </div>
             </div>
           </div>

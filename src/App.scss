@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #778492;
 }
@@ -26,6 +26,22 @@ h3{
 }
 .App{
   overflow-x: hidden;
+  min-height: 202vh;
+  display: flex;
+  flex-direction: column;
+}
+.secondary{
+  width: 25%;
+  height: 202vh; // experiment with this value, try changing to 110vh
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+}
+.sections-wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 a {
   -webkit-transition: all 0.4s ease-in-out;
@@ -142,14 +158,11 @@ header h1 {
   text-align: center;
   font-weight: 600 !important;
   color: #353239;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
   margin: 0 auto 18px auto;
   width: 100%;
 }
-.secondary {
-  position: relative;
-  // background: white;
-}
+
 
 .pos-sticky{
   position:sticky;
