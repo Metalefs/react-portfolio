@@ -248,26 +248,26 @@
   
 body[data-theme="dark"] .header {
   opacity: .95;
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   border-top-color: #1e2124;
 }
-body[data-theme="dark"] .header .profile-content{
+body[data-theme="dark"] .profile-content{
   //background: #2e3238a6;
   color: black !important;
 }
-body[data-theme="dark"] .header .profile-content .name {
-  color: rgba(255, 255, 255, 0.9);
+body[data-theme="dark"] .profile-content .name {
+  color: black !important;
 }
 
-body[data-theme="dark"] .header .profile-content .desc {
-  color: rgba(255, 255, 255, 0.7);
+body[data-theme="dark"] .profile-content .desc {
+  color: black !important;
 }
 
-body[data-theme="dark"] .header .profile-content .social a {
+body[data-theme="dark"] .profile-content .social a {
   background: #2e3238;
-  color: rgba(230, 230, 230, 0.7);
+  color: black
 }
 
-body[data-theme="dark"] .header .profile-content .social a:hover {
-  color: rgba(255, 255, 255, 0.9);
+body[data-theme="dark"] .profile-content .social a:hover {
+  color: black
 }
