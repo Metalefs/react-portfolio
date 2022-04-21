@@ -19,12 +19,13 @@ export const data = {
       
       I am interested in developing native applications with React Native, or other Cross-Platform frameworks in the future. `,
     section_name: {
-      contact: "Contact",
-      about: "About me",
-      projects: "Projects",
+      contact: "Contact Me",
+      about: "What I do",
+      projects: "Big Projects",
       otherProjects: "Other Projects",
+      achievements: "Achievements And Certifications",
       skills: "Skills",
-      experience: "Experience",
+      experience: "Experiences",
       github: "My GitHub",
       recommendations: "Recommendations",
       education: "Education",

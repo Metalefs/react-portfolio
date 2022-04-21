@@ -24,10 +24,9 @@
   }
 }
 .react-switch{
-  position: fixed !important;
+  display: none;
   z-index: 2;
   top: 1rem;
   right: 1rem;
   opacity: 0.7;
-  background: rgb(183 183 183 / 34%);
 }

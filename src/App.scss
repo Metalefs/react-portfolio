@@ -1,3 +1,4 @@
+@import "./globalColor";
 @import "./scss/themes/theme-dark.scss";
 @import "./scss/themes/theme-light.scss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
@@ -30,6 +31,36 @@ h3{
   display: flex;
   flex-direction: column;
 }
+
+.App {
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: $appHeaderBG;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.625rem + 2vmin);
+  color: $textColorDark;
+}
+
+.App-link {
+  color: $appLink;
+}
+
+.subTitle {
+  color: $subTitle;
+}
+
 .secondary{
   width: 25%;
   height: 202vh; // experiment with this value, try changing to 110vh
@@ -505,33 +536,6 @@ footer {
   text-align: center;
 }
 /* ======= Sections======= */
-.heading{
-  text-align: center;
-
-}
-.section {
-	margin-bottom: 30px;
-  }
-  
-  .section .section-inner {
-    // background: #fff;
-    padding: 30px;
-    background: white;
-  }
-  
-  .section .heading {
-    margin-top: 0;
-    margin-bottom: 30px;
-    color: #545e69;
-    font-size: 24px;
-  }
-  
-  .section .content .more-link .svg-inline--fa {
-	margin-right: 5px;
-	font-size: 14px;
-	position: relative;
-	top: -2px;
-  }
 
   
 footer a,
@@ -544,10 +548,6 @@ footer a:focus {
   color: #fff;
 }
 
-.social-links {
-  margin-top: 50px;
-  font-size: 22px;
-}
 
 body[data-theme="dark"] {
   background: #17191c;

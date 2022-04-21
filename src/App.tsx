@@ -9,21 +9,24 @@ import Projects from "./components/projects/index";
 import OtherProjects from "./components/projects/otherProjects";
 import Experience from "./components/experience/experience";
 import Github from "./components/github/github";
-import Info from "./components/info";
 import Skills from "./components/skills";
+import Info from "./components/info";
 import Testimonials from "./components/testimonials";
 import Education from "./components/education";
 import Languages from "./components/languages/languages";
 import Blog from "./components/blog";
 import Music from "./components/music";
 import Conferences from "./components/conferences";
+import ThemeSwitch from "./components/header/components/themeSwitch";
+import LanguageSwitch from "./languageSwitch";
+import ScrollAnimation from "react-animate-on-scroll";
 import queryString from "query-string";
 import ScrollTop from "./components/scroll-top";
 
 import * as PT_BR from "./data/res_portuguese";
 import * as EN_US from "./data/res_english";
 import * as GER from "./data/res_german";
-
+import Main from "./containers/Main";
 import {
   LanguageContext,
   Language,
@@ -32,9 +35,6 @@ import {
 } from "./hocs/languageContext";
 import Footer from "./components/Footer";
 import { withRouter } from "react-router-dom";
-import ThemeSwitch from "./components/header/components/themeSwitch";
-import LanguageSwitch from "./languageSwitch";
-import ScrollAnimation from "react-animate-on-scroll";
 import { SharedData, SharedDataContext } from "./hocs/sharedDataProvider";
 
 export const Translations = {
@@ -100,10 +100,9 @@ class App extends Component<
         <ScrollTop />
 
         <div className="App">
-          <ThemeSwitch />
-          <Header></Header>
-          <LanguageSwitch language={this.state.language} />
-          <div className="rows sections-wrapper pb-3">
+          {/* <ThemeSwitch /> */}
+          <Main state={this.state}/>
+          {/* <div className="rows sections-wrapper pb-3">
             <div className="primary col-lg-8 col-12">
               <ScrollAnimation animateIn="slideInLeft">
                 <ScrollAnimation duration={0.5} animateIn="fadeInUp">
@@ -144,7 +143,7 @@ class App extends Component<
                 <Music></Music>
               </div>
             </div>
-          </div>
+          </div> */}
           <SharedDataContext.Consumer>
             {(data: SharedData | {}) => (
               <div className="d-flex justify-content-center pb-3">

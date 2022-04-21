@@ -31,37 +31,21 @@ class ThemeSwitch extends Component {
       <Switch
         checked={(this.state as any).checked}
         onChange={this.onThemeSwitchChange}
-        className="react-switch mx-auto"
+        className="react-switch theme-switch"
         width={90}
         height={40}
         uncheckedIcon={
           <span
-            className="iconify dark-mode-switch d-flex"
+            className="iconify dark-mode-switch"
             data-icon="twemoji:owl"
             data-inline="false"
-            style={{
-              display: "block",
-              height: "100%",
-              fontSize: 25,
-              textAlign: "end",
-              marginLeft: "20px",
-              borderRadius: "10%",
-              background: "rgb(183 183 183 / 34%)",
-            }}
           ></span>
         }
         checkedIcon={
           <span
-            className="iconify dark-mode-switch d-flex"
+            className="iconify dark-mode-switch"
             data-icon="noto-v1:sun-with-face"
             data-inline="false"
-            style={{
-              display: "block",
-              height: "100%",
-              fontSize: 25,
-              textAlign: "end",
-              marginLeft: "10px",
-            }}
           ></span>
         }
         id="icon-switch"
