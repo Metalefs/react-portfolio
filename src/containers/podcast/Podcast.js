@@ -4,7 +4,7 @@ import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Podcast() {
+export default function Podcast(props) {
   const {isDark} = useContext(StyleContext);
 
   if (!podcastSection)
@@ -13,11 +13,12 @@ export default function Podcast() {
   if (!podcastSection.display) {
     return null;
   }
+  const podcast = props.data.podcasts;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
         <div className="podcast-header">
-          <h1 className="podcast-header-title">{podcastSection.title}</h1>
+          <h1 className="podcast-header-title">{podcast.title}</h1>
           <p
             className={
               isDark
@@ -25,14 +26,14 @@ export default function Podcast() {
                 : "subTitle podcast-header-subtitle"
             }
           >
-            {podcastSection.subtitle}
+            {podcast.subtitle}
           </p>
         </div>
         <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink, i) => {
+          {podcast.podcast.map((podcastLink, i) => {
             if (!podcastLink) {
               console.log(
-                `Podcast link for ${podcastSection.title} is missing`
+                `Podcast link for ${podcast.title} is missing`
               );
             }
             return (

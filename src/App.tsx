@@ -79,7 +79,7 @@ class App extends Component<
   render() {
     return (
       <LanguageContext.Provider value={this.state}>
-        <ScrollTop />
+        {/* <ScrollTop /> */}
 
         <div className="App">
           {/* <ThemeSwitch /> */}
