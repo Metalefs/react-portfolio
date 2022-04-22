@@ -30,13 +30,21 @@ export declare type ResumeData = {
     source_code: string;
   };
   projects: {
-    title: string;
-    startDate: string;
-    description: string;
-    images: string[];
-    url: string;
-    technologies: {}[];
-  }[];
+    title:string;
+    subtitle:string;
+    projects:{
+      image: string;
+      images: string[];
+      startDate: string;
+      projectName: string;
+      projectDesc: string;
+      footerLink: {
+        name: string,
+        url: string
+      }[],
+      technologies: {}[];
+    }[]
+  };
   otherProjects: {
     seeMoreLabel: string;
     projects: {

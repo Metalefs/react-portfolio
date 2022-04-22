@@ -15,7 +15,7 @@ function Latest() {
         <h2 className="heading section-title">Últimos projetos</h2>
 
         <div className="content">
-          {data.projects.map((project,i) => <ProjectItem key={i} project={{...project}}/>)}
+          {data.projects.projects.map((project,i) => <ProjectItem key={i} project={{...project}}/>)}
         </div>
         
       </div>

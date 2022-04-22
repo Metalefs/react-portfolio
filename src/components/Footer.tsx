@@ -14,12 +14,12 @@ function Footer() {
   });
   return (
     <footer>
-      <div className="col-md-12">
+      <div className="footer-div">
         <div className="social-links">{networks}</div>
 
         <div className="copyright py-4 text-center">
           <div className="container">
-            <small>
+            <small className="footer-text">
               Copyright &copy;{" "}
               {sharedBasicInfo.basic_info.name}
             </small>

@@ -3,13 +3,13 @@ import { LanguageContext } from "../../hocs/languageContext";
 
 function SongItem(props:any) {
   return (
-    <li>
+    <div className="experience-card">
       <span className="iconify mr-2" data-icon="twemoji:headphone"></span>
 
       <a href={props.song.href} target="_blank" rel="noreferrer">
         {props.song.name}
       </a>
-    </li>
+    </div>
   );
 }
 
