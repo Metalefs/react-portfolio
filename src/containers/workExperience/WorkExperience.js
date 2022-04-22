@@ -13,7 +13,7 @@ export default function WorkExperience(props) {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Experiences</h1>
+              <h1 className="experience-heading">{props.data.section_name.experience}</h1>
               <div className="experience-cards-div">
                 {props.data.experience.map((card, i) => {
                   return (

@@ -48,6 +48,7 @@ export const data = {
     conferences: "Conferences",
     source_code: "Check out this website's source code",
     resume: "Resume",
+    moreProjects: "More Projects",
   },
   skills: {
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
@@ -133,7 +134,7 @@ export const data = {
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "http://saayahealth.com/"
           }
           //  you can add extra buttons here.
@@ -165,7 +166,7 @@ export const data = {
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "http://nextu.se/"
           }
         ],
@@ -192,7 +193,7 @@ export const data = {
         projectDesc: "A stats solving app with Angular and C# backend.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "https://distribuicao-dados-agrupados.web.app/"
           }
         ],
@@ -225,7 +226,7 @@ export const data = {
         "The app handles all the processes of purchasing and managing custom products.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "https://personalizadoslopes.com.br"
           }
         ],
@@ -246,34 +247,6 @@ export const data = {
       },
       {
         image: require("../assets/images/saayaHealthLogo.webp").default,
-        images: ["images/portfolio/cookie-manager/p1.jpeg"],
-        startDate: "2020",
-        projectName: "Cookie Management",
-        projectDesc:
-          "MVP in proof-of-concept state with back-end in Nest and front-end in VueJS.",
-        footerLink: [
-          {
-            name: "Visit Website",
-            url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies"
-          }
-        ],
-        technologies: [
-          {
-            class: "devicon-angularjs-plain",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-          {
-            class: "devicon-csharp-plain",
-            name: "C#",
-          },
-        ],
-      },
-      {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
         images: ["images/portfolio/schedule/p1.jpeg"],
         startDate: "2020",
         projectName: "Veterinary Scheduling",
@@ -281,7 +254,7 @@ export const data = {
           "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "http://191.252.156.153:8010/"
           }
         ],
@@ -314,10 +287,10 @@ export const data = {
   },
   experience: [
     {
-      company: "Santander",
-      companyWebsite: "https://www.oleconsignado.com.br",
+      company: "F3 Capital",
+      companyWebsite: "https://f3capital.com.br",
       title: "Front-End Developer",
-      years: "2021 - Present",
+      years: "2021 - 2022",
       mainTech: ["Angular 8/9/10, React"],
       technologies: [
         "REST API",
@@ -329,7 +302,52 @@ export const data = {
         "Reactjs",
         "Angular",
       ],      
-      companylogo: require("../assets/images/facebookLogo.png").default,
+      companylogo: require("../assets/images/f3Logo.jpg").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
+    },
+    {
+      company: "Interligados",
+      companyWebsite: "https://interligados.com.br",
+      title: "Front-End/Fullstack Developer",
+      years: "Freelance",
+      mainTech: ["Angular >2"],
+      technologies: [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        ".NET Core",
+        "MUI",
+        "Angular",
+      ],      
+      companylogo: require("../assets/images/interligadosLogo.png").default,
+      desc: "",
+      descBullets: [
+      "End to end development of new websites",
+      "Development UI Library for new solutions",
+      "Development of ",
+      ]
+    },
+    {
+      company: "Santander",
+      companyWebsite: "https://www.oleconsignado.com.br",
+      title: "Front-End Developer",
+      years: "2021 - 2022",
+      mainTech: ["Angular 8/9/10, React"],
+      technologies: [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Microservices",
+        ".NET Core",
+        "MUI",
+        "Reactjs",
+        "Angular",
+      ],      
+      companylogo: require("../assets/images/santanderLogo.png").default,
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -339,7 +357,7 @@ export const data = {
     {
       company: "PluralSystems",
       companyWebsite: "https://pluralsystems.com.br/",
-      title: "Front-End Developer",
+      title: "Junior Front-End Developer",
       years: "2020 - 2021",
       mainTech: ["Angular 8/9/10"],
       technologies: [
@@ -351,7 +369,7 @@ export const data = {
         "Microservices",
         "Angular Material",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
+      companylogo: require("../assets/images/pluralLogo.png").default,
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -376,7 +394,7 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
+      companylogo: require("../assets/images/rumoLogo.png").default,
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -401,7 +419,7 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
+      companylogo: require("../assets/images/rumoLogo.png").default,
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -418,7 +436,7 @@ export const data = {
       {
         title: "PWA Web App Developer",
         subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-        image: require("../assets/images/pwaLogo.webp").default,
+        image: require("../assets/images/pwaLogo.png").default,
         footerLink: [
           {name: "Certification", url: ""},
           {
@@ -480,7 +498,7 @@ export const data = {
     subtitle:
       "Discuss a project or just want to say hi? My Inbox is open for all.",
     number: "+92-0000000000",
-    email_address: "saadpasta70@gmail.com"
+    email_address: "jackson.pires.rm@gmail.com"
   },
   testimonials: {
     seeMoreLabel: "More on LinkedIn",
@@ -497,9 +515,20 @@ export const data = {
   education: [
     {
       schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
-      logo: "",
-      subHeader: "Systems Analysis and Development",
-      duration: "June 2019 - June 2022",
+      logo: require("../assets/images/harvardLogo.png").default,
+      subHeader: "System Analysis and Development",
+      duration: "June 2019 - June 2021",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Unicesumar",
+      logo: require("../assets/images/harvardLogo.png").default,
+      subHeader: "System Analysis and Development",
+      duration: "January 2022 - June 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

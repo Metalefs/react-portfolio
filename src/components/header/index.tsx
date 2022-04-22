@@ -63,7 +63,7 @@ function Header(props) {
   const viewTalks = talkSection.display;
   const mailto = "jackson.pires.rm@gmail.com";
   const titles = sharedBasicInfo.basic_info.titles
-    .map((x) => [x.toUpperCase(), 1500])
+    .map((x) => [x.toUpperCase(), 3500])
     .flat();
   const name = sharedBasicInfo.basic_info.name;
   const springConfig = useSpring({
@@ -83,7 +83,7 @@ function Header(props) {
       data-width="150"
     ></span>
   </div>;
-  const animatedCoffed = <ProfileImage />;
+  
   const HeaderTitleTypeAnimation = React.memo(
     () => {
       return <Typical className="title-styles desc" steps={titles} loop={1} />;
@@ -157,8 +157,8 @@ function Header(props) {
         className="header row align-items-center justify-content-center"
         id="home"
       >
-        <div className="col-sm-12 col-md-2 col-lg-2 mr-0">{animatedCoffed}</div>
-        <div className="col-sm-12 col-md-8 col-lg-8 profile-content">
+        <div className="col-sm-12 col-md-3 col-lg-3 mr-0"><ProfileImage /></div>
+        <div contentEditable="true" className="col-sm-12 col-md-7 col-lg-7 profile-content">
           <animated.div style={springConfig}>
             <h1 className="mb-0 name">
               <Typical className="name" steps={[name]} wrapper="p" />

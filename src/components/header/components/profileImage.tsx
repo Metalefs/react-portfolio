@@ -9,8 +9,8 @@ function ProfileImage() {
         className="profile-image img-fluid mb-1"
         width="300"
         height="300"
-        style={{ borderRadius: "20%" }}
-        src={process.env.PUBLIC_URL +profilepic}
+        style={{ borderRadius: "20%",border:"none" }}
+        src={process?.env.PUBLIC_URL +profilepic}
         alt="profile"
       /> );
 }

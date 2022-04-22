@@ -203,12 +203,18 @@
     border-radius: 5rem;
     border-bottom-left-radius: 5rem;
     border-top-right-radius: 0rem;
-    background: rgba(149, 79, 228, 0.329);
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
-    margin: 0 0 5rem 5rem ;
+    
+    color: #000;
   }
+
+  /* Media Query */
+@media (min-width: 1080px) {
+  .header .profile-content {
+    padding: 2rem;
+  }
+}
  
 //   .header .profile-content .name {
 //     color: #fff;
@@ -247,14 +253,14 @@
 //     font-size: 20px;
 //     margin-top: 8px;
 //   }
-  
+
 body[data-theme="dark"] .header {
   opacity: .95;
   color: black;
   border-top-color: #1e2124;
 }
 .styles_typicalWrapper__1_Uvh {
-  color: black !important;
+  //color: black !important;
 }
 body[data-theme="dark"] .profile-content{
   //background: #2e3238a6;

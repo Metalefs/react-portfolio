@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/metalefs",
+  linkedin: "https://www.linkedin.com/in/jackson-pires-ramalho-58a2a080/",
+  gmail: "jackson.pires.rm@gmail.com",
+  gitlab: "https://gitlab.com/metalefs",
+  facebook: "#",
+  medium: "https://medium.com/@jackson.pires.rm",
+  stackoverflow: "https://stackoverflow.com/users/10509394",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -81,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -89,15 +93,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "nosql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -109,8 +113,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-csharp"
     },
     {
       skillName: "docker",
@@ -176,7 +180,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png").default,
+      companylogo: require("./assets/images/rumoLogo.png").default,
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -221,7 +225,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Website",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -233,7 +237,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Website",
           url: "http://nextu.se/"
         }
       ]
@@ -287,7 +291,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp").default,
+      image: require("./assets/images/pwaLogo.png").default,
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -340,7 +344,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,7 +357,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -361,13 +365,13 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "jackson.pires.rm@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "j4cksonGamer1", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
