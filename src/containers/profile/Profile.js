@@ -7,12 +7,11 @@ const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
-export default function Profile() {
+export default function Profile(props) {
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
     setrepo(array);
   }
-
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {

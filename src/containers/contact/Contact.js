@@ -7,14 +7,15 @@ import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Contact() {
+export default function Contact(props) {
   const {isDark} = useContext(StyleContext);
+  const contact = props.data.contactInfo;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">{contact.title}</h1>
             <p
               className={
                 isDark
@@ -22,20 +23,20 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {contact.subtitle}
             </p>
             <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
+              {contact.number && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"tel:" + contact.number}
                   >
-                    {contactInfo.number}
+                    {contact.number}
                   </a>
                   <br />
                   <br />
@@ -43,9 +44,9 @@ export default function Contact() {
               )}
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={"mailto:" + contact.email_address}
               >
-                {contactInfo.email_address}
+                {contact.email_address}
               </a>
               <br />
               <br />

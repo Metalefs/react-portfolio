@@ -5,16 +5,17 @@ import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Talks() {
+export default function Talks(props) {
   const {isDark} = useContext(StyleContext);
   if (!talkSection.display) {
     return null;
   }
+  const talks = props.data.talks;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="talks">
         <div className="talk-header">
-          <h1 className="talk-header-title">{talkSection.title}</h1>
+          <h1 className="talk-header-title">{talks.title}</h1>
           <p
             className={
               isDark
@@ -22,9 +23,9 @@ export default function Talks() {
                 : "subTitle talk-header-subtitle"
             }
           >
-            {talkSection.subtitle}
+            {talks.subtitle}
           </p>
-          {talkSection.talks.map((talk, i) => {
+          {talks.talks.map((talk, i) => {
             return (
               <TalkCard
                 key={i}
