@@ -11,64 +11,58 @@ import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import { LanguageContext } from "../../hocs/languageContext";
 
-export default function Greeting() {
+export default function Greeting(props) {
   const { isDark } = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
   return (
-    <LanguageContext.Consumer>
-      {({ language, data, toggleLanguage }) => (
-        <Fade bottom duration={1000} distance="40px">
-          <div className="greet-main" id="greeting">
-            <div className="greeting-main">
-              <div className="greeting-text-div">
-                <div>
-                  <h1
-                    className={
-                      isDark ? "dark-mode greeting-text" : "greeting-text"
-                    }
-                  >
-                    {" "}
-                    {data.basic_info.description_header}{" "}
-                    <span className="wave-emoji">{emoji("👋")}</span>
-                  </h1>
-                  <p
-                    className={
-                      isDark
-                        ? "dark-mode greeting-text-p"
-                        : "greeting-text-p subTitle"
-                    }
-                  >
-                    {data.skills.description}
-                  </p>
-                  <SocialMedia />
-                  <div className="button-greeting-div">
-                    <Button text="Contact me" href="#contact" />
-                    {greeting.resumeLink && (
-                      <Button
-                        text="See my resume"
-                        newTab={true}
-                        href={greeting.resumeLink}
-                      />
-                    )}
-                  </div>
-                </div>
-              </div>
-              <div className="greeting-image-div">
-                {illustration.animated ? (
-                  <DisplayLottie animationData={landingPerson} />
-                ) : (
-                  <img
-                    alt="man sitting on table"
-                    src={require("../../assets/images/manOnTable.svg")}
-                  ></img>
+    <Fade bottom duration={1000} distance="40px">
+      <div className="greet-main" id="greeting">
+        <div className="greeting-main">
+          <div className="greeting-text-div">
+            <div>
+              <h1
+                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+              >
+                {" "}
+                {props.data.basic_info.description_header}{" "}
+                <span className="wave-emoji">{emoji("👋")}</span>
+              </h1>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {props.data.skills.description}
+              </p>
+              <SocialMedia />
+              <div className="button-greeting-div">
+                <Button text={props.data.section_name.contact} href="#contact" />
+                {greeting.resumeLink && (
+                  <Button
+                    text={props.data.section_name.resume}
+                    newTab={true}
+                    href={greeting.resumeLink}
+                  />
                 )}
               </div>
             </div>
           </div>
-        </Fade>
-      )}
-    </LanguageContext.Consumer>
+          <div className="greeting-image-div">
+            {illustration.animated ? (
+              <DisplayLottie animationData={landingPerson} />
+            ) : (
+              <img
+                alt="man sitting on table"
+                src={require("../../assets/images/manOnTable.svg")}
+              ></img>
+            )}
+          </div>
+        </div>
+      </div>
+    </Fade>
   );
 }

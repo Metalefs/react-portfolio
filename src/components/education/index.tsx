@@ -7,7 +7,7 @@ function Education() {
   return (
     <aside className="education aside section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{sources.basic_info.section_name.education}</h2>
+        <h2 className="heading">{sources.section_name.education}</h2>
         <div className="content">
           {sources.education.map((source, i)=><EducationItem key={i} source={{...source}}/>)}
         </div>

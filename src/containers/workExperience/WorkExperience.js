@@ -5,7 +5,7 @@ import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function WorkExperience() {
+export default function WorkExperience(props) {
   const {isDark} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
@@ -15,7 +15,7 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experiences</h1>
               <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
+                {props.data.experience.map((card, i) => {
                   return (
                     <ExperienceCard
                       key={i}
@@ -23,9 +23,9 @@ export default function WorkExperience() {
                       cardInfo={{
                         company: card.company,
                         desc: card.desc,
-                        date: card.date,
+                        date: card.years,
                         companylogo: card.companylogo,
-                        role: card.role,
+                        role: card.title,
                         descBullets: card.descBullets
                       }}
                     />

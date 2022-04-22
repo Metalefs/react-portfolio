@@ -17,7 +17,7 @@ function Skills() {
           <div className="col-md-12">
             <div className="section-inner">
               <h2 className="heading ">
-                {data.basic_info.section_name.skills}
+                {data.section_name.skills}
               </h2>
             </div>
             <div className="col-md-12 text-center">

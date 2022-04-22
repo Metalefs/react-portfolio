@@ -30,7 +30,7 @@ function ContactButton(props: any) {
     background: "green",
   }));
   const data = useContext(LanguageContext).data;
-  const sectionName = data.basic_info.section_name.contact;
+  const sectionName = data.section_name.contact;
 
   return (
     <animated.a
@@ -52,7 +52,7 @@ function ContactButton(props: any) {
   );
 }
 
-function Header() {
+function Header(props) {
   const { isDark } = useContext(StyleContext);
   const sharedBasicInfo = useContext(SharedDataContext) as SharedData;
   const viewExperience = workExperiences.display;
@@ -112,36 +112,36 @@ function Header() {
           <ul className={isDark ? "dark-menu menu" : "menu"}>
             {viewSkills && (
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">{props.data.skills}</a>
               </li>
             )}
             {viewExperience && (
               <li>
-                <a href="#experience">Work Experiences</a>
+                <a href="#experience">{props.data.experience}</a>
               </li>
             )}
             {viewOpenSource && (
               <li>
-                <a href="#opensource">Open Source</a>
+                <a href="#opensource">{props.data.opensource}</a>
               </li>
             )}
             {viewAchievement && (
               <li>
-                <a href="#achievements">Achievements</a>
+                <a href="#achievements">{props.data.achievements}</a>
               </li>
             )}
             {viewBlog && (
               <li>
-                <a href="#blogs">Blogs</a>
+                <a href="#blogs">{props.data.blogs}</a>
               </li>
             )}
             {viewTalks && (
               <li>
-                <a href="#talks">Talks</a>
+                <a href="#talks">{props.data.talks}</a>
               </li>
             )}
             <li>
-              <a href="#contact">Contact Me</a>
+              <a href="#contact">{props.data.contact}</a>
             </li>
             <li>
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

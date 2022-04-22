@@ -1,4 +1,15 @@
+import emoji from "react-easy-emoji";
+
 export const data = {
+  header: {
+    skills: "Skills",
+    experience: "Work Experiences",
+    opensource: "Open Source",
+    achievements: "Achievements",
+    blogs: "Blogs",
+    talks: "Talks",
+    contact: "Contact Me",
+  },
   basic_info: {
     description_header: "Hello World!",
     description: `👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue. 
@@ -18,25 +29,94 @@ export const data = {
         Xamarin.Forms,
       
       I am interested in developing native applications with React Native, or other Cross-Platform frameworks in the future. `,
-    section_name: {
-      contact: "Contact Me",
-      about: "What I do",
-      projects: "Big Projects",
-      otherProjects: "Other Projects",
-      achievements: "Achievements And Certifications",
-      skills: "Skills",
-      experience: "Experiences",
-      github: "My GitHub",
-      recommendations: "Recommendations",
-      education: "Education",
-      languages: "Languages",
-      proficiency: "Proficiency",
-      blog: "My latests posts on StackOverflow and Medium",
-      music: "My favorite songs to code to",
-      conferences: "Conferences",
-      source_code: "Check out this website's source code",
-    },
   },
+  section_name: {
+    contact: "Contact Me",
+    about: "What I do",
+    projects: "Big Projects",
+    otherProjects: "Other Projects",
+    achievements: "Achievements And Certifications",
+    skills: "Skills",
+    experience: "Experiences",
+    github: "My GitHub",
+    recommendations: "Recommendations",
+    education: "Education",
+    languages: "Languages",
+    proficiency: "Proficiency",
+    blog: "My latests posts on StackOverflow and Medium",
+    music: "My favorite songs to code to",
+    conferences: "Conferences",
+    source_code: "Check out this website's source code",
+    resume: "Resume",
+  },
+  skills: {
+    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    skills: [
+      emoji(
+        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      ),
+      emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      emoji(
+        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      )
+    ],
+    title: `I am a web developer generalist and aspiring 10x programmer.`,
+    description: `ATM I'm focused on learning microservice design and applications and I'm also interested in De-fi Blockchain Applications (Decentralized Finance)`,
+    seeMoreLabel: "See more on Github",
+  },
+  stackProgress: [
+    {
+      name: ".NET",
+      level: "Pro",
+      levelTitle: "2 years experience with development and maintenance.",
+      progress: "86%",
+    },
+    {
+      name: "React",
+      level: "Advanced",
+      levelTitle: "I'm currently working fulltime with React.",
+      progress: "75%",
+    },
+    {
+      name: "Angular",
+      level: "Pro",
+      levelTitle:
+        "I have worked on two big projects and a couple smaller ones.",
+      progress: "86%",
+    },
+    {
+      name: "Vue",
+      level: "Intermediate",
+      levelTitle:
+        "I have created a simple cookie managing tool with this technology.",
+      progress: "64%",
+    },
+    {
+      name: "Docker",
+      level: "Intermediate",
+      levelTitle: "I use Docker mostly to publish API containers.",
+      progress: "54%",
+    },
+    {
+      name: "Kubernetes",
+      level: "Intermediate",
+      levelTitle: "I use Kubernetes to scale Docker containers.",
+      progress: "54%",
+    },
+    {
+      name: "NodeJS",
+      level: "Intermediate",
+      levelTitle: "I create rad APIs with Nodejs",
+      progress: "70%",
+    },
+    {
+      name: "MongoDB",
+      level: "Pro",
+      levelTitle:
+        "I can develop very minimal/optimized services using this database",
+      progress: "86%",
+    },
+  ],
   projects: [
     {
       title: "Internship Assistant",
@@ -171,64 +251,6 @@ export const data = {
       },
     ],
   },
-  skills: {
-    title: `I am a web developer generalist and aspiring 10x programmer.`,
-    description: `ATM I'm focused on learning microservice design and applications and I'm also interested in De-fi Blockchain Applications (Decentralized Finance)`,
-    seeMoreLabel: "See more on Github",
-    technologies: [
-      {
-        name: ".NET",
-        level: "Pro",
-        levelTitle: "2 years experience with development and maintenance.",
-        progress: "86%",
-      },
-      {
-        name: "React",
-        level: "Advanced",
-        levelTitle: "I'm currently working fulltime with React.",
-        progress: "75%",
-      },
-      {
-        name: "Angular",
-        level: "Pro",
-        levelTitle:
-          "I have worked on two big projects and a couple smaller ones.",
-        progress: "86%",
-      },
-      {
-        name: "Vue",
-        level: "Intermediate",
-        levelTitle:
-          "I have created a simple cookie managing tool with this technology.",
-        progress: "64%",
-      },
-      {
-        name: "Docker",
-        level: "Intermediate",
-        levelTitle: "I use Docker mostly to publish API containers.",
-        progress: "64%",
-      },
-      {
-        name: "Kubernetes",
-        level: "Intermediate",
-        levelTitle: "I use Kubernetes to scale Docker containers.",
-        progress: "64%",
-      },
-      {
-        name: "NodeJS",
-        level: "Intermediate",
-        levelTitle: "I create rad APIs with Nodejs",
-        progress: "70%",
-      },
-      {
-        name: "MongoDB",
-        level: "Pro",
-        levelTitle:
-          "I can develop very minimal/optimized services using this database",
-        progress: "86%",
-      },
-    ],
-  },
   experience: [
     {
       company: "Santander",
@@ -245,7 +267,13 @@ export const data = {
         "MUI",
         "Reactjs",
         "Angular",
-      ],
+      ],      
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "PluralSystems",
@@ -262,6 +290,12 @@ export const data = {
         "Microservices",
         "Angular Material",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -281,6 +315,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -300,6 +340,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
   ],
   testimonials: {
@@ -316,10 +362,16 @@ export const data = {
   },
   education: [
     {
-      title: "Systems Analysis and Development",
-      university: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
-      period: "(2019-2021)",
-    },
+      schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
+      logo: "",
+      subHeader: "Systems Analysis and Development",
+      duration: "June 2019 - June 2022",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    }
   ],
   languages: [
     {

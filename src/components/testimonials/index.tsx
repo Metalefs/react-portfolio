@@ -10,7 +10,7 @@ function Testimonials() {
   return (
     <aside className="testimonials aside section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{data.basic_info.section_name.recommendations}</h2>
+        <h2 className="heading">{data.section_name.recommendations}</h2>
         <div className="content">
           {data.testimonials.sources.map((testimonial,i) => <TestimonialItem key={i} testimonial={{...testimonial}}/>)}
 

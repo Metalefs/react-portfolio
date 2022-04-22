@@ -59,7 +59,7 @@ const Main = (props) => {
               <SplashScreen />
             ) : (
               <>
-                <Header />
+                <Header data={data.header}/>
                 <LanguageSwitch language={props.state.language} />
                 <Greeting data={data}/>
                 <Skills data={data}/>

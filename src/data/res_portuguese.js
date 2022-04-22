@@ -1,4 +1,15 @@
+import emoji from "react-easy-emoji";
+
 export const data = {
+  header: {
+    skills: "Skills",
+    experience: "Experiências",
+    opensource: "Open Source",
+    achievements: "Conquistas",
+    blogs: "Blogs",
+    talks: "Palestras",
+    contact: "Contato",
+  },
   basic_info: {
     description_header: "Olá Mundo!",
     description: `👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue. Aprendendo as novas tecnologias de front e back-end, buscando ativamente minimizar os processos manuais, em detrimento dos processos automatizados.
@@ -19,24 +30,98 @@ export const data = {
        Xamarin.Forms,
       
       Tenho interesse em desenvolver aplicações nativas com React Native, ou outras frameworks Cross-Platform no futuro.`,
-    section_name: {
-      contact: "Contato",
-      about: "Sobre mim",
-      projects: "Projetos",
-      otherProjects: "Outros Projetos",
-      skills: "Habilidades",
-      experience: "Experiência",
-      github: "Meu GitHub",
-      recommendations: "Recomendações",
-      education: "Educação",
-      languages: "Idiomas",
-      proficiency: "Proficiência Conversacional",
-      blog: "Últimas postagens minhas no StackOverflow e Medium",
-      music: "Minha música favorita para codar",
-      conferences: "Conferências",
-      source_code: "Veja o código fonte deste site",
-    },
   },
+  section_name: {
+    contact: "Contato",
+    about: "Sobre mim",
+    projects: "Projetos",
+    otherProjects: "Outros Projetos",
+    skills: "Habilidades",
+    experience: "Experiência",
+    github: "Meu GitHub",
+    recommendations: "Recomendações",
+    education: "Educação",
+    languages: "Idiomas",
+    proficiency: "Proficiência",
+    blog: "Últimas postagens minhas no StackOverflow e Medium",
+    music: "Minha música favorita para codar",
+    conferences: "Conferências",
+    source_code: "Veja o código fonte deste site",
+    resume: "Veja meu Currículo",
+  },
+  skills: {
+    subTitle:
+      "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    skills: [
+      emoji(
+        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      ),
+      emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      emoji(
+        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      ),
+    ],
+    title: `Sou um Autodidata no aprendizado de novas tecnologias de
+    desenvolvimento web e aspirante a 1/10x (Fullstack) programmer.`,
+    description: `Estou focado no aprendizado de tecnologias de descentralização, como
+    mensageria e microserviços e também estou voltado ao desenvolvimento
+    de aplicações Blockchain de De-fi (Decentralized Finance)`,
+    seeMoreLabel: "Veja mais no Github",
+  },
+  stackProgress: [
+    {
+      name: ".NET",
+      level: "Pro",
+      levelTitle: "2 anos de experiencia com desenvolvimento e manutenção.",
+      progress: "86%",
+    },
+    {
+      name: "React",
+      level: "Advanced",
+      levelTitle: "Estou trabalhando em tempo integral com React.",
+      progress: "75%",
+    },
+    {
+      name: "Angular",
+      level: "Pro",
+      levelTitle:
+        "Eu trabalhei em 2 projetos grandes e um par de projetos menores.",
+      progress: "86%",
+    },
+    {
+      name: "Vue",
+      level: "Intermediate",
+      levelTitle:
+        "Eu desenvolvi um gerenciador de cookies simples com este framework.",
+      progress: "64%",
+    },
+    {
+      name: "Docker",
+      level: "Intermediate",
+      levelTitle:
+        "Eu uso Docker na maior parte para publicar containeres de APIs.",
+      progress: "54%",
+    },
+    {
+      name: "Kubernetes",
+      level: "Intermediate",
+      levelTitle: "Eu uso Kubernetes para escalar containeres do Docker.",
+      progress: "54%",
+    },
+    {
+      name: "NodeJS",
+      level: "Intermediate",
+      levelTitle: "Crio API's maneiras com nodeJS",
+      progress: "70%",
+    },
+    {
+      name: "MongoDB",
+      level: "Pro",
+      levelTitle:
+        "Posso desenvolver serviços mínimos / otimizados usando este banco de dados",
+      progress: "86%",
+    },
+  ],
   projects: [
     {
       title: "Assistente de Estágio",
@@ -180,68 +265,6 @@ export const data = {
       },
     ],
   },
-  skills: {
-    title: `Sou um Autodidata no aprendizado de novas tecnologias de
-    desenvolvimento web e aspirante a 1/10x (Fullstack) programmer.`,
-    description: `Estou focado no aprendizado de tecnologias de descentralização, como
-    mensageria e microserviços e também estou voltado ao desenvolvimento
-    de aplicações Blockchain de De-fi (Decentralized Finance)`,
-    seeMoreLabel: "Veja mais no Github",
-    technologies: [
-      {
-        name: ".NET",
-        level: "Pro",
-        levelTitle: "2 anos de experiencia com desenvolvimento e manutenção.",
-        progress: "86%",
-      },
-      {
-        name: "React",
-        level: "Advanced",
-        levelTitle: "Estou trabalhando em tempo integral com React.",
-        progress: "75%",
-      },
-      {
-        name: "Angular",
-        level: "Pro",
-        levelTitle:
-          "Eu trabalhei em 2 projetos grandes e um par de projetos menores.",
-        progress: "86%",
-      },
-      {
-        name: "Vue",
-        level: "Intermediate",
-        levelTitle:
-          "Eu desenvolvi um gerenciador de cookies simples com este framework.",
-        progress: "64%",
-      },
-      {
-        name: "Docker",
-        level: "Intermediate",
-        levelTitle:
-          "Eu uso Docker na maior parte para publicar containeres de APIs.",
-        progress: "64%",
-      },
-      {
-        name: "Kubernetes",
-        level: "Intermediate",
-        levelTitle: "Eu uso Kubernetes para escalar containeres do Docker.",
-        progress: "64%",
-      },
-      {
-        name: "NodeJS",
-        level: "Intermediate",
-        levelTitle: "Crio API's maneiras com nodeJS",
-        progress: "70%",
-      },
-      {
-        name: "MongoDB",
-        level: "Pro",
-        levelTitle:
-          "Posso desenvolver serviços mínimos / otimizados usando este banco de dados",
-        progress: "86%",
-      },
-    ],
-  },
   experience: [
     {
       company: "Santander",
@@ -259,6 +282,12 @@ export const data = {
         "Reactjs",
         "Angular",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "PluralSystems",
@@ -275,6 +304,12 @@ export const data = {
         "Microservices",
         "Angular Material",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -294,6 +329,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -313,6 +354,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
   ],
   testimonials: {
@@ -329,10 +376,16 @@ export const data = {
   },
   education: [
     {
-      title: "Análise e Desenvolvimento de Sistemas",
-      university: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
-      period: "(2019-2021)",
-    },
+      schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
+      logo: require("../assets/images/harvardLogo.png").default,
+      subHeader: "Systems Analysis and Development",
+      duration: "June 2019 - June 2022",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    }
   ],
   languages: [
     {

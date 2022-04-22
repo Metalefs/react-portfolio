@@ -9,7 +9,7 @@ function Languages() {
   return (
     <aside className="languages aside section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{languages.basic_info.section_name.languages}</h2>
+        <h2 className="heading">{languages.section_name.languages}</h2>
         <div className="content">
           <ul className="list-unstyled">
             {languages.languages.map((language,i) => <LanguageItem key={i} language={{...language}}/>)}

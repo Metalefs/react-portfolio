@@ -14,7 +14,7 @@ function Projects() {
   };
 
   let detailsModalClose = () => setState({ deps: state.deps, detailsModalShow: false });
-  var sectionName = resumeInfo.data.basic_info.section_name.projects;
+  var sectionName = resumeInfo.data.section_name.projects;
   
   var projects = resumeInfo.data.projects.map(function (projects) {
     return (

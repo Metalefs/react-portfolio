@@ -1,4 +1,15 @@
+import emoji from "react-easy-emoji";
+
 export const data = {
+  header: {
+    skills: "Skills",
+    experience: "Work Experiences",
+    opensource: "Open Source",
+    achievements: "Achievements",
+    blogs: "Blogs",
+    talks: "Talks",
+    contact: "Contact Me",
+  },
   basic_info: {
     description_header: "Hello World!",
     description: `👋 Ich heiße Jackson Pires. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. 
@@ -18,24 +29,95 @@ export const data = {
           Xamarin.Forms,
         
         Ich bin daran interessiert, in Zukunft native Anwendungen mit React Native oder anderen Cross-Platform-Frameworks zu entwickeln. `,
-    section_name: {
-      contact: "Kontakt",
-      about: "Über mich",
-      projects: "Projekte",
-      otherProjects: "Andere Projekte",
-      skills: "Fähigkeiten",
-      experience: "Erfahrung",
-      github: "Mein GitHub",
-      recommendations: "Empfehlungen",
-      education: "Bildung",
-      languages: "Sprachen",
-      proficiency: "Fähigkeit",
-      blog: "Meine neuesten Beiträge zu StackOverflow und Medium",
-      music: "Meine Lieblingslieder zum Programmieren",
-      conferences: "Konferenzen",
-      source_code: "Schauen Sie sich den Code dieser Website an",
-    },
   },
+  section_name: {
+    contact: "Kontakt",
+    about: "Über mich",
+    projects: "Projekte",
+    otherProjects: "Andere Projekte",
+    skills: "Fähigkeiten",
+    experience: "Erfahrung",
+    github: "Mein GitHub",
+    recommendations: "Empfehlungen",
+    education: "Bildung",
+    languages: "Sprachen",
+    proficiency: "Fähigkeit",
+    blog: "Meine neuesten Beiträge zu StackOverflow und Medium",
+    music: "Meine Lieblingslieder zum Programmieren",
+    conferences: "Konferenzen",
+    source_code: "Schauen Sie sich den Code dieser Website an",
+    resume: "Resume",
+  },
+  skills: {
+    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    skills: [
+      emoji(
+        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      ),
+      emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      emoji(
+        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      )
+    ],
+    title: `Ich bin ein Webentwickler-Generalist und aufstrebender 10x-Programmierer.`,
+    description: `ATM Ich konzentriere mich auf das Erlernen von Microservice-Design und -Anwendungen und interessiere mich auch für das Feld De-fi Blockchain Application (Decentralized Finance)`,
+    seeMoreLabel: "Mehr auf Github sehen",
+  },
+  stackProgress: [
+    {
+      name: ".NET",
+      level: "Pro",
+      levelTitle: "2 jahre Erfahrung mit Entwicklung und Maintenance.",
+      progress: "86%",
+    },
+    {
+      name: "React",
+      level: "Advanced",
+      levelTitle: "Ich arbeite derzeit Vollzeit bei React.",
+      progress: "75%",
+    },
+    {
+      name: "Angular",
+      level: "Pro",
+      levelTitle:
+        "Ich habe an zwei großen Projekten und ein paar kleineren Projekten gearbeitet.",
+      progress: "86%",
+    },
+    {
+      name: "Vue",
+      level: "Intermediate",
+      levelTitle:
+        "Ich habe mit dieser Technologie ein einfaches Tool zur Verwaltung von Cookies erstellt.",
+      progress: "64%",
+    },
+    {
+      name: "Docker",
+      level: "Intermediate",
+      levelTitle:
+        "Ich verwende Docker hauptsächlich, um API-Container zu veröffentlichen.",
+      progress: "54%",
+    },
+    {
+      name: "Kubernetes",
+      level: "Intermediate",
+      levelTitle:
+        "Ich verwende Kubernetes, um Docker-Container zu skalieren.",
+      progress: "54%",
+    },
+    {
+      name: "NodeJS",
+      level: "Intermediate",
+      levelTitle: "Ich erstelle APIs mit Nodejs",
+      progress: "70%",
+    },
+    {
+      name: "MongoDB",
+      level: "Pro",
+      levelTitle:
+        "Ich kann mit dieser Datenbank sehr minimale/optimierte Dienste entwickeln",
+      progress: "86%",
+    },
+  ],
   projects: [
     {
       title: "Internship Assistant",
@@ -170,66 +252,6 @@ export const data = {
       },
     ],
   },
-  skills: {
-    title: `Ich bin ein Webentwickler-Generalist und aufstrebender 10x-Programmierer.`,
-    description: `ATM Ich konzentriere mich auf das Erlernen von Microservice-Design und -Anwendungen und interessiere mich auch für das Feld De-fi Blockchain Application (Decentralized Finance)`,
-    seeMoreLabel: "Mehr auf Github sehen",
-    technologies: [
-      {
-        name: ".NET",
-        level: "Pro",
-        levelTitle: "2 jahre Erfahrung mit Entwicklung und Maintenance.",
-        progress: "86%",
-      },
-      {
-        name: "React",
-        level: "Advanced",
-        levelTitle: "Ich arbeite derzeit Vollzeit bei React.",
-        progress: "75%",
-      },
-      {
-        name: "Angular",
-        level: "Pro",
-        levelTitle:
-          "Ich habe an zwei großen Projekten und ein paar kleineren Projekten gearbeitet.",
-        progress: "86%",
-      },
-      {
-        name: "Vue",
-        level: "Intermediate",
-        levelTitle:
-          "Ich habe mit dieser Technologie ein einfaches Tool zur Verwaltung von Cookies erstellt.",
-        progress: "64%",
-      },
-      {
-        name: "Docker",
-        level: "Intermediate",
-        levelTitle:
-          "Ich verwende Docker hauptsächlich, um API-Container zu veröffentlichen.",
-        progress: "64%",
-      },
-      {
-        name: "Kubernetes",
-        level: "Intermediate",
-        levelTitle:
-          "Ich verwende Kubernetes, um Docker-Container zu skalieren.",
-        progress: "64%",
-      },
-      {
-        name: "NodeJS",
-        level: "Intermediate",
-        levelTitle: "Ich erstelle APIs mit Nodejs",
-        progress: "70%",
-      },
-      {
-        name: "MongoDB",
-        level: "Pro",
-        levelTitle:
-          "Ich kann mit dieser Datenbank sehr minimale/optimierte Dienste entwickeln",
-        progress: "86%",
-      },
-    ],
-  },
   experience: [
     {
       company: "Santander",
@@ -247,6 +269,12 @@ export const data = {
         "Reactjs",
         "Angular",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "PluralSystems",
@@ -263,6 +291,12 @@ export const data = {
         "Microservices",
         "Angular Material",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -282,6 +316,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
     {
       company: "Rumo Soluções",
@@ -301,6 +341,12 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
+      companylogo: require("../assets/images/facebookLogo.png").default,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
     },
   ],
   testimonials: {
@@ -317,10 +363,16 @@ export const data = {
   },
   education: [
     {
-      title: "Systemanalyse und -entwicklung",
-      university: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
-      period: "(2019-2021)",
-    },
+      schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
+      logo: require("../assets/images/harvardLogo.png").default,
+      subHeader: "Systems Analysis and Development",
+      duration: "June 2019 - June 2022",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    }
   ],
   languages: [
     {

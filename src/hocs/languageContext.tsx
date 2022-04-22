@@ -11,23 +11,23 @@ export declare type ResumeData = {
   basic_info: {
     description_header: string;
     description: string;
-    section_name: {
-      contact: string;
-      about: string;
-      projects: string;
-      otherProjects: string;
-      skills: string;
-      experience: string;
-      github: string;
-      recommendations: string;
-      education: string;
-      languages: string;
-      proficiency: string;
-      blog: string;
-      music: string;
-      conferences: string;
-      source_code: string;
-    };
+  };
+  section_name: {
+    contact: string;
+    about: string;
+    projects: string;
+    otherProjects: string;
+    skills: string;
+    experience: string;
+    github: string;
+    recommendations: string;
+    education: string;
+    languages: string;
+    proficiency: string;
+    blog: string;
+    music: string;
+    conferences: string;
+    source_code: string;
   };
   projects: {
     title: string;
@@ -52,13 +52,13 @@ export declare type ResumeData = {
     title: string;
     description: string;
     seeMoreLabel: string;
-    technologies: Array<{
-      name: string;
-      level: string;
-      levelTitle: string;
-      progress: string;
-    }>;
   };
+  stackProgress: Array<{
+    name: string;
+    level: string;
+    levelTitle: string;
+    progress: string;
+  }>;
   experience: {
     company: string;
     title: string;
@@ -71,9 +71,12 @@ export declare type ResumeData = {
     sources: { from: string; quote: string }[];
   };
   education: {
-    title: string;
-    university: string;
-    period: string;
+    schoolName: string;
+    logo: string;
+    subHeader: string;
+    duration: string;
+    desc: string;
+    descBullets: string[]
   }[];
   languages: {
     name: string;

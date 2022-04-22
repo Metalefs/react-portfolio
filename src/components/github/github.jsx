@@ -24,7 +24,7 @@ function Github() {
   return (
     <section className="github section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{data.basic_info.section_name.github}</h2>
+        <h2 className="heading">{data.section_name.github}</h2>
 
         <div className="calendar">
         </div>

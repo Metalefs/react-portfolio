@@ -10,7 +10,7 @@ import Badge from "react-bootstrap/Badge";
 
 function Experience() {
   const data = useContext(LanguageContext).data;
-  const sectionName = data.basic_info.section_name.experience;
+  const sectionName = data.section_name.experience;
   const work = data.experience.map(function (work, i) {
     const technologies = work.technologies;
     const mainTechnologies = work.mainTech;

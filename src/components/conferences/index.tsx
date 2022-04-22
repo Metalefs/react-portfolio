@@ -7,7 +7,7 @@ function Conferences() {
   return (
     <aside className="list conferences aside section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{data.basic_info.section_name.conferences}</h2>
+        <h2 className="heading">{data.section_name.conferences}</h2>
         <div className="content">
           <ul className="list-unstyled">
             <li>

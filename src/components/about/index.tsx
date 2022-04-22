@@ -14,7 +14,7 @@ function About() {
         <section id="about" className="about section mb-0 pt-0">
           <div className="col-md-12 section-inner shadow-sm rounded">
             <h2 className="heading">
-              <span>{data.basic_info.section_name.about}</span>
+              <span>{data.section_name.about}</span>
             </h2>
             <div className="row center d-flex r mx-auto mb-5">
               <div className="col-md-4 mb-5 d-flex ">

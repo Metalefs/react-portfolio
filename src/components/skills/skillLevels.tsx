@@ -16,7 +16,7 @@ export default function SkillLevels() {
              {data.data.skills.description}
             </p> */}
             <div className="skillset">
-              {data.data.skills.technologies.map((skill,i) => (
+              {data.data.stackProgress.map((skill,i) => (
                 <SkillItem key={i} skill={{ ...skill }} />
               ))}
   

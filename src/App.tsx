@@ -156,7 +156,7 @@ class App extends Component<
                   rel="noreferrer"
                   target="_blank"
                 >
-                  {this.state.data.basic_info.section_name.source_code}
+                  {this.state.data.section_name.source_code}
                 </a>
               </div>
             )}

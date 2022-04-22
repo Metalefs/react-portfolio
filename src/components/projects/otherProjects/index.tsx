@@ -10,7 +10,7 @@ function OtherProjects() {
     <section className="projects section portfolio  pb-0 mb-0">
       <div className="section-inner shadow-sm rounded">
         <h2 className="heading ">
-          {data.basic_info.section_name.otherProjects}
+          {data.section_name.otherProjects}
         </h2>
         <div className="content">
           {data.otherProjects.projects.map((item, i) => 

@@ -36,7 +36,7 @@ function Music() {
   return (
     <aside className="list music aside section">
       <div className="section-inner shadow-sm rounded">
-        <h2 className="heading">{data.basic_info.section_name.music}</h2>
+        <h2 className="heading">{data.section_name.music}</h2>
         <div className="content">
           <ul className="list-unstyled">
             {songs.map(song => <SongItem key={song.key} song={{...song}}/>)}

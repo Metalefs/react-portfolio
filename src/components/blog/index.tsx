@@ -33,7 +33,7 @@ function Blog() {
     <aside className="blog aside section">
       <div className="section-inner shadow-sm rounded">
         <h2 className="heading">
-          {data.basic_info.section_name.blog}
+          {data.section_name.blog}
         </h2>
         <div id="rss-feeds-SO" className="content"></div>
         <div id="rss-feeds-Medium" className="content"></div>
