@@ -48,17 +48,18 @@ export const data = {
     conferences: "Conferências",
     source_code: "Veja o código fonte deste site",
     resume: "Veja meu Currículo",
+    moreProjects: "More Projects",
   },
   skills: {
     subTitle:
       "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
       emoji(
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para seus aplicativos Web "
       ),
-      emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php, possívelmente Django) e em SPAs"),
       emoji(
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Integração de serviços de terceiros como Firebase/ AWS / Digital Ocean"
       ),
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
@@ -123,72 +124,9 @@ export const data = {
     },
   ],
   projects: {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Projetos Grandes",
+    subtitle: "ALGUMAS STARTUPS EM QUE ESTOU TRABALHANDO",
     projects: [
-      {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
-        images: [
-          "images/portfolio/ADE/p1.gif",
-          "images/portfolio/ADE/p2.jpeg",
-          "images/portfolio/ADE/p3.jpeg",
-        ],
-        startDate: "2019",
-        projectName: "Saayahealth",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        footerLink: [
-          {
-            name: "Visit Website",
-            url: "http://saayahealth.com/"
-          }
-          //  you can add extra buttons here.
-        ],
-        technologies: [
-          {
-            class: "devicon-csharp-plain",
-            name: "C#",
-          },
-          {
-            class: "devicon-dot-net-plain",
-            name: "AspNet",
-          },
-          {
-            class: "devicon-dot-net-plain",
-            name: "Razor",
-          },
-          {
-            class: "devicon-dot-net-plain",
-            name: "EntityFramework",
-          },
-        ],
-      },
-      {
-        image: require("../assets/images/nextuLogo.webp").default,
-        images: [],
-        startDate: "2019",
-        projectName: "Nextu",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        footerLink: [
-          {
-            name: "Visit Website",
-            url: "http://nextu.se/"
-          }
-        ],
-        technologies: [
-          {
-            class: "devicon-angularjs-plain",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-          {
-            class: "devicon-csharp-plain",
-            name: "C#",
-          },
-        ],
-      },
       {
         image: require("../assets/images/saayaHealthLogo.webp").default,
         images: ["images/portfolio/statistics/p1.jpeg"],
@@ -197,7 +135,7 @@ export const data = {
         projectDesc: "A stats solving app with Angular and C# backend.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "https://distribuicao-dados-agrupados.web.app/"
           }
         ],
@@ -225,12 +163,12 @@ export const data = {
           "images/portfolio/personalizados-lopes/p5.jpeg",
         ],
         startDate: "2020",
-        projectName: "Custom accessories store",
+        projectName: "Personalizados Lopes",
         projectDesc:
-        "The app handles all the processes of purchasing and managing custom products.",
+        "O aplicativo lida com todos os processos de compra e gerenciamento de produtos personalizados.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "https://personalizadoslopes.com.br"
           }
         ],
@@ -251,34 +189,6 @@ export const data = {
       },
       {
         image: require("../assets/images/saayaHealthLogo.webp").default,
-        images: ["images/portfolio/cookie-manager/p1.jpeg"],
-        startDate: "2020",
-        projectName: "Cookie Management",
-        projectDesc:
-          "MVP in proof-of-concept state with back-end in Nest and front-end in VueJS.",
-        footerLink: [
-          {
-            name: "Visit Website",
-            url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies"
-          }
-        ],
-        technologies: [
-          {
-            class: "devicon-angularjs-plain",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-          {
-            class: "devicon-csharp-plain",
-            name: "C#",
-          },
-        ],
-      },
-      {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
         images: ["images/portfolio/schedule/p1.jpeg"],
         startDate: "2020",
         projectName: "Veterinary Scheduling",
@@ -286,7 +196,7 @@ export const data = {
           "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
         footerLink: [
           {
-            name: "Visit Website",
+            name: "Website",
             url: "http://191.252.156.153:8010/"
           }
         ],
@@ -319,11 +229,11 @@ export const data = {
   },
   experience: [
     {
-      company: "Santander",
-      companyWebsite: "https://www.oleconsignado.com.br",
+      company: "F3 Capital",
+      companyWebsite: "https://f3capital.com.br",
       title: "Front-End Developer",
-      years: "2021 - Presente",
-      mainTech: ["Angular 8/9/10, React"],
+      years: "2021 - 2022",
+      mainTech: ["Angular >2 "],
       technologies: [
         "REST API",
         "RxJS",
@@ -333,20 +243,69 @@ export const data = {
         "MUI",
         "Reactjs",
         "Angular",
-      ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      ],      
+      companylogo: require("../assets/images/f3Logo.jpg").default,
+      desc: "Atuação como Front-End Developer na F3 Capital.",
       descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Desenvolvimento de biblioteca de UI para novas soluções",
+      "Desenvolvimento de pacotes de UI para novas soluções",
+      "Desenvolvimento Frontend",
+      ]
+    },
+    {
+      company: "Interligados",
+      companyWebsite: "https://interligados.com.br",
+      title: "Front-End/Fullstack Developer",
+      years: "Freelance",
+      mainTech: ["Angular >2"],
+      technologies: [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        ".NET Core",
+        "MUI",
+        "Angular",
+      ],      
+      companylogo: require("../assets/images/interligadosLogo.png").default,
+      desc: "Atuação como Front-End/Fullstack Developer na Interligados.",
+      descBullets: [
+      "End to end development de novos websites",
+      "Desenvolvimento de biblioteca de UI para novas soluções",
+      "Desenvolvimento de arquitetura e templates para novas soluções",
+      ]
+    },
+    {
+      company: "Santander",
+      companyWebsite: "https://www.oleconsignado.com.br",
+      title: "Fullstack Developer",
+      years: "2021 - 2022",
+      mainTech: ["Angular >2, React"],
+      technologies: [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Microservices",
+        ".NET Core",
+        "MUI",
+        "Reactjs",
+        "Angular",
+      ],      
+      companylogo: require("../assets/images/santanderLogo.png").default,
+      desc: `Desenvolvi o fluxo de open banking. Desafios recaptcha. Implementação de análise de uso em fluxos de empréstimo.`,
+      descBullets: [
+        "Manutenção de APIs em ASP Net Core e Java",
+        "Manutenção de Gateway Azure.",
+        "Manutenção de Docker e Kubernetes.",
+        "Micro-frontends com Reactjs.",
+        "Microserviçõs.",
       ]
     },
     {
       company: "PluralSystems",
       companyWebsite: "https://pluralsystems.com.br/",
-      title: "Front-End Developer",
-      years: "2020 - 2021",
-      mainTech: ["Angular 8/9/10"],
+      title: "Junior Front-End Developer",
+      years: "Freelance",
+      mainTech: ["Angular >2"],
       technologies: [
         "REST API",
         "RxJS",
@@ -356,18 +315,19 @@ export const data = {
         "Microservices",
         "Angular Material",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("../assets/images/pluralLogo.png").default,
+      desc: "Freelance",
       descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Desenvolvimento de aplicações web com Angular com Design System próprio",
+      "Event-Driven Architecture",
+      "Multi-Tenancy",
       ]
     },
     {
       company: "Rumo Soluções",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: "Analista Desenvolvedor .NET Júnior",
-      years: "01.2021 - Presente",
+      title: ".NET Junior Developer",
+      years: "01.2021 - 09.2022",
       mainTech: [".Net/C#"],
       technologies: [
         "C#",
@@ -381,18 +341,21 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("../assets/images/rumoLogo.png").default,
+      desc: "",
       descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Desenvolvimento de aplicações em Asp.Net e Angular 9.",
+      "Manutenção de aplicações em Asp.Net MVC e Asp.Net Web Forms.",
+      "Manutenção de aplicações em Xamarin.Forms.",
+      "Desenvolvimento de Web-Crawlers.",
+      "Implementação de soluções com Machine Learning.",
       ]
     },
     {
       company: "Rumo Soluções",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: "Estágio de Analise e Desenvolvimento",
-      years: "01.2019 - 2021",
+      title: "Internship",
+      years: "01.2019 - 01.2021",
       mainTech: [".Net/C#"],
       technologies: [
         "C#",
@@ -406,16 +369,17 @@ export const data = {
         "SQL Server",
         "Dapper",
       ],
-      companylogo: require("../assets/images/facebookLogo.png").default,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("../assets/images/rumoLogo.png").default,
+      desc: "",
       descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Manutenção e desenvolvimento de aplicações",
+      "Tecnologias: WebForms, Asp.Net Core, Angular",
+      "Linguagens: C#, Javascript",
       ]
     },
   ],
   achievements: {
-    title: emoji("Achievements And Certifications 🏆 "),
+    title: emoji("Conquistas e Certificações 🏆 "),
     subtitle:
       "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
   
@@ -423,7 +387,7 @@ export const data = {
       {
         title: "PWA Web App Developer",
         subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-        image: require("../assets/images/pwaLogo.webp").default,
+        image: require("../assets/images/pwaLogo.png").default,
         footerLink: [
           {name: "Certification", url: ""},
           {
@@ -445,12 +409,6 @@ export const data = {
         title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
         description:
           "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-      },
-      {
-        url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-        title: "Why REACT is The Best?",
-        description:
-          "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
       }
     ]
   },
@@ -468,7 +426,7 @@ export const data = {
         event_url: "https://www.facebook.com/events/2339906106275053/"
       }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
   },
   podcasts: {
     title: emoji("Podcast 🎙️"),
@@ -478,14 +436,14 @@ export const data = {
     podcast: [
       "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
   },
   contactInfo: {
     title: emoji("Contact Me ☎️"),
     subtitle:
-      "Discuss a project or just want to say hi? My Inbox is open for all.",
+      "Discutir uma proposta ou apenas quer dizer oi? Minha caixa de entrada está aberta.",
     number: "+92-0000000000",
-    email_address: "saadpasta70@gmail.com"
+    email_address: "jackson.pires.rm@gmail.com"
   },
   testimonials: {
     seeMoreLabel: "Mais no LinkedIn",
@@ -502,13 +460,24 @@ export const data = {
   education: [
     {
       schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
-      logo: require("../assets/images/harvardLogo.png").default,
-      subHeader: "Systems Analysis and Development",
-      duration: "June 2019 - June 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      logo: require("../assets/images/facisaLogo.png").default,
+      subHeader: "Análise e Desenvolvimento de Sistemas",
+      duration: "Junho 2019 - Junho 2021",
+      desc: "Participei na pesquisa de sistemas para o processo de estágio e publiquei 1 paper.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Duração de 2 anos.",
+        "Transferencia no 5° período para a Unicesumar."
+      ]
+    },
+    {
+      schoolName: "Unicesumar",
+      logo: require("../assets/images/unicesumarLogo.png").default,
+      subHeader: "Análise e Desenvolvimento de Sistemas",
+      duration: "Janeiro 2022 - Junho 2022",
+      desc: "Graduação Semi-presencial.",
+      descBullets: [
+        "Conceitos de arquitetura de software.",
+        "Requisitos de sistemas.",
       ]
     }
   ],

@@ -29,7 +29,7 @@ export default function StartupProject(props) {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {props.data.projects.subtitle}
           </p>
 
           <div className="projects-container">

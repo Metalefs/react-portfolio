@@ -1,6 +1,6 @@
 var fs = require("fs");
 const https = require("https");
-process = require("process");
+require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;

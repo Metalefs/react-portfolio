@@ -46,7 +46,7 @@ export default function Projects(props) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">{props.data.section_name.github}</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -60,7 +60,7 @@ export default function Projects(props) {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={props.data.section_name.moreProjects}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
