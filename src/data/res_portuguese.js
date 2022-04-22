@@ -122,135 +122,187 @@ export const data = {
       progress: "86%",
     },
   ],
-  projects: [
-    {
-      title: "Assistente de Estágio",
-      startDate: "2019",
-      description:
-        "MVP em estado de testes de gestão online do processo de estágio desenvolvido em Asp .Net Core.",
-      images: [
-        "images/portfolio/ADE/p1.gif",
-        "images/portfolio/ADE/p2.jpeg",
-        "images/portfolio/ADE/p3.jpeg",
-      ],
-      url: "http://assistentedeestagio.com.br/",
-      technologies: [
-        {
-          class: "devicon-csharp-plain",
-          name: "C#",
-        },
-        {
-          class: "devicon-dot-net-plain",
-          name: "AspNet",
-        },
-        {
-          class: "devicon-dot-net-plain",
-          name: "Razor",
-        },
-        {
-          class: "devicon-dot-net-plain",
-          name: "EntityFramework",
-        },
-      ],
-    },
-    {
-      title: "Funções de Estatistica Online",
-      startDate: "2020",
-      description:
-        "Um aplicativo de resolução de questões de estátistica com Angular e backend em C#.",
-      images: ["images/portfolio/statistics/p1.jpeg"],
-      url: "https://distribuicao-dados-agrupados.web.app/",
-      technologies: [
-        {
-          class: "devicon-angularjs-plain",
-          name: "Angular",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "TypeScript",
-        },
-        {
-          class: "devicon-csharp-plain",
-          name: "C#",
-        },
-      ],
-    },
-    {
-      title: "Loja de costumização de acessórios",
-      startDate: "2020",
-      description:
-        "O aplicativo lida com todos os processos de compra e gerenciamento de produtos personalizados.",
-      images: [
-        "images/portfolio/personalizados-lopes/p2.jpeg",
-        "images/portfolio/personalizados-lopes/p3.jpeg",
-        "images/portfolio/personalizados-lopes/p4.jpeg",
-        "images/portfolio/personalizados-lopes/p5.jpeg",
-      ],
-      url: "https://personalizadoslopes.com.br",
-      technologies: [
-        {
-          class: "devicon-angularjs-plain",
-          name: "Angular",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "TypeScript",
-        },
-        {
-          class: "devicon-nodejs-plain",
-          name: "Nodejs",
-        },
-        {
-          class: "devicon-mongodb-plain",
-          name: "MongoDB",
-        },
-      ],
-    },
-    {
-      title: "Gestão de Cookies",
-      startDate: "2020",
-      description:
-        "MVP em estado de prova de conceito com back-end em Nest e front-end em VueJS.",
-      images: ["images/portfolio/cookie-manager/p1.jpeg"],
-      url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies",
-      technologies: [
-        {
-          class: "devicon-vuejs-plain",
-          name: "Vuejs",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "TypeScript",
-        },
-        {
-          class: "simple-icons:nestjs",
-          name: "Nestjs",
-        },
-      ],
-    },
-    {
-      title: "Agendamento Veterinário",
-      startDate: "2020",
-      description:
-        "Um projeto onde atuei como desenvolvedor frontend em conjunto com um desenvolvedor Angular Sênior na primeira clinica com agendamento online.",
-      images: ["images/portfolio/schedule/p1.jpeg"],
-      url: "http://191.252.156.153:8010/",
-      technologies: [
-        {
-          class: "devicon-angular-original",
-          name: "Angular",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "TypeScript",
-        },
-        {
-          class: "devicon-sql-server-plain",
-          name: "SQL Server",
-        },
-      ],
-    },
-  ],
+  projects: {
+    title: "Big Projects",
+    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    projects: [
+      {
+        image: require("../assets/images/saayaHealthLogo.webp").default,
+        images: [
+          "images/portfolio/ADE/p1.gif",
+          "images/portfolio/ADE/p2.jpeg",
+          "images/portfolio/ADE/p3.jpeg",
+        ],
+        startDate: "2019",
+        projectName: "Saayahealth",
+        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "http://saayahealth.com/"
+          }
+          //  you can add extra buttons here.
+        ],
+        technologies: [
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+          {
+            class: "devicon-dot-net-plain",
+            name: "AspNet",
+          },
+          {
+            class: "devicon-dot-net-plain",
+            name: "Razor",
+          },
+          {
+            class: "devicon-dot-net-plain",
+            name: "EntityFramework",
+          },
+        ],
+      },
+      {
+        image: require("../assets/images/nextuLogo.webp").default,
+        images: [],
+        startDate: "2019",
+        projectName: "Nextu",
+        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "http://nextu.se/"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: require("../assets/images/saayaHealthLogo.webp").default,
+        images: ["images/portfolio/statistics/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Online Statistics Functions",
+        projectDesc: "A stats solving app with Angular and C# backend.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://distribuicao-dados-agrupados.web.app/"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: require("../assets/images/saayaHealthLogo.webp").default,
+        images: [
+          "images/portfolio/personalizados-lopes/p2.jpeg",
+          "images/portfolio/personalizados-lopes/p3.jpeg",
+          "images/portfolio/personalizados-lopes/p4.jpeg",
+          "images/portfolio/personalizados-lopes/p5.jpeg",
+        ],
+        startDate: "2020",
+        projectName: "Custom accessories store",
+        projectDesc:
+        "The app handles all the processes of purchasing and managing custom products.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://personalizadoslopes.com.br"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-nodejs-plain",
+            name: "Nodejs",
+          },
+        ],
+      },
+      {
+        image: require("../assets/images/saayaHealthLogo.webp").default,
+        images: ["images/portfolio/cookie-manager/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Cookie Management",
+        projectDesc:
+          "MVP in proof-of-concept state with back-end in Nest and front-end in VueJS.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://github.com/Metalefs/POC-VUE-Gestao-de-cookies"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: require("../assets/images/saayaHealthLogo.webp").default,
+        images: ["images/portfolio/schedule/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Veterinary Scheduling",
+        projectDesc:
+          "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "http://191.252.156.153:8010/"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angular-original",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+        ],
+      },
+    ]
+  },
   otherProjects: {
     seeMoreLabel: "Veja mais no Github",
     projects: [

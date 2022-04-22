@@ -10,9 +10,9 @@ class ProjectDetailsModal extends Component {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
+      var title = this.props.data.projectName;
+      var description = this.props.data.projectDesc;
+      var url = this.props.data.footerLink[0].url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (

@@ -2,24 +2,6 @@ import React, { Component } from "react";
 
 import "./App.scss";
 
-import Header from "./components/header";
-import About from "./components/about";
-//import Latest from "./components/projects/latest";
-import Projects from "./components/projects/index";
-import OtherProjects from "./components/projects/otherProjects";
-import Experience from "./components/experience/experience";
-import Github from "./components/github/github";
-import Skills from "./components/skills";
-import Info from "./components/info";
-import Testimonials from "./components/testimonials";
-import Education from "./components/education";
-import Languages from "./components/languages/languages";
-import Blog from "./components/blog";
-import Music from "./components/music";
-import Conferences from "./components/conferences";
-import ThemeSwitch from "./components/header/components/themeSwitch";
-import LanguageSwitch from "./languageSwitch";
-import ScrollAnimation from "react-animate-on-scroll";
 import queryString from "query-string";
 import ScrollTop from "./components/scroll-top";
 
@@ -161,7 +143,7 @@ class App extends Component<
               </div>
             )}
           </SharedDataContext.Consumer>
-          <Footer></Footer>
+          <Footer/>
         </div>
       </LanguageContext.Provider>
     );

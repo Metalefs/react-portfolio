@@ -75,10 +75,10 @@ const Main = (props) => {
                 <Podcast data={data}/>
                 <Profile data={data}/>
 
-                <Testimonials />
-                <Conferences />
-                <Languages />
-                <Music />
+                {/* <Testimonials /> */}
+                {/* <Conferences />
+                <Languages /> */}
+                {/* <Music /> */}
 
                 <Footer />
                 <ScrollToTopButton />

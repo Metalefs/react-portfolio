@@ -1,36 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import "bootstrap/dist/css/bootstrap.min.css";
 
 import App from "./App";
-import * as serviceWorker from './serviceWorker';
-import {
-  SharedDataProvider,
-} from "./hocs/sharedDataProvider";
+import * as serviceWorker from "./serviceWorker";
+import { SharedDataProvider } from "./hocs/sharedDataProvider";
 
 import reportWebVitals from "./reportWebVitals";
 import { data } from "./data/portfolio_shared_data";
 import "./index.scss";
 
+
 /* GLOBAL VARIABLES */
 
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
-window.$primaryLanguage = 'en';
-window.$secondaryLanguage = 'pl';
-window.$primaryLanguageIconId = 'primary-lang-icon';
-window.$secondaryLanguageIconId = 'secondary-lang-icon';
+window.$primaryLanguage = "en";
+window.$secondaryLanguage = "pl";
+window.$primaryLanguageIconId = "primary-lang-icon";
+window.$secondaryLanguageIconId = "secondary-lang-icon";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <SharedDataProvider sharedData={data}>
-          <App />
-      </SharedDataProvider>
-    </Router>
-  </React.StrictMode>,
+  <Router>
+    <SharedDataProvider sharedData={data}>
+      <App />
+    </SharedDataProvider>
+  </Router>,
   document.getElementById("root")
 );
 

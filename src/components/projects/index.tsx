@@ -16,11 +16,11 @@ function Projects() {
   let detailsModalClose = () => setState({ deps: state.deps, detailsModalShow: false });
   var sectionName = resumeInfo.data.section_name.projects;
   
-  var projects = resumeInfo.data.projects.map(function (projects) {
+  var projects = resumeInfo.data.projects.projects.map(function (projects) {
     return (
       <div
         className="col-sm-12 col-md-6 col-lg-6 "
-        key={projects.title}
+        key={projects.projectName}
         style={{ cursor: "pointer" }}
       >
         <span className="portfolio-item d-block">
