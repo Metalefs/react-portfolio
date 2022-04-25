@@ -83,10 +83,10 @@ function Header(props) {
       data-width="150"
     ></span>
   </div>;
-  
+
   const HeaderTitleTypeAnimation = React.memo(
     () => {
-      return <Typical className="title-styles desc" steps={titles} loop={1} />;
+      return <Typical contentEditable="true" className="title-styles desc" steps={titles} loop={1} />;
     },
     (props, prevProp) => true
   );
@@ -157,14 +157,26 @@ function Header(props) {
         className="header row align-items-center justify-content-center"
         id="home"
       >
-        <div className="col-sm-12 col-md-3 col-lg-3 mr-0"><ProfileImage /></div>
-        <div contentEditable="true" className="col-sm-12 col-md-7 col-lg-7 profile-content">
+        <div className="profile-content">
           <animated.div style={springConfig}>
-            <h1 className="mb-0 name">
-              <Typical className="name" steps={[name]} wrapper="p" />
-            </h1>
-            <div className="title-container">
-              <HeaderTitleTypeAnimation />
+            <div className="">
+              {/* <ProfileImage /> */}
+              <div className="mx-4">
+                <span
+                  className="iconify"
+                  data-icon="fontelico:emo-coffee"
+                  data-width="150"
+                ></span>
+              </div>
+            </div>
+
+            <div>
+              <h1 className="mb-0 name">
+                <Typical className="name" steps={[name]} wrapper="p" />
+              </h1>
+              <div className="title-container">
+                <HeaderTitleTypeAnimation />
+              </div>
             </div>
             <ProfileLinks />
           </animated.div>
