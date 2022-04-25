@@ -36,6 +36,7 @@ export const data = {
     about: "Sobre mim",
     projects: "Projetos",
     otherProjects: "Outros Projetos",
+    achievements: "Conquistas e Certificações",
     skills: "Habilidades",
     experience: "Experiência",
     github: "Meu GitHub",
@@ -48,14 +49,14 @@ export const data = {
     conferences: "Conferências",
     source_code: "Veja o código fonte deste site",
     resume: "Veja meu Currículo",
-    moreProjects: "More Projects",
+    moreProjects: "Mais Projetos",
   },
   skills: {
     subTitle:
-      "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+      "DESENVOLVEDOR FULLSTACK QUE QUER EXPLORAR CADA TECH STACK",
     skills: [
       emoji(
-        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web "
+        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web"
       ),
       emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php, possívelmente Django) e em SPAs"),
       emoji(
@@ -128,11 +129,35 @@ export const data = {
     subtitle: "ALGUMAS STARTUPS EM QUE ESTOU TRABALHANDO",
     projects: [
       {
+        image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
+        images: ["images/portfolio/schedule/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Agendamento Doctor Pet",
+        projectDesc:
+          "Um projeto onde trabalhei como desenvolvedor frontend junto com um desenvolvedor Sênior Angular no primerio vet com atendimento online.",
+        footerLink: [
+          {
+            name: "Website",
+            url: "http://191.252.156.153:8010/"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angular-original",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+        ],
+      },
+      {
         image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
         images: ["images/portfolio/statistics/p1.jpeg"],
         startDate: "2020",
         projectName: "Online Statistics Functions",
-        projectDesc: "Um aplicativo de resolução de estatísticas com back-end Angular e C #.",
+        projectDesc: "Um aplicativo de resolução de estatísticas com Angular no frontend e C# no backend.",
         footerLink: [
           {
             name: "Website",
@@ -187,30 +212,7 @@ export const data = {
           },
         ],
       },
-      {
-        image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
-        images: ["images/portfolio/schedule/p1.jpeg"],
-        startDate: "2020",
-        projectName: "Agendamento Doctor Pet",
-        projectDesc:
-          "Um projeto onde trabalhei como desenvolvedor frontend junto com um desenvolvedor Sênior Angular no primerio vet com atendimento online.",
-        footerLink: [
-          {
-            name: "Website",
-            url: "http://191.252.156.153:8010/"
-          }
-        ],
-        technologies: [
-          {
-            class: "devicon-angular-original",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-        ],
-      },
+     
     ]
   },
   otherProjects: {
@@ -279,7 +281,7 @@ export const data = {
       companyWebsite: "https://www.oleconsignado.com.br",
       title: "Fullstack Developer",
       years: "2021 - 2022",
-      mainTech: ["Angular >2, React"],
+      mainTech: ["Angular >=2, React"],
       technologies: [
         "REST API",
         "RxJS",
@@ -381,18 +383,18 @@ export const data = {
   achievements: {
     title: emoji("Conquistas e Certificações 🏆 "),
     subtitle:
-      "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+      "Conquistas, Certificações, Premiações e Algumas Coisas Legais que eu Fiz !",
   
     achievementsCards: [
       {
         title: "PWA Web App Developer",
-        subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+        subtitle: "Certificação concluída do SMIT para PWA Web App Development",
         image: require("../assets/images/pwaLogo.png").default,
         footerLink: [
-          {name: "Certification", url: ""},
+          {name: "Certificação", url: ""},
           {
-            name: "Final Project",
-            url: "https://pakistan-olx-1.firebaseapp.com/"
+            name: "Projeto Final",
+            url: "#"
           }
         ]
       }
@@ -406,16 +408,16 @@ export const data = {
     blogs: [
       {
         url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-        title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        title: "",
         description:
-          "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+          ""
       }
     ]
   },
   talks: {
     title: "TALKS",
     subtitle: emoji(
-      "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+      "EU ADORO COMPARTILHAR MEU CONHECIMENTO LIMITADO 😅"
     ),
   
     talks: [
@@ -430,7 +432,7 @@ export const data = {
   },
   podcasts: {
     title: emoji("Podcast 🎙️"),
-    subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+    subtitle: "EU AMO FALAR SOBRE MIM E SOBRE TECNOLOGIA",
   
     // Please Provide with Your Podcast embeded Link
     podcast: [
@@ -442,7 +444,7 @@ export const data = {
     title: emoji("Contact Me ☎️"),
     subtitle:
       "Discutir uma proposta ou apenas quer dizer oi? Minha caixa de entrada está aberta.",
-    number: "+92-0000000000",
+    number: "+55-31987576467",
     email_address: "jackson.pires.rm@gmail.com"
   },
   testimonials: {

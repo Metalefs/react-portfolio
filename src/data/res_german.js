@@ -420,7 +420,7 @@ export const data = {
           {name: "Certification", url: ""},
           {
             name: "Final Project",
-            url: "https://pakistan-olx-1.firebaseapp.com/"
+            url: "https://elshadday-a155e.web.app/inicio"
           }
         ]
       }
