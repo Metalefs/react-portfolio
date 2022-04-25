@@ -5,39 +5,16 @@ object-assign
 */
 
 /*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+
+/*!
+  Copyright (c) 2015 Jed Watson.
+  Based on code that is Copyright 2013-2015, Facebook, Inc.
+  All rights reserved.
 */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <http://feross.org>
- * @license  MIT
- */
-
-/*!
- * days <https://github.com/jonschlinkert/days>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-
-/*!
- * months <https://github.com/datetime/months>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-
-/*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
-
-/*! https://mths.be/punycode v1.4.1 by @mathias */
-
-/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /** @license React v0.20.2
  * scheduler.production.min.js
@@ -83,5 +60,3 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
-//! moment.js
