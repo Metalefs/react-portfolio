@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Jackson Pires",
-  title: "Hi all, I'm Saad",
+  title: "Hi all, I'm Jackson Pires",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://my.indeed.com/p/t5j12kj", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jackson-pires-ramalho-58a2a080/",
   gmail: "jackson.pires.rm@gmail.com",
   gitlab: "https://gitlab.com/metalefs",
-  facebook: "#",
+  // facebook: "#",
   medium: "https://medium.com/@jackson.pires.rm",
   stackoverflow: "https://stackoverflow.com/users/10509394",
   // Instagram, Twitter and Kaggle are also supported in the links!

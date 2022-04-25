@@ -55,7 +55,7 @@ export const data = {
       "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
       emoji(
-        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para seus aplicativos Web "
+        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web "
       ),
       emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php, possívelmente Django) e em SPAs"),
       emoji(
@@ -63,10 +63,10 @@ export const data = {
       ),
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
-    desenvolvimento web e aspirante a 1/10x (Fullstack) programmer.`,
-    description: `Estou focado no aprendizado de tecnologias de descentralização, como
-    mensageria e microserviços e também estou voltado ao desenvolvimento
-    de aplicações Blockchain de De-fi (Decentralized Finance)`,
+    desenvolvimento web e aspirante a programador 10x.`,
+    description: `Um desenvolvedor de software Full Stack apaixonado 🚀 com experiência na construção de aplicativos Web com JavaScript / Reactjs / Nodejs e algumas outras bibliotecas e frameworks interessantes.
+    Estou focado em tecnologias de descentralização, como
+    mensageria, microserviços e microfrontend`,
     seeMoreLabel: "Veja mais no Github",
   },
   stackProgress: [
@@ -128,11 +128,11 @@ export const data = {
     subtitle: "ALGUMAS STARTUPS EM QUE ESTOU TRABALHANDO",
     projects: [
       {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
+        image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
         images: ["images/portfolio/statistics/p1.jpeg"],
         startDate: "2020",
         projectName: "Online Statistics Functions",
-        projectDesc: "A stats solving app with Angular and C# backend.",
+        projectDesc: "Um aplicativo de resolução de estatísticas com back-end Angular e C #.",
         footerLink: [
           {
             name: "Website",
@@ -155,7 +155,7 @@ export const data = {
         ],
       },
       {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
+        image: "/react-portfolio/images/portfolio/personalizados-lopes/p2.jpeg",
         images: [
           "images/portfolio/personalizados-lopes/p2.jpeg",
           "images/portfolio/personalizados-lopes/p3.jpeg",
@@ -169,7 +169,7 @@ export const data = {
         footerLink: [
           {
             name: "Website",
-            url: "https://personalizadoslopes.com.br"
+            url: "https://personalizados-lopes-web-app.web.app"
           }
         ],
         technologies: [
@@ -188,12 +188,12 @@ export const data = {
         ],
       },
       {
-        image: require("../assets/images/saayaHealthLogo.webp").default,
+        image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
         images: ["images/portfolio/schedule/p1.jpeg"],
         startDate: "2020",
-        projectName: "Veterinary Scheduling",
+        projectName: "Agendamento Doctor Pet",
         projectDesc:
-          "A project where I worked as a frontend developer together with a Senior Angular developer in the first clinic with online appointment.",
+          "Um projeto onde trabalhei como desenvolvedor frontend junto com um desenvolvedor Sênior Angular no primerio vet com atendimento online.",
         footerLink: [
           {
             name: "Website",
