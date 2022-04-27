@@ -269,7 +269,7 @@ export const data = {
       descBullets: [
       "End to end development of new websites",
       "Development UI Library for new solutions",
-      "Development of ",
+      "Architectural solutions, and project templates for new solutions",
       ]
     },
     {
