@@ -10,8 +10,7 @@ export default function WorkExperience(props) {
   if (workExperiences.display) {
     return (
       <div id="experience">
-        <Fade bottom duration={1000} distance="20px">
-          <div className="experience-container" id="workExperience">
+        <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">{props.data.section_name.experience}</h1>
               <div className="experience-cards-div">
@@ -34,7 +33,6 @@ export default function WorkExperience(props) {
               </div>
             </div>
           </div>
-        </Fade>
       </div>
     );
   }
