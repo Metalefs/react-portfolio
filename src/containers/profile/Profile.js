@@ -46,6 +46,6 @@ export default function Profile(props) {
       </Suspense>
     );
   } else {
-    return <Contact />;
+    return <Contact data={props.data}/>;
   }
 }

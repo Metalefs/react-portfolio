@@ -4,6 +4,7 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import Github from "../../components/github/github";
 export default function Projects(props) {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -52,13 +53,14 @@ export default function Projects(props) {
               if (!v) {
                 console.error(
                   `Github Object for repository number : ${i} is undefined`
-                );
-              }
-              return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
-            })}
+                  );
+                }
+                return (
+                  <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
+                  );
+                })}
           </div>
+          <Github/>
           <Button
             text={props.data.section_name.moreProjects}
             className="project-button"
