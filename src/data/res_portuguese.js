@@ -10,6 +10,11 @@ export const data = {
     talks: "Palestras",
     contact: "Contato",
   },
+  greeting: {
+    resumeLink:
+      "https://my.indeed.com/p/t5j12kj", // Set to empty to hide the button
+    displayGreeting: true // Set false to hide this section, defaults to true
+  },
   basic_info: {
     description_header: "Olá Mundo!",
     description: `👋 Meu nome é Jackson Pires. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Vue. Aprendendo as novas tecnologias de front e back-end, buscando ativamente minimizar os processos manuais, em detrimento dos processos automatizados.

@@ -8,7 +8,7 @@ export const data = {
       "Node.js Developer",
       "DotNet Developer",
       "C# Developer",
-      "Fullcycle Developer",
+      "Fullstack/Fullcycle Developer",
     ],
     source_code: "https://github.com/Metalefs/react-portfolio",
     social: [

@@ -10,6 +10,11 @@ export const data = {
     talks: "Talks",
     contact: "Contact Me",
   },
+  greeting: {
+    resumeLink:
+      "https://drive.google.com/file/d/1ejUPC8MUgloIGQJAQPjViPhMjGlv3_Te/view?usp=sharing", // Set to empty to hide the button
+    displayGreeting: true // Set false to hide this section, defaults to true
+  },
   basic_info: {
     description_header: "Hello World!",
     description: `👋 Ich heiße Jackson Pires. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. 

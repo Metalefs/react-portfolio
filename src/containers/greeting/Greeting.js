@@ -45,7 +45,7 @@ export default function Greeting(props) {
                   <Button
                     text={props.data.section_name.resume}
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href={props.data.greeting.resumeLink}
                   />
                 )}
               </div>

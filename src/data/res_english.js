@@ -10,6 +10,11 @@ export const data = {
     talks: "Talks",
     contact: "Contact Me",
   },
+  greeting: {
+    resumeLink:
+      "https://drive.google.com/file/d/1ejUPC8MUgloIGQJAQPjViPhMjGlv3_Te/view?usp=sharing", // Set to empty to hide the button
+    displayGreeting: true // Set false to hide this section, defaults to true
+  },
   basic_info: {
     description_header: "Hello World!",
     description: `👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue. 
