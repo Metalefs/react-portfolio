@@ -12,6 +12,10 @@ export declare type ResumeData = {
     description_header: string;
     description: string;
   };
+  greeting: {
+    resumeLink: string;
+    displayGreeting: boolean // Set false to hide this section, defaults to true
+  },
   section_name: {
     contact: string;
     about: string;

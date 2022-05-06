@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import "../../_globalColor";
 
 /*React-headroom*/
@@ -180,7 +181,15 @@
     font-size: 12px;
   }
 }
+.title-styles{
+  //radical font
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
 
+}
 // /* ======= Header ======= */
 
 
