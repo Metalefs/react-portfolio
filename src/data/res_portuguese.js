@@ -446,7 +446,7 @@ export const data = {
     display: false // Set false to hide this section, defaults to true
   },
   contactInfo: {
-    title: emoji("Contact Me ☎️"),
+    title: emoji("Contate me ☎️"),
     subtitle:
       "Discutir uma proposta ou apenas quer dizer oi? Minha caixa de entrada está aberta.",
     number: "+55-31987576467",
