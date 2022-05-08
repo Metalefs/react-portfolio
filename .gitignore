@@ -24,7 +24,7 @@ yarn-error.log*
 .env
 
 #user generated content
-public/profile.json
-public/blogs.json
-public/react-portfolio/profile.json
-public/react-portfolio/blogs.json
+#public/profile.json
+#public/blogs.json
+#public/react-portfolio/profile.json
+#public/react-portfolio/blogs.json
