@@ -185,27 +185,24 @@ export const data = {
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/personalizados-lopes/p2.jpeg",
+        image: "/react-portfolio/images/portfolio/dicio/dicio.png",
         images: [
-          "images/portfolio/personalizados-lopes/p2.jpeg",
-          "images/portfolio/personalizados-lopes/p3.jpeg",
-          "images/portfolio/personalizados-lopes/p4.jpeg",
-          "images/portfolio/personalizados-lopes/p5.jpeg",
+          "images/portfolio/dicio/dicio2.png",
         ],
-        startDate: "2020",
-        projectName: "Personalizados Lopes",
+        startDate: "2022",
+        projectName: "Dicionário rasquido",
         projectDesc:
-        "O aplicativo lida com todos os processos de compra e gerenciamento de produtos personalizados.",
+        "O aplicativo fornece definição de palavras em tempo real para vídeos do youtube.",
         footerLink: [
           {
             name: "Website",
-            url: "https://personalizados-lopes-web-app.web.app"
+            url: "https://dicio-rasquido-ss.herokuapp.com/videos"
           }
         ],
         technologies: [
           {
-            class: "devicon-angularjs-plain",
-            name: "Angular",
+            class: "devicon-vuejs-plain",
+            name: "Vue",
           },
           {
             class: "devicon-typescript-plain",
@@ -217,7 +214,6 @@ export const data = {
           },
         ],
       },
-     
     ]
   },
   otherProjects: {
