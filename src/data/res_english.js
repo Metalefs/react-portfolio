@@ -157,11 +157,11 @@ export const data = {
          image: "/react-portfolio/images/portfolio/navega/p1.png",
          images: ["images/portfolio/navega/p1.png"],
          startDate: "2022",
-         projectName: "Navigate",
+         projectName: "Navega",
          projectDesc: "A startup that is revolutionizing the private pension sector in Brazil, creating a system from the ground up",
          footerLink: [
            {
-             name: "Navigate",
+             name: "Navega",
              url: ""
            }
          ],
@@ -271,6 +271,7 @@ export const data = {
        desc: "Working as Front-End Engineer at F3 Capital.",
        descBullets: [
        "I played a fundamental role in the development of a startup.",
+       "Implemented an end-to-end rule engine to perform custom payroll processing",
        "I implemented style guidelines to keep design consistent across the team and created an enterprise UI library with Storybook, increasing productivity and code reuse.",
        "I added regression tests with Cypress ensuring greater control over features.",
        ]

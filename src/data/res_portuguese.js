@@ -271,6 +271,7 @@ export const data = {
       desc: "Atuação como Front-End Engineer na F3 Capital.",
       descBullets: [
       "Desempenhei um papel fundamental no desenvolvimento de uma startup.",
+      "Implementei um motor de regras de negócio ponta a ponta para realizar processamento personalizado de folhas de pagamento",
       "Implementei diretrizes de estilo para manter o design consistente em toda a equipe e criei uma biblioteca de UI empresarial com Storybook, aumentando a produtividade e a reutilização de código.",
       "Adicionei testes de regressão com Cypress garantindo maior controle sobre funcionalidades.",
       ]
