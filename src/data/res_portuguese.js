@@ -135,7 +135,7 @@ export const data = {
         startDate: "2020",
         projectName: "Agendamento Doctor Pet",
         projectDesc:
-          "A project where I worked as a frontend developer together with a Senior Angular developer at the first vet with online service.",
+          "Um projeto onde atuei como desenvolvedor frontend junto com um desenvolvedor Angular Sênior no primeiro veterinário com atendimento online.",
         footerLink: [
           {
             name: "Website",
@@ -154,11 +154,11 @@ export const data = {
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/navega/p1.jpeg",
-        images: ["images/portfolio/navega/p1.jpeg"],
+        image: "/react-portfolio/images/portfolio/navega/p1.png",
+        images: ["images/portfolio/navega/p1.png"],
         startDate: "2022",
         projectName: "Navega",
-        projectDesc: "A startup that is revolutionizing the private pension sector in Brazil, creating a system from the ground up",
+        projectDesc: "Uma startup que está revolucionando o setor de previdência privada no Brasil, criando um sistema do zero",
         footerLink: [
           {
             name: "Navega",
@@ -185,7 +185,7 @@ export const data = {
         images: ["images/portfolio/AMAVC/p1.jpeg"],
         startDate: "2022",
         projectName: "AMAVC",
-        projectDesc: "A scheduling dashboard for stroke a Prevention, Information, Treatment and Rehabilitation clinic",
+        projectDesc: "Um painel de agendamento para uma clínica de prevenção, informação, tratamento e reabilitação de AVC",
         footerLink: [
           {
             name: "Website",
@@ -208,11 +208,11 @@ export const data = {
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/ellas4/p1.jpeg",
-        images: ["images/portfolio/ellas4/p1.jpeg"],
+        image: "/react-portfolio/images/portfolio/ellas4/p1.png",
+        images: ["images/portfolio/ellas4/p1.png"],
         startDate: "2020",
         projectName: "Ellas 4 subscription",
-        projectDesc: "Subscription logic on the frontend for adult website",
+        projectDesc: "Lógica de assinatura no frontend de site adulto",
         footerLink: [
           {
             name: "Website",

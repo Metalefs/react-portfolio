@@ -5,6 +5,7 @@ export const data = {
       "Innovative",
       "React",
       "Angular",
+      "Vuejs",
       "Node.js",
       "DotNet",
       "Fullstack/Fullcycle",

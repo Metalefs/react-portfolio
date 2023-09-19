@@ -2,224 +2,179 @@ import emoji from "react-easy-emoji";
 
 export const data = {
   header: {
-    skills: "Skills",
-    experience: "Work Experiences",
+    skills: "Fähigkeiten",
+    experience: "Erfahrungen",
     opensource: "Open Source",
-    achievements: "Achievements",
+    achievements: "Erfolge",
     blogs: "Blogs",
-    talks: "Talks",
-    contact: "Contact Me",
+    talks: "Vorträge",
+    contact: "Kontakt",
   },
   greeting: {
-    resumeLink:
-      "https://drive.google.com/file/d/1ejUPC8MUgloIGQJAQPjViPhMjGlv3_Te/view?usp=sharing", // Set to empty to hide the button
-    displayGreeting: true // Set false to hide this section, defaults to true
+    resumeLink: "https://my.indeed.com/p/t5j12kj",
+    displayGreeting: true,
   },
   basic_info: {
-    description_header: "Hello World!",
-    description: `👋 Ich heiße Jackson Pires. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. 
-        Ich arbeite mit den folgenden Technologien:
-          Knoten,
-          .Net Core,
-          Winkel &
-          Reagieren.
-        
-        Mein Hauptinteresse liegt derzeit darin, monolithische Anwendungen zu entkoppeln, indem ich sie nach einem Microservice-Architekturmuster orchestriere.
-        
-        Ich habe zusätzliches Wissen über Technologien:
-          Asp.Net MVC und Webformulare &
-          PHP.
-        
-        Ich arbeite mit nativer Anwendungsentwicklung in Technologien:
-          Xamarin.Forms,
-        
-        Ich bin daran interessiert, in Zukunft native Anwendungen mit React Native oder anderen Cross-Platform-Frameworks zu entwickeln. `,
+    description_header: "Hallo Welt!",
+    description:
+      "👋 Mein Name ist Jackson Pires. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. Erlernen neuer Front- und Back-End-Technologien, aktives Bemühen um die Minimierung manueller Prozesse zum Nachteil automatisierter Prozesse. Ich arbeite in der Entwicklung von Anwendungen unter Verwendung der folgenden Technologien: NodeJS, .Net Core, React, Angular und Vue. Mein größtes Interesse gilt derzeit der Entkopplung monolithischer Anwendungen durch deren Orchestrierung nach einem Microservices-Architekturmuster. Ich verfüge über zusätzliche Kenntnisse der Technologien: Asp.Net MVC und Web Forms & PHP. Ich arbeite mit der Entwicklung nativer Anwendungen in den folgenden Technologien: Xamarin.Forms, Ionic, React Native",
   },
   section_name: {
     contact: "Kontakt",
     about: "Über mich",
     projects: "Projekte",
-    otherProjects: "Andere Projekte",
+    otherProjects: "Weitere Projekte",
+    achievements: "Erfolge und Zertifizierungen",
     skills: "Fähigkeiten",
     experience: "Erfahrung",
     github: "Mein GitHub",
     recommendations: "Empfehlungen",
-    education: "Bildung",
+    education: "Ausbildung",
     languages: "Sprachen",
-    proficiency: "Fähigkeiten",
-    blog: "Meine neuesten Beiträge zu StackOverflow und Medium",
-    music: "Meine Lieblingslieder zum Programmieren",
+    proficiency: "Kompetenz",
+    blog: "Neueste Beiträge von mir auf StackOverflow und Medium",
+    music: "Mein Lieblingslied zum Programmieren",
     conferences: "Konferenzen",
-    source_code: "Schauen Sie sich den Code dieser Website an",
-    resume: "Resume",
-    moreProjects: "More Projects",
+    source_code: "Sehen Sie sich den Quellcode dieser Website an",
+    resume: "Siehe meinen Lebenslauf",
+    moreProjects: "Weitere Projekte",
   },
   skills: {
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    subTitle: "FULLSTACK-ENTWICKLER, DER JEDEN TECH-STACK ERKUNDEN MÖCHTE",
     skills: [
-      emoji(
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-      ),
-      emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-      emoji(
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-      )
+      emoji("⚡ Ich entwickle hochfunktionale und interaktive Benutzeroberflächen/Frontends für Webanwendungen"),
+      emoji("⚡ Progressive Webanwendungen (PWA) in normalen Stacks (Dotnet, PHP) und in SPAs"),
+      emoji("Integration von Drittanbieterdiensten wie Firebase und AWS"),
     ],
-    title: `Ich bin ein Webentwickler-Generalist und aufstrebender 10x-Programmierer.`,
-    description: `ATM Ich konzentriere mich auf das Erlernen von Microservice-Design und -Anwendungen und interessiere mich auch für das Feld De-fi Blockchain Applications (Decentralized Finance)`,
-    seeMoreLabel: "Mehr auf Github sehen",
+    title:
+      "Ich bin ein Autodidakt, der sich mit der Entwicklung neuer Technologien beschäftigt und zehnmal ein angehender Programmierer ist.",
+    description:
+      "Ein Fullstack-Entwickler mit über vier Jahren Erfahrung in der Entwicklung neuer und innovativer Designs.",
+    seeMoreLabel: "Weitere Informationen finden Sie auf Github",
   },
   stackProgress: [
     {
-      name: ".NET",
-      level: "Pro",
-      levelTitle: "2 jahre Erfahrung mit Entwicklung und Maintenance.",
+      name: ".NETZ",
+      level: "Profi",
+      levelTitle: "2 Jahre Erfahrung mit Entwicklung und Wartung.",
       progress: "86%",
     },
     {
-      name: "React",
-      level: "Advanced",
-      levelTitle: "Ich arbeite derzeit Vollzeit bei React.",
+      name: "Reagieren",
+      level: "Fortschrittlich",
+      levelTitle: "Ich arbeite Vollzeit mit React.",
       progress: "75%",
     },
     {
-      name: "Angular",
-      level: "Pro",
+      name: "Eckig",
+      level: "Profi",
       levelTitle:
-        "Ich habe an zwei großen Projekten und ein paar kleineren Projekten gearbeitet.",
+        "Ich habe an zwei großen Projekten und einigen kleineren Projekten gearbeitet.",
       progress: "86%",
     },
     {
       name: "Vue",
-      level: "Intermediate",
+      level: "Dazwischenliegend",
       levelTitle:
-        "Ich habe mit dieser Technologie ein einfaches Tool zur Verwaltung von Cookies erstellt.",
+        "Mit diesem Framework habe ich einen einfachen Cookie-Manager entwickelt.",
       progress: "64%",
     },
     {
       name: "Docker",
-      level: "Intermediate",
+      level: "Dazwischenliegend",
       levelTitle:
-        "Ich verwende Docker hauptsächlich, um API-Container zu veröffentlichen.",
+        "Ich verwende Docker hauptsächlich zum Veröffentlichen von API-Containern.",
       progress: "54%",
     },
     {
       name: "Kubernetes",
-      level: "Intermediate",
-      levelTitle:
-        "Ich verwende Kubernetes, um Docker-Container zu skalieren.",
+      level: "Dazwischenliegend",
+      levelTitle: "Ich verwende Kubernetes, um Docker-Container zu skalieren.",
       progress: "54%",
     },
     {
       name: "NodeJS",
-      level: "Intermediate",
-      levelTitle: "Ich erstelle APIs mit Nodejs",
+      level: "Dazwischenliegend",
+      levelTitle: "Erstellen Sie API-Wege mit nodeJS",
       progress: "70%",
     },
     {
       name: "MongoDB",
-      level: "Pro",
+      level: "Profi",
       levelTitle:
-        "Ich kann mit dieser Datenbank sehr minimale/optimierte Dienste entwickeln",
+        "Mithilfe dieser Datenbank kann ich minimale/optimierte Dienste entwickeln",
       progress: "86%",
     },
   ],
   projects: {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Große Projekte",
+    subtitle: "EINIGE STARTUPS, AN DENEN ICH ARBEITE",
     projects: [
       {
         image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
         images: ["images/portfolio/schedule/p1.jpeg"],
         startDate: "2020",
-        projectName: "Agendamento Doctor Pet",
+        projectName: "Arzt-Haustierplanung",
         projectDesc:
-          "A project where I worked as a frontend developer together with a Senior Angular developer at the first vet with online service.",
-        footerLink: [
-          {
-            name: "Website",
-            url: "http://191.252.156.153:8010/"
-          }
-        ],
+          "Ein Projekt, bei dem ich als Frontend-Entwickler zusammen mit einem Senior Angular-Entwickler beim ersten Tierarzt mit Online-Service gearbeitet habe.",
+        footerLink: [{ name: "Webseite", url: "http://191.252.156.153:8010/" }],
         technologies: [
-          {
-            class: "devicon-angular-original",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
+          { class: "Devicon-Angular-Original", name: "Eckig" },
+          { class: "devicon-typescript-plain", name: "Typoskript" },
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
-        images: ["images/portfolio/statistics/p1.jpeg"],
-        startDate: "2020",
-        projectName: "Online Statistics Functions",
-        projectDesc: "A statistics resolution app with Angular on the frontend and C# on the backend",
-        footerLink: [
-          {
-            name: "Website",
-            url: "https://distribuicao-dados-agrupados.web.app/"
-          }
-        ],
-        technologies: [
-          {
-            class: "devicon-angularjs-plain",
-            name: "Angular",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-          {
-            class: "devicon-csharp-plain",
-            name: "C#",
-          },
-        ],
-      },
-      {
-        image: "/react-portfolio/images/portfolio/dicio/dicio.png",
-        images: [
-          "images/portfolio/dicio/dicio2.png",
-        ],
+        image: "/react-portfolio/images/portfolio/navega/p1.png",
+        images: ["images/portfolio/navega/p1.png"],
         startDate: "2022",
-        projectName: "Dicionário rasquido",
+        projectName: "Navega",
         projectDesc:
-        "The app provides real time word definition for youtube videos.",
-        footerLink: [
-          {
-            name: "Website",
-            url: "https://dicio-rasquido-ss.herokuapp.com/videos"
-          }
-        ],
+          "Ein Startup, das den privaten Rentensektor in Brasilien revolutioniert und ein System von Grund auf aufbaut",
+        footerLink: [{ name: "Navega", url: "--" }],
         technologies: [
-          {
-            class: "devicon-vuejs-plain",
-            name: "Vue",
-          },
-          {
-            class: "devicon-typescript-plain",
-            name: "TypeScript",
-          },
-          {
-            class: "devicon-nodejs-plain",
-            name: "Nodejs",
-          },
+          { class: "devicon-angularjs-plain", name: "Eckig" },
+          { class: "devicon-typescript-plain", name: "Typoskript" },
+          { class: "devicon-csharp-plain", name: "C#" },
         ],
       },
-    ]
+      {
+        image: "/react-portfolio/images/portfolio/AMAVC/p1.png",
+        images: ["images/portfolio/AMAVC/p1.jpeg"],
+        startDate: "2022",
+        projectName: "AMAVC",
+        projectDesc:
+          "Ein Planungs-Dashboard für eine Schlaganfall-Präventions-, Informations-, Behandlungs- und Rehabilitationsklinik",
+        footerLink: [{ name: "Webseite", url: "https://amavc.com.br" }],
+        technologies: [
+          { class: "devicon-angularjs-plain", name: "Eckig" },
+          { class: "devicon-typescript-plain", name: "Typoskript" },
+          { class: "devicon-csharp-plain", name: "C#" },
+        ],
+      },
+      {
+        image: "/react-portfolio/images/portfolio/ellas4/p1.png",
+        images: ["images/portfolio/ellas4/p1.png"],
+        startDate: "2020",
+        projectName: "Ellas 4-Abonnement",
+        projectDesc: "Abonnementlogik im Frontend für Websites für Erwachsene",
+        footerLink: [{ name: "Webseite", url: "https://ellas4.com/login" }],
+        technologies: [
+          { class: "devicon-angularjs-plain", name: "Eckig" },
+          { class: "devicon-typescript-plain", name: "Typoskript" },
+          { class: "devicon-csharp-plain", name: "C#" },
+        ],
+      },
+    ],
   },
   otherProjects: {
-    seeMoreLabel: "Mehr auf Github",
+    seeMoreLabel: "Weitere Informationen finden Sie auf Github",
     projects: [
       {
         href: "https://github.com/Metalefs/MVP-PHP-EuMotorista",
-        title: "Eumotorista - Gamifizierte Fahrschule",
-        description: `Sehen Sie sich unseren Pitch an, indem Sie auf die Schaltfläche unten klicken. (Erzählung und Bearbeitung von Guilherme
-            Neubaner- Frontend von mir und Backend von mir und Guilherme Neubaner).`,
-        badge: "Kostenlos",
+        title: "Eumotorista – Gamifiziertes Fahrlernen",
+        description:
+          "Sehen Sie sich unseren Pitch über die Schaltfläche unten an. (Erzählung und Bearbeitung von Guilherme Neubaner – Frontend von mir und Backend von mir und Guilherme Neubaner).",
+        badge: "Frei",
         pitchSrc: "https://youtu.be/o_LTPT1F4H8",
         iframeSrc: "https://www.youtube.com/embed/o_LTPT1F4H8?controls=0",
       },
@@ -227,279 +182,253 @@ export const data = {
   },
   experience: [
     {
-      company: "F3 Capital",
+      company: "F3-Capital",
       companyWebsite: "https://f3capital.com.br",
-      title: "Front-End Developer",
-      years: "2021 - 2022",
-      mainTech: ["Angular >2"],
+      title: "Entwickler für Benutzeroberflächen",
+      years: "2021 - 2023",
+      mainTech: ["Winkel >2"],
       technologies: [
-        "REST API",
+        "REST-API",
         "RxJS",
         "JavaScript",
-        "Microservices",
+        "Mikrodienste",
         ".NET Core",
         "MUI",
         "Reactjs",
-        "Angular",
-      ],      
+        "Eckig",
+      ],
       companylogo: require("../assets/images/f3Logo.jpg").default,
-      desc: "Working as Front-End Developer at F3 Capital.",
+      desc: "Arbeitet als Front-End-Ingenieur bei F3 Capital.",
       descBullets: [
-        "UI library development for new solutions",
-        "Development of UI packages for new solutions",
-        "Frontend Development",
-      ]
+        "Ich war maßgeblich an der Entwicklung eines Startups beteiligt.",
+        "Ich habe Stilrichtlinien implementiert, um das Design im gesamten Team konsistent zu halten, und mit Storybook eine Unternehmens-UI-Bibliothek erstellt, um die Produktivität und die Wiederverwendung von Code zu steigern.",
+        "Ich habe Regressionstests mit Cypress hinzugefügt, um eine bessere Kontrolle über die Funktionen zu gewährleisten.",
+      ],
     },
     {
       company: "Interligados",
       companyWebsite: "https://interligados.com.br",
-      title: "Front-End/Fullstack Developer",
-      years: "Freelance",
-      mainTech: ["Angular >2"],
+      title: "Frontend-/Fullstack-Entwickler",
+      years: "Freiberuflich",
+      mainTech: ["Winkel >2"],
       technologies: [
-        "REST API",
+        "REST-API",
         "RxJS",
         "JavaScript",
         ".NET Core",
         "MUI",
-        "Angular",
-      ],      
+        "Eckig",
+      ],
       companylogo: require("../assets/images/interligadosLogo.png").default,
-      desc: "Working as Front-End/Fullstack Developer at Interligados.",
+      desc: "Arbeitet als Front-End/Fullstack-Entwickler bei Interligados.",
       descBullets: [
-      "End to end development of new websites",
-      "Development UI Library for new solutions",
-      "Development of ",
-      ]
+        "End-to-End-Entwicklung neuer Websites",
+        "Entwicklung einer benutzerdefinierten UI-Bibliothek, die die Produktivität der Entwickler und die Wiederverwendung von Code für das Unternehmen steigerte",
+        "Entwicklung von Architektur und Templates für neue Lösungen",
+        "Ich habe an der Datenbankarchitektur, ihrer Behandlung und Anzeige im Frontend gearbeitet",
+      ],
     },
     {
       company: "Santander",
       companyWebsite: "https://www.oleconsignado.com.br",
-      title: "Fullstack Developer",
+      title: "Fullstack-Entwickler",
       years: "2021 - 2022",
-      mainTech: ["Angular >=2, React"],
+      mainTech: ["Winkel >=2, Reag"],
       technologies: [
-        "REST API",
+        "REST-API",
         "RxJS",
         "JavaScript",
-        "Microservices",
+        "Mikrodienste",
         ".NET Core",
         "MUI",
         "Reactjs",
-        "Angular",
-      ],      
-      companylogo: require("../assets/images/santanderLogo.png").default,
-      desc: "Developed the 'Open Banking' module. Recapcha challenges. Implementation of user analysis in loan flows.",
+        "Eckig",
+      ],
+      withpanylogo: require("../assets/images/santanderLogo.png").default,
+      desc: "Ich habe den Open-Banking-Flow entwickelt. Recaptcha-Herausforderungen. Durchführung einer Nutzungsanalyse der Kreditströme.",
       descBullets: [
-        "API Maintenance in ASP Net Core and Java",
-        "Azure Gateway Maintenance.",
-        "Maintenance of Docker and Kubernetes.",
-        "Micro-frontends with Reactjs.",
-        "Microservices."
-      ]
+        "Ich war an der Entwicklung des Moduls „Open Banking“ beteiligt, um die Einhaltung externer Maßnahmen zeitnah zu erreichen",
+        "Ich habe die Projektanforderungen analysiert und die Spezifikationen in die funktionale Anwendung der Komponenten übersetzt.",
+        "Die Implementierung der Überwachung der Benutzererfahrung im Kreditgeschäft mit A/B-Tests wurde verbessert.",
+        "Ich habe Probleme und Bedenken eskaliert, um Lösungen zu erleichtern und Auswirkungen auf Zeitpläne zu vermeiden.",
+        "Azure Gateway-Wartung.",
+        "Docker- und Kubernetes-Wartung.",
+        "Micro-Frontends mit Reactjs.",
+        "Mikrodienste.",
+      ],
     },
     {
-      company: "PluralSystems",
+      company: "PluralSysteme",
       companyWebsite: "https://pluralsystems.com.br/",
-      title: "Junior Front-End Developer",
-      years: "Freelance",
-      mainTech: ["Angular >2"],
+      title: "Junior Front-End-Entwickler",
+      years: "Freiberuflich",
+      mainTech: ["Winkel >2"],
       technologies: [
-        "REST API",
+        "REST-API",
         "RxJS",
         "JavaScript",
         "EF Core",
         ".NET Core",
-        "Microservices",
-        "Angular Material",
+        "Mikrodienste",
+        "Eckiges Material",
       ],
       companylogo: require("../assets/images/pluralLogo.png").default,
-      desc: "Freelance",
+      desc: "Freiberuflich",
       descBullets: [
-        "Development of web applications using Angular with custom Design System",
-        "Event-Driven Architecture",
-        "Multi-Tenancy",
-      ]
+        "Entwicklung von Webanwendungen mit Angular mit eigenem Design System",
+        "Ereignisgesteuerte Architektur",
+        "Mehrmandantenfähigkeit",
+      ],
     },
     {
-      company: "Rumo Soluções",
+      company: "Gerüchte über Lösungen",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: ".NET Junior Developer",
+      title: ".NET Junior-Entwickler",
       years: "01.2021 - 09.2022",
       mainTech: [".Net/C#"],
       technologies: [
-        "C#",
+        "W#",
         "ASP.NET",
-        "Webforms",
+        "Webformulare",
         "JavaScript",
         "Nodejs",
         "Xamarin",
         "EF Core",
         "OleDB",
         "SQL Server",
-        "Dapper",
+        "Elegant",
       ],
       companylogo: require("../assets/images/rumoLogo.png").default,
-      desc: "",
+      desc: "Während der Entwicklung habe ich mehrere Front-End-Technologien eingesetzt, darunter Asp.Net, Angular und JQuery.",
       descBullets: [
-        "Developing applications in Asp.Net and Angular 9.",
-        "Maintenance of Asp.Net MVC and Asp.Net Web Forms applications.",
-        "Maintenance of applications in Xamarin.Forms.",
-        "Developing Web Crawlers.",
-        "Implementing Machine Learning Solutions.",
-      ]
+        "Für Finanzzwecke und zur Arbeitszeitverwaltung habe ich gebrauchsfertige Anwendungen in Asp.Net und Angular 9 entwickelt",
+        "Ich habe Asp.Net MVC- und Asp.Net Web Forms- und Xamarin.Forms-Anwendungen für den internen Gebrauch gepflegt.",
+        "Ich habe Webcrawer entwickelt, die Software-Designmuster wie Factory, Decorator und Template für einen Bankkunden implementieren und ein Dashboard für Gerichtsbeschlüsse im ganzen Land bereitstellen",
+        "Ich habe Lösungen für maschinelles Lernen mit IBM Watson implementiert, um Gerichtsbeschlussdokumente zu analysieren und Chatbots für institutionelle Seiten zu entwickeln.",
+      ],
     },
     {
-      company: "Rumo Soluções",
+      company: "Gerüchte über Lösungen",
       companyWebsite: "https://rumosolucoes.com.br",
-      title: "Internship",
+      title: "Praktikum",
       years: "01.2019 - 01.2021",
       mainTech: [".Net/C#"],
       technologies: [
-        "C#",
+        "W#",
         "ASP.NET",
-        "Webforms",
+        "Webformulare",
         "JavaScript",
         "Nodejs",
         "Xamarin",
         "EF Core",
         "OleDB",
         "SQL Server",
-        "Dapper",
+        "Elegant",
       ],
       companylogo: require("../assets/images/rumoLogo.png").default,
-      desc: "",
+      desc: "--",
       descBullets: [
-        "Application maintenance and development",
-        "Technologies: WebForms, Asp.Net Core, Angular",
-        "Languages: C#, Javascript",
-      ]
+        "Ich habe die richtigen Tools und Prozesse für verschiedene Arten der Entwicklung kennengelernt, um Fehler zu minimieren und Codierungsziele zu erreichen.",
+        "Technologien: WebForms, Asp.Net Core, Angular",
+        "Sprachen: C#, Javascript",
+      ],
     },
   ],
   achievements: {
-    title: emoji("Achievements And Certifications 🏆 "),
+    title: "Erfolge und Zertifizierungen 🏆",
     subtitle:
-      "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-  
+      "Erfolge, Zertifizierungen, Auszeichnungen und einige coole Dinge, die ich getan habe!",
     achievementsCards: [
       {
-        title: "PWA Web App Developer",
-        subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+        title: "PWA-Web-App-Entwickler",
+        subtitle:
+          "SMIT hat die Zertifizierung für PWA-Web-App-Entwicklung abgeschlossen",
         image: require("../assets/images/pwaLogo.png").default,
         footerLink: [
-          {name: "Certification", url: ""},
-          {
-            name: "Final Project",
-            url: "https://elshadday-a155e.web.app/inicio"
-          }
-        ]
-      }
+          { name: "Zertifizierung", url: "--" },
+          { name: "Abschlussprojekt", url: "#" },
+        ],
+      },
     ],
   },
   blog: {
     title: "Blogs",
     subtitle:
-      "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-    displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+      "Da ich es liebe, coole Dinge zu entwickeln, liebe ich es, zu schreiben und anderen beizubringen, was ich gelernt habe.",
+    displayMediumBlogs: "WAHR",
     blogs: [
       {
         url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-        title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-        description:
-          "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        title: "--",
+        description: "--",
       },
-      {
-        url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-        title: "Why REACT is The Best?",
-        description:
-          "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-      }
-    ]
+    ],
   },
   talks: {
-    title: "TALKS",
-    subtitle: emoji(
-      "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-    ),
-  
+    title: "GESPRÄCHE",
+    subtitle: "ICH LIEBE ES, MEIN BEGRENZTES WISSEN ZU TEILEN 😅",
     talks: [
       {
-        title: "Build Actions For Google Assistant",
-        subtitle: "Codelab at GDG DevFest Karachi 2019",
+        title: "Erstellen Sie Aktionen für Google Assistant",
+        subtitle: "Codelab beim GDG DevFest Karachi 2019",
         slides_url: "https://bit.ly/saadpasta-slides",
-        event_url: "https://www.facebook.com/events/2339906106275053/"
-      }
+        event_url: "https://www.facebook.com/events/2339906106275053/",
+      },
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false,
   },
   podcasts: {
-    title: emoji("Podcast 🎙️"),
-    subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-  
-    // Please Provide with Your Podcast embeded Link
+    title: "Podcast 🎙️",
+    subtitle: "ICH LIEBE ES, ÜBER MICH UND TECHNOLOGIE ZU SPRECHEN",
     podcast: [
-      "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+      "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false,
   },
   contactInfo: {
-    title: emoji("Contact Me ☎️"),
+    title: "Kontaktieren Sie mich ☎️",
     subtitle:
-      "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+92-0000000000",
-    email_address: "jackson.pires.rm@gmail.com"
+      "Besprechen Sie einen Vorschlag oder möchten Sie einfach nur Hallo sagen? Mein Posteingang ist geöffnet.",
+    number: "+55-31987576467",
+    email_address: "jackson.pires.rm@gmail.com",
   },
   testimonials: {
-    seeMoreLabel: "More on LinkedIn",
+    seeMoreLabel: "Mehr auf LinkedIn",
     sources: [
       {
         from: "Daniel Fiedler",
-        quote: `Ein Entwickler extrem
-          besorgt über die Qualität des Codes. Proaktiv, dokumentiert alles
-          und ist immer auf der Suche nach besseren Lösungen für die Probleme, immer auf der Suche nach Lernen
-          mehr über das Projekt und die verwendeten Sprachen zu lernen.`,
+        quote:
+          "Äußerst professionell, besorgt um die Qualität des Codes, proaktiv, versucht alles zu dokumentieren und bessere Lösungen für Probleme zu finden, immer bestrebt, mehr über das Projekt und die Sprachen zu erfahren.",
       },
     ],
   },
   education: [
     {
-      schoolName: "Faculdade de Ciências Sociais Aplicadas (FACISABH)",
+      schoolName: "Fakultät für Angewandte Sozialwissenschaften (FACISABH)",
       logo: require("../assets/images/facisaLogo.png").default,
-      subHeader: "System Analysis",
-      duration: "June 2019 - June 2021",
-      desc: "I participated in the research of systems for the internship process and published 1 paper.",
+      subHeader: "Systemanalyse und -entwicklung",
+      duration: "Juni 2019 – Juni 2021",
+      desc: "Ich habe im Rahmen des Praktikumsprozesses an der Systemforschung teilgenommen und eine Arbeit veröffentlicht.",
       descBullets: [
-        "2 year duration.",
-        "Transferred to Unicesumar during my 5th period."
-      ]
+        "Dauer 2 Jahre.",
+        "Transfer in der 5. Periode zu Unicesumar.",
+      ],
     },
     {
       schoolName: "Unicesumar",
       logo: require("../assets/images/unicesumarLogo.png").default,
-      subHeader: "System Analysis",
-      duration: "Jan 2022 - June 2022",
-      desc: "Semi-Present Graduation.",
+      subHeader: "Systemanalyse und -entwicklung",
+      duration: "Januar 2022 – Juni 2022",
+      desc: "Halbpräsente Abschlussfeier.",
       descBullets: [
-        "Software Architecture Concepts.",
-        "System requirements.",
-      ]
-    }
+        "Konzepte der Softwarearchitektur.",
+        "System Anforderungen.",
+      ],
+    },
   ],
   languages: [
-    {
-      name: "Português",
-      stars: 5,
-      proficiency: "Native",
-    },
-    {
-      name: "English",
-      stars: 4,
-      proficiency: "Conversational",
-    },
-    {
-      name: "Deutsch",
-      stars: 3,
-      proficiency: "Conversational",
-    },
+    { name: "Portugiesisch", stars: 5, proficiency: "Einheimisch" },
+    { name: "Englisch", stars: 4, proficiency: "Konversation" },
+    { name: "Deutsch", stars: 3, proficiency: "Konversation" },
   ],
 };
