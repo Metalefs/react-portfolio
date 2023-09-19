@@ -22,8 +22,7 @@ export const data = {
       Atuo no desenvolvimento de aplicações utilizando as tecnologias:
        Nodejs,
        .Net Core,
-       Angular &
-       React.
+       React, Angular & Vue
       
       Meu maior interesse no momento tem sido desacoplar aplicações monolíticas orquestrando-as seguindo um padrão de arquitetura de micro serviços.
       
@@ -32,9 +31,7 @@ export const data = {
        PHP.
       
       Atuo com desenvolvimento de Aplicativos nativos nas tecnologias: 
-       Xamarin.Forms,
-      
-      Tenho interesse em desenvolver aplicações nativas com React Native, ou outras frameworks Cross-Platform no futuro.`,
+       Xamarin.Forms, Ionic, React Native`,
   },
   section_name: {
     contact: "Contato",
@@ -63,16 +60,15 @@ export const data = {
       emoji(
         "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web"
       ),
-      emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php, possívelmente Django) e em SPAs"),
+      emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php) e em SPAs"),
       emoji(
-        "⚡ Integração de serviços de terceiros como Firebase/ AWS / Digital Ocean"
+        "⚡ Integração de serviços de terceiros como Firebase & AWS"
       ),
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
-    desenvolvimento web e aspirante a programador 10x.`,
-    description: `Um desenvolvedor de software Full Stack apaixonado 🚀 com experiência na construção de aplicativos Web com JavaScript / Reactjs / Nodejs e algumas outras bibliotecas e frameworks interessantes.
-    Estou focado em tecnologias de descentralização, como
-    mensageria, microserviços e microfrontend`,
+    desenvolvimento e aspirante a programador 10x.`,
+    description: `Um desenvolvedor Fullstack com mais de quatro anos de experiência desenvolvendo processos de
+    design novos e inovadores.`,
     seeMoreLabel: "Veja mais no Github",
   },
   stackProgress: [
@@ -139,7 +135,7 @@ export const data = {
         startDate: "2020",
         projectName: "Agendamento Doctor Pet",
         projectDesc:
-          "Um projeto onde trabalhei como desenvolvedor frontend junto com um desenvolvedor Sênior Angular no primerio vet com atendimento online.",
+          "A project where I worked as a frontend developer together with a Senior Angular developer at the first vet with online service.",
         footerLink: [
           {
             name: "Website",
@@ -158,15 +154,15 @@ export const data = {
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
-        images: ["images/portfolio/statistics/p1.jpeg"],
-        startDate: "2020",
-        projectName: "Online Statistics Functions",
-        projectDesc: "Um aplicativo de resolução de estatísticas com Angular no frontend e C# no backend.",
+        image: "/react-portfolio/images/portfolio/navega/p1.jpeg",
+        images: ["images/portfolio/navega/p1.jpeg"],
+        startDate: "2022",
+        projectName: "Navega",
+        projectDesc: "A startup that is revolutionizing the private pension sector in Brazil, creating a system from the ground up",
         footerLink: [
           {
-            name: "Website",
-            url: "https://distribuicao-dados-agrupados.web.app/"
+            name: "Navega",
+            url: ""
           }
         ],
         technologies: [
@@ -185,32 +181,56 @@ export const data = {
         ],
       },
       {
-        image: "/react-portfolio/images/portfolio/dicio/dicio.png",
-        images: [
-          "images/portfolio/dicio/dicio2.png",
-        ],
+        image: "/react-portfolio/images/portfolio/AMAVC/p1.png",
+        images: ["images/portfolio/AMAVC/p1.jpeg"],
         startDate: "2022",
-        projectName: "Dicionário rasquido",
-        projectDesc:
-        "O aplicativo fornece definição de palavras em tempo real para vídeos do youtube.",
+        projectName: "AMAVC",
+        projectDesc: "A scheduling dashboard for stroke a Prevention, Information, Treatment and Rehabilitation clinic",
         footerLink: [
           {
             name: "Website",
-            url: "https://dicio-rasquido-ss.herokuapp.com/videos"
+            url: "https://amavc.com.br"
           }
         ],
         technologies: [
           {
-            class: "devicon-vuejs-plain",
-            name: "Vue",
+            class: "devicon-angularjs-plain",
+            name: "Angular",
           },
           {
             class: "devicon-typescript-plain",
             name: "TypeScript",
           },
           {
-            class: "devicon-nodejs-plain",
-            name: "Nodejs",
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: "/react-portfolio/images/portfolio/ellas4/p1.jpeg",
+        images: ["images/portfolio/ellas4/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Ellas 4 subscription",
+        projectDesc: "Subscription logic on the frontend for adult website",
+        footerLink: [
+          {
+            name: "Website",
+            url: "https://ellas4.com/login"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
           },
         ],
       },
@@ -235,7 +255,7 @@ export const data = {
       company: "F3 Capital",
       companyWebsite: "https://f3capital.com.br",
       title: "Front-End Developer",
-      years: "2021 - 2022",
+      years: "2021 - 2023",
       mainTech: ["Angular >2 "],
       technologies: [
         "REST API",
@@ -248,11 +268,11 @@ export const data = {
         "Angular",
       ],      
       companylogo: require("../assets/images/f3Logo.jpg").default,
-      desc: "Atuação como Front-End Developer na F3 Capital.",
+      desc: "Atuação como Front-End Engineer na F3 Capital.",
       descBullets: [
-      "Desenvolvimento de biblioteca de UI para novas soluções",
-      "Desenvolvimento de pacotes de UI para novas soluções",
-      "Desenvolvimento Frontend",
+      "Desempenhei um papel fundamental no desenvolvimento de uma startup.",
+      "Implementei diretrizes de estilo para manter o design consistente em toda a equipe e criei uma biblioteca de UI empresarial com Storybook, aumentando a produtividade e a reutilização de código.",
+      "Adicionei testes de regressão com Cypress garantindo maior controle sobre funcionalidades.",
       ]
     },
     {
@@ -273,8 +293,9 @@ export const data = {
       desc: "Atuação como Front-End/Fullstack Developer na Interligados.",
       descBullets: [
       "End to end development de novos websites",
-      "Desenvolvimento de biblioteca de UI para novas soluções",
+      "Desenvolvi uma biblioteca UI customizada que aumentou a produtividade do desenvolvedor e a reutilização de código para a empresa",
       "Desenvolvimento de arquitetura e templates para novas soluções",
+      "Trabalhei em arquitetura de banco de dados, o seu tratamento e exibição no front-end"
       ]
     },
     {
@@ -296,7 +317,10 @@ export const data = {
       companylogo: require("../assets/images/santanderLogo.png").default,
       desc: `Desenvolvi o fluxo de open banking. Desafios recaptcha. Implementação de análise de uso em fluxos de empréstimo.`,
       descBullets: [
-        "Manutenção de APIs em ASP Net Core e Java",
+        "Participei do desenvolvimento do módulo 'Open Banking'  para alcançar a compliance com medidas externas em tempo hábil",
+        "Analisei os requisitos do projeto, traduzindo especificações em aplicação funcional dos componentes.",
+        "Aprimorei a implementação do monitoramento da experiência do usuário em operações de crédito com testes A/B.",
+        "Escalei problemas e preocupações para facilitar resoluções e evitar impactos nos cronogramas.",
         "Manutenção de Gateway Azure.",
         "Manutenção de Docker e Kubernetes.",
         "Micro-frontends com Reactjs.",
@@ -345,13 +369,12 @@ export const data = {
         "Dapper",
       ],
       companylogo: require("../assets/images/rumoLogo.png").default,
-      desc: "",
+      desc: " Empreguei diversas tecnologias front-end durante o desenvolvimento, incluindo Asp.Net, Angular e JQuery.",
       descBullets: [
-      "Desenvolvimento de aplicações em Asp.Net e Angular 9.",
-      "Manutenção de aplicações em Asp.Net MVC e Asp.Net Web Forms.",
-      "Manutenção de aplicações em Xamarin.Forms.",
-      "Desenvolvimento de Web-Crawlers.",
-      "Implementação de soluções com Machine Learning.",
+      "Desenvolvi aplicações prontas para uso em Asp.Net e Angular 9 para fins financeiros e para gestão de horas trabalhadas",
+      "Realizei manutenção de aplicações Asp.Net MVC e Asp.Net Web Forms e Xamarin.Forms para uso interno.",
+      "Desenvolvi Webcrawers implementando padrões de design de software como Factory, Decorator e Template para um cliente de banco fornecendo um dashboard para precatórios em todo o país",
+      "Implementei soluções de Machine Learning com IBM Watson para análise de documentos de ordens judiciais e desenvolvimento de chatbots de página institucional.",
       ]
     },
     {
@@ -375,7 +398,7 @@ export const data = {
       companylogo: require("../assets/images/rumoLogo.png").default,
       desc: "",
       descBullets: [
-      "Manutenção e desenvolvimento de aplicações",
+      "Aprendi ferramentas e processos corretos para diferentes tipos de desenvolvimento para minimizar erros e atingir os objetivos de codificação.",
       "Tecnologias: WebForms, Asp.Net Core, Angular",
       "Linguagens: C#, Javascript",
       ]

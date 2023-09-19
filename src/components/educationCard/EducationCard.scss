@@ -59,8 +59,7 @@
 }
 
 .education-card-right {
-  max-width: 70%;;
-  
+  width: 85%;
 }
 
 .education-text-subHeader {
@@ -86,6 +85,7 @@
 
 .education-text-bullets > ul {
   margin-top: 0.5rem;
+  list-style: none;
 }
 
 /* Media Query */

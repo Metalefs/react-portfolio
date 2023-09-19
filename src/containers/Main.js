@@ -60,27 +60,29 @@ const Main = (props) => {
             ) : (
               <>
                 <Header data={data.header}/>
-                <LanguageSwitch language={props.state.language} />
-                <Greeting data={data}/>
-                <Skills data={data}/>
-                <StackProgress data={data}/>
-                <Education data={data}/>
-                <WorkExperience data={data}/>
-                <Projects data={data}/>
-                <StartupProject data={data}/>
-                <Achievement data={data}/>
-                <Blogs data={data}/>
-                <Talks data={data}/>
-                <Twitter data={data}/>
-                <Podcast data={data}/>
-                <Profile data={data}/>
+                <div style={{zIndex:2}}>
+                  <LanguageSwitch language={props.state.language} />
+                  <Greeting data={data}/>
+                  <Skills data={data}/>
+                  <StackProgress data={data}/>
+                  <Education data={data}/>
+                  <WorkExperience data={data}/>
+                  <Projects data={data}/>
+                  <StartupProject data={data}/>
+                  <Achievement data={data}/>
+                  <Blogs data={data}/>
+                  <Talks data={data}/>
+                  <Twitter data={data}/>
+                  <Podcast data={data}/>
+                  <Profile data={data}/>
 
-                {/* <Testimonials /> */}
-                {/* <Conferences />
-                <Languages /> */}
-                {/* <Music /> */}
+                  {/* <Testimonials /> */}
+                  {/* <Conferences />
+                  <Languages /> */}
+                  {/* <Music /> */}
 
-                <Footer />
+                  <Footer />
+                </div>
                 <ScrollToTopButton />
               </>
             )}

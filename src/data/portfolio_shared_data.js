@@ -2,13 +2,12 @@ export const data = {
   basic_info: {
     name: "Jackson Pires",
     titles: [
-      "Website Developer",
-      "React Developer",
-      "Angular Developer",
-      "Node.js Developer",
-      "DotNet Developer",
-      "C# Developer",
-      "Fullstack/Fullcycle Developer",
+      "Innovative",
+      "React",
+      "Angular",
+      "Node.js",
+      "DotNet",
+      "Fullstack/Fullcycle",
     ],
     source_code: "https://github.com/Metalefs/react-portfolio",
     social: [
@@ -19,7 +18,7 @@ export const data = {
         class: "fab fa-instagram",
       },
     ],
-    image: "/images/myProfile.jpg",
+    image: "/images/myProfile.png",
   },
   skills: {
     icons: [

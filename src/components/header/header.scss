@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import "../../_globalColor";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /*React-headroom*/
 .headroom-wrapper {
@@ -21,29 +22,49 @@
   background-color: $buttonColor !important;
 }
 
-.header {
-  background-color: $lightBackground1;
+.header  {
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
-}
-
-.header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
+  &-hero {
+    background-color: rgb(65,105,225);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      justify-content: center;
+      overflow: hidden;
+    }
+    li a {
+      display: block;
+      padding: 10px 15px;
+      margin: 5px;
+      color: $textColor;
+      text-decoration: none;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  li a {
+    display: block;
+    padding: 15px 20px;
+    color: $textColor;
+    text-decoration: none;
+  }
 }
 
 .grey-color {
   color: $subTitle;
-}
-
-.header li a {
-  display: block;
-  padding: 15px 20px;
-  color: $textColor;
-  text-decoration: none;
 }
 
 .header li a:hover,
@@ -67,6 +88,7 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #55198b;
 }
 
 /* menu */
@@ -183,30 +205,35 @@
 }
 .title-styles{
   //radical font
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Open Sans';
   font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: azure;
+}
 
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 // /* ======= Header ======= */
 
 
-  // @media only screen and (min-width:780px) {
-  //   header{
-  //     -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
-  //   }
-  // }
+  @media only screen and (min-width:780px) {
+    header{
+      -webkit-box-reflect: below 2px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+      z-index: -1;
+    }
+  }
   
-//   .header .btn {
-//     font-weight: bold;
-//   }
+  .header-hero .btn {
+    font-weight: bold;
+  }
   
-//   .header .profile-image {
-//     margin: 0;
-//   }
-  .header .profile-content {
+  .header-hero .profile-image {
+    margin: 0;
+  }
+  .header-hero .profile-content {
     height: 100%;
     width: 100%;
     border-radius: 5rem;
@@ -214,13 +241,13 @@
     border-top-right-radius: 0rem;
     justify-content: space-evenly;
     align-items: center;
-    
+    display: flex;
     color: #000;
   }
 
   /* Media Query */
 @media (min-width: 1080px) {
-  .header .profile-content {
+  .header-hero .profile-content {
     padding: 2rem;
   }
 }
@@ -238,49 +265,52 @@
 //     font-weight: 600;
 //   }
   
-//   .social a {
-//     background: #b0b7bf;
-//     width: 36px;
-//     height: 36px;
-//     display: inline-block;
-//     border-radius: 50%;
-//     -moz-background-clip: padding;
-//     -webkit-background-clip: padding-box;
-//     background-clip: padding-box;
-//     color: #fff;
-//     text-align: center;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
+  .social a {
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    transition: all .5s;
+  }
   
-//   .header .profile-content .social a:hover {
-//     background: #778492;
-//   }
+  .social a:hover {
+    opacity: 1;
+  }
   
-//   .header .profile-content .social a .svg-inline--fa {
-//     font-size: 20px;
-//     margin-top: 8px;
-//   }
+  .header .profile-content .social a .svg-inline--fa {
+    font-size: 20px;
+    margin-top: 8px;
+  }
 
 body[data-theme="dark"] .header {
   opacity: .95;
-  color: black;
+  color: white;
   border-top-color: #1e2124;
+  background: #2e3238;
 }
 .styles_typicalWrapper__1_Uvh {
   //color: black !important;
 }
 body[data-theme="dark"] .profile-content{
   //background: #2e3238a6;
-  color: black !important;
+  color: white !important;
 }
 body[data-theme="dark"] .profile-content .name {
-  color: black !important;
+  color: white !important;
 }
 
 body[data-theme="dark"] .profile-content .desc {
-  color: black !important;
+  color: white !important;
 }
 
 body[data-theme="dark"] .profile-content .social a {

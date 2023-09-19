@@ -12,13 +12,13 @@ export const data = {
   },
   greeting: {
     resumeLink:
-      "https://drive.google.com/file/d/1ejUPC8MUgloIGQJAQPjViPhMjGlv3_Te/view?usp=sharing", // Set to empty to hide the button
+      "https://resume.io/r/rfLiie4YG", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
   },
   basic_info: {
     description_header: "Hello World!",
-    description: `👋 My name is Jackson Pires. I'm working with the newest front-end frameworks like Angular, React and Vue. 
-      I work with technologies:
+    description: `👋 My name is Jackson Ramalho. I'm working with the newest front-end frameworks such as React, Angular and Vue. 
+      I work with:
         Nodejs,
         .Net Core,
         Angular &
@@ -26,14 +26,14 @@ export const data = {
       
       My main interest at the moment has been to decouple monolithic applications by orchestrating them following a microservice architecture pattern.
       
-      I have extra knowledge of technologies:
+      I have extra knowledge of:
         Asp.Net MVC and Web Forms &
         PHP.
       
-      I work with native Application development in technologies:
+      I work with native Application development in:
         Xamarin.Forms,
       
-      I am interested in developing native applications with React Native, or other Cross-Platform frameworks in the future. `,
+      I am interested in developing native applications with React Native, or other Cross-Platform frameworks. `,
   },
   section_name: {
     contact: "Contact Me",
@@ -68,9 +68,7 @@ export const data = {
     ],
     title: `I am a web developer generalist and aspiring 10x programmer.`,
     description: `
-    A passionate Full Stack software developer 🚀 with experience building web apps with JavaScript / Reactjs / Nodejs and some other interesting libraries and frameworks.
-     I'm focused on decentralization technologies such as
-     messaging, microservices and microfrontend`,
+    Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software..`,
     seeMoreLabel: "See more on Github",
   },
   stackProgress: [
@@ -151,6 +149,87 @@ export const data = {
           {
             class: "devicon-typescript-plain",
             name: "TypeScript",
+          },
+        ],
+      },
+      {
+        image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
+        images: ["images/portfolio/statistics/p1.jpeg"],
+        startDate: "2022",
+        projectName: "Navega",
+        projectDesc: "A startup that is revolutionizing the private pension sector in Brazil, creating a system from the ground up",
+        footerLink: [
+          {
+            name: "Navega",
+            url: ""
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: "/react-portfolio/images/portfolio/AMAVC/p1.png",
+        images: ["images/portfolio/statistics/p1.jpeg"],
+        startDate: "2022",
+        projectName: "AMAVC",
+        projectDesc: "A scheduling dashboard for stroke a Prevention, Information, Treatment and Rehabilitation clinic",
+        footerLink: [
+          {
+            name: "Website",
+            url: "https://amavc.com.br"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
+          },
+        ],
+      },
+      {
+        image: "/react-portfolio/images/portfolio/statistics/p1.jpeg",
+        images: ["images/portfolio/statistics/p1.jpeg"],
+        startDate: "2020",
+        projectName: "Ellas 4 subscription",
+        projectDesc: "Subscription logic on the frontend for adult website",
+        footerLink: [
+          {
+            name: "Website",
+            url: "https://ellas4.com/login"
+          }
+        ],
+        technologies: [
+          {
+            class: "devicon-angularjs-plain",
+            name: "Angular",
+          },
+          {
+            class: "devicon-typescript-plain",
+            name: "TypeScript",
+          },
+          {
+            class: "devicon-csharp-plain",
+            name: "C#",
           },
         ],
       },

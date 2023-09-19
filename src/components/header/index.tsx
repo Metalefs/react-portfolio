@@ -6,7 +6,7 @@ import ProfileLinks from "./components/profileLinks";
 import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
-
+import headerbg from './herobg.jpeg'
 import "./header.scss";
 import ProfileImage from "./components/profileImage";
 import { LanguageContext } from "../../hocs/languageContext";
@@ -66,16 +66,16 @@ function Header(props) {
     .map((x) => [x.toUpperCase(), 3500])
     .flat();
   const name = sharedBasicInfo.basic_info.name;
-  const springConfig = useSpring({
-    loop: true,
-    config: config.gentle,
-    from: { transform: "translate3d(0, 0px,0)" },
-    to: [
-      { transform: "translate3d(0, 2px,0)" },
-      { transform: "translate3d(0, 0px,0)" },
-    ],
-    duration: 500,
-  });
+  // const springConfig = useSpring({
+  //   loop: true,
+  //   config: config.gentle,
+  //   from: { transform: "translate3d(0, 0px,0)" },
+  //   to: [
+  //     { transform: "translate3d(0, 2px,0)" },
+  //     { transform: "translate3d(0, 0px,0)" },
+  //   ],
+  //   duration: 500,
+  // });
   <div className="mx-4">
     <span
       className="iconify"
@@ -154,31 +154,31 @@ function Header(props) {
       </Headroom>
 
       <div
-        className="header row align-items-center justify-content-center"
+        className="header-hero row align-items-center justify-content-center"
+        style={
+          {
+            backgroundImage: `url(${headerbg})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+          }
+        }
         id="home"
       >
-        <div className="profile-content">
-          <animated.div style={springConfig}>
+        <div className="profile-content d-flex">
             <div className="">
-              {/* <ProfileImage /> */}
-              <div className="mx-4">
-                <span
-                  className="iconify"
-                  data-icon="fontelico:emo-coffee"
-                  data-width="150"
-                ></span>
-              </div>
+              <ProfileImage />
             </div>
+          <animated.div>
 
             <div>
               <h1 className="mb-0 name">
-                <Typical className="name" steps={[name]} wrapper="p" />
+              <span className="title-styles desc"> {name}</span>
               </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
+              <div className="title-container d-flex">
+                <HeaderTitleTypeAnimation /> <span className="title-styles desc"> DEV</span>
               </div>
-            </div>
             <ProfileLinks />
+            </div>
           </animated.div>
           {/* <ContactButton mailto={mailto}></ContactButton> */}
         </div>
