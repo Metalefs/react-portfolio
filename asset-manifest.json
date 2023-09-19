@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bce3c637.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c3316d4f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c3316d4f.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.f0f221e8.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f0f221e8.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.59adc45b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.59adc45b.js.map",
     "static/js/2.4be47bfd.chunk.js": "/react-portfolio/static/js/2.4be47bfd.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/facisaLogo.png": "/react-portfolio/static/media/facisaLogo.f7c2afd5.png",
     "static/media/googleAssistantLogo.webp": "/react-portfolio/static/media/googleAssistantLogo.f720c716.webp",
     "static/media/harvardLogo.png": "/react-portfolio/static/media/harvardLogo.542dab89.png",
-    "static/media/herobg.9b1871c5.jpeg": "/react-portfolio/static/media/herobg.9b1871c5.jpeg",
+    "static/media/herobg.464625fb.jpeg": "/react-portfolio/static/media/herobg.464625fb.jpeg",
     "static/media/interligadosLogo.png": "/react-portfolio/static/media/interligadosLogo.a4f1446f.png",
     "static/media/manOnTable.svg": "/react-portfolio/static/media/manOnTable.8f117eb2.svg",
     "static/media/nextuLogo.webp": "/react-portfolio/static/media/nextuLogo.e033dbfa.webp",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.59adc45b.js",
     "static/js/2.4be47bfd.chunk.js",
     "static/css/main.bce3c637.chunk.css",
-    "static/js/main.c3316d4f.chunk.js"
+    "static/js/main.f0f221e8.chunk.js"
   ]
 }
