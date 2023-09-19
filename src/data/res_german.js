@@ -11,7 +11,7 @@ export const data = {
     contact: "Kontakt",
   },
   greeting: {
-    resumeLink: "https://my.indeed.com/p/t5j12kj",
+    resumeLink: "https://resume.io/r/JGutirjVB",
     displayGreeting: true,
   },
   basic_info: {

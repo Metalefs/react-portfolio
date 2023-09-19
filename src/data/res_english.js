@@ -12,7 +12,7 @@ export const data = {
    },
    greeting: {
      resumeLink:
-       "https://my.indeed.com/p/t5j12kj", // Set to empty to hide the button
+       "https://resume.io/r/JGutirjVB", // Set to empty to hide the button
      displayGreeting: true // Set false to hide this section, defaults to true
    },
    basic_info: {
@@ -315,7 +315,7 @@ export const data = {
          "Reactjs",
          "Angular",
        ],
-       withpanylogo: require("../assets/images/santanderLogo.png").default,
+       companylogo: require("../assets/images/santanderLogo.png").default,
        desc: `I developed the open banking flow. Recaptcha challenges. Implementation of usage analysis on loan flows.`,
        descBullets: [
          "I participated in the development of the 'Open Banking' module to achieve compliance with external measures in a timely manner",
