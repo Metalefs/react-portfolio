@@ -6,7 +6,7 @@ import ProfileLinks from "./components/profileLinks";
 import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
-import headerbg from './herobg.jpeg'
+import headerbg from './herobg.jpg'
 import "./header.scss";
 import ProfileImage from "./components/profileImage";
 import { LanguageContext } from "../../hocs/languageContext";
