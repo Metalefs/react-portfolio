@@ -60,7 +60,7 @@ export default function Projects(props) {
                   );
                 })}
           </div>
-          <Github/>
+          {/* <Github/> */}
           <Button
             text={props.data.section_name.moreProjects}
             className="project-button"

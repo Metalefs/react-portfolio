@@ -69,7 +69,7 @@ const Main = (props) => {
                   <WorkExperience data={data}/>
                   <Projects data={data}/>
                   <StartupProject data={data}/>
-                  <Achievement data={data}/>
+                  {/* <Achievement data={data}/> */}
                   <Blogs data={data}/>
                   <Talks data={data}/>
                   <Twitter data={data}/>

@@ -42,9 +42,9 @@ export const data = {
   skills: {
     subTitle: "FULLSTACK-ENTWICKLER, DER JEDEN TECH-STACK ERKUNDEN MÖCHTE",
     skills: [
-      emoji("⚡ Ich entwickle hochfunktionale und interaktive Benutzeroberflächen/Frontends für Webanwendungen"),
-      emoji("⚡ Progressive Webanwendungen (PWA) in normalen Stacks (Dotnet, PHP) und in SPAs"),
-      emoji("Integration von Drittanbieterdiensten wie Firebase und AWS"),
+      "⚡ Ich entwickle hochfunktionale und interaktive Benutzeroberflächen/Frontends für Webanwendungen",
+      "⚡ Progressive Webanwendungen (PWA) in normalen Stacks (Dotnet, PHP) und in SPAs",
+      "Integration von Drittanbieterdiensten wie Firebase und AWS",
     ],
     title:
       "Ich bin ein Autodidakt, der sich mit der Entwicklung neuer Technologien beschäftigt und zehnmal ein angehender Programmierer ist.",

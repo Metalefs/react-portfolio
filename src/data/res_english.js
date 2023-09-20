@@ -57,13 +57,13 @@ export const data = {
      subTitle:
        "FULLSTACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
      skills: [
-       emoji(
+       
          "⚡ I develop highly functional and interactive user interfaces/front-end for web applications"
-       ),
-       emoji("⚡ Progressive Web Applications (PWA) in normal Stacks (Dotnet, php) and in SPAs"),
-       emoji(
+       ,
+       "⚡ Progressive Web Applications (PWA) in normal Stacks (Dotnet, php) and in SPAs",
+       
          "⚡ Integration of third-party services like Firebase & AWS"
-       ),
+       ,
      ],
      title: `I am a self-taught person learning new technology
      development and aspiring programmer 10x.`,

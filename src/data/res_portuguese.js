@@ -57,18 +57,21 @@ export const data = {
     subTitle:
       "DESENVOLVEDOR FULLSTACK QUE QUER EXPLORAR CADA TECH STACK",
     skills: [
-      emoji(
+      
         "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web"
-      ),
-      emoji("⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php) e em SPAs"),
-      emoji(
+      ,
+      "⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php) e em SPAs",
+      
         "⚡ Integração de serviços de terceiros como Firebase & AWS"
-      ),
+      ,
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
     desenvolvimento e aspirante a programador 10x.`,
-    description: `Um desenvolvedor Fullstack com mais de quatro anos de experiência desenvolvendo processos de
-    design novos e inovadores.`,
+    description: `Profissional da área de Desenvolvimento com mais de dois anos de experiência no lado do cliente e com bom background de dois anos de experiência no lado do servidor(back-end), atuando em empresas de médio e grande porte do segmentos financeiro e marketing digital.
+
+    Tenho conhecimento sólido em padrões de software com C#, Angular e Node.js. 
+    Prática em migração, refatoração de código, desenvolvimento de apps em mono-repositorios, construção de APIs e interfaces, e atomização de design. 
+    Possuo vasta experiência em versionamento com Git, e TFS.`,
     seeMoreLabel: "Veja mais no Github",
   },
   stackProgress: [
