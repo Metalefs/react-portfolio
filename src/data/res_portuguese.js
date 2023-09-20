@@ -67,11 +67,8 @@ export const data = {
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
     desenvolvimento e aspirante a programador 10x.`,
-    description: `Profissional da área de Desenvolvimento com mais de dois anos de experiência no lado do cliente e com bom background de dois anos de experiência no lado do servidor(back-end), atuando em empresas de médio e grande porte do segmentos financeiro e marketing digital.
-
-    Tenho conhecimento sólido em padrões de software com C#, Angular e Node.js. 
-    Prática em migração, refatoração de código, desenvolvimento de apps em mono-repositorios, construção de APIs e interfaces, e atomização de design. 
-    Possuo vasta experiência em versionamento com Git, e TFS.`,
+    description: `Sou um Profissional da área de Desenvolvimento com mais de dois anos de experiência no lado do cliente e com bom background de dois anos de experiência no lado do servidor!(back-end)
+    Sou apaixonado pelo que faço, e busco sempre novos desafios e conhecimento!`,
     seeMoreLabel: "Veja mais no Github",
   },
   stackProgress: [
