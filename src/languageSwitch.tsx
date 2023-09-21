@@ -44,7 +44,7 @@ export default class LanguageSwitch extends Component<{ language: Language }, {}
                   data-inline="false"
                 ></span>
               </div>
-              <div
+              {/* <div
                 onClick={() => {
                   toggleLanguage(Language.GER);
                 }}
@@ -61,7 +61,7 @@ export default class LanguageSwitch extends Component<{ language: Language }, {}
                   data-width="45"
                   data-inline="false"
                 ></span>
-              </div>
+              </div> */}
             </div>
           )}
         </LanguageContext.Consumer>

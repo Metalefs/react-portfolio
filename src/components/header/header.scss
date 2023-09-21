@@ -28,6 +28,13 @@
   margin: 0px auto;
   background-color: $lightBackground1;
   &-hero {
+    .left {
+      background: #171c28;
+      border-radius: 20%;
+      padding: 10px;
+      transform: rotate3d(1, 4, 4, -2deg);
+    }
+    
     background-color: rgb(65,105,225);
     display: flex;
     align-items: center;
@@ -220,12 +227,12 @@
 // /* ======= Header ======= */
 
 
-  @media only screen and (min-width:780px) {
-    header{
-      -webkit-box-reflect: below 2px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
-      z-index: -1;
-    }
-  }
+  // @media only screen and (min-width:780px) {
+  //   header{
+  //     -webkit-box-reflect: below 2px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+  //     z-index: -1;
+  //   }
+  // }
   
   .header-hero .btn {
     font-weight: bold;
@@ -233,6 +240,8 @@
   
   .header-hero .profile-image {
     margin: 0;
+    border-radius: 30%;
+    filter: grayscale(70%);
   }
   .header-hero .profile-content {
     height: 100%;

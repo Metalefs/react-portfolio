@@ -126,8 +126,8 @@ export const data = {
      },
    ],
    projects: {
-     title: "Large Projects",
-     subtitle: "SOME STARTUPS I'M WORKING ON",
+     title: "Projects",
+     subtitle: "SOME PROJECTS I WORKED ON",
      projects: [
        {
          image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
@@ -270,10 +270,10 @@ export const data = {
        companylogo: require("../assets/images/f3Logo.jpg").default,
        desc: "Working as Front-End Engineer at F3 Capital.",
        descBullets: [
-       "I played a fundamental role in the development of a startup.",
-       "Implemented an end-to-end rule engine to perform custom payroll processing",
-       "I implemented style guidelines to keep design consistent across the team and created an enterprise UI library with Storybook, increasing productivity and code reuse.",
-       "I added regression tests with Cypress ensuring greater control over features.",
+       "Developed a business rules engine to perform personalized payroll processing.",
+       "Gathered requirements and developed a library of business interface components that has Storybook for designers to access, increasing team integration and development productivity.",
+       "Reduced more than 80% of code duplication in the system, carrying out refactors with the help of Sonarqube.",
+       "I proposed and was responsible for implementing regression tests using Cypress, which guarantees greater control over existing functionalities. Likewise, I improved test coverage with the help of Jest. ",
        ]
      },
      {
@@ -294,8 +294,8 @@ export const data = {
        desc: "Working as Front-End/Fullstack Developer at Interligados.",
        descBullets: [
        "End to end development of new websites",
-       "Developed a custom UI library that increased developer productivity and code reuse for the company",
-       "Development of architecture and templates for new solutions",
+       "Developed a component library in a monorepository containing a project of models and interfaces, enabling inversion of control and Dependency Injection, which increased productivity and code reuse for the entire company. ",
+       "Developed project templates that facilitated the startup of all new projects.",
        "I worked on database architecture, its treatment and display on the front-end"
        ]
      },
@@ -318,10 +318,10 @@ export const data = {
        companylogo: require("../assets/images/santanderLogo.png").default,
        desc: `I developed the open banking flow. Recaptcha challenges. Implementation of usage analysis on loan flows.`,
        descBullets: [
-         "I participated in the development of the 'Open Banking' module to achieve compliance with external measures in a timely manner",
-         "I analyzed the project requirements, translating specifications into functional application of the components.",
-         "Improved the implementation of user experience monitoring in credit operations with A/B testing.",
-         "I escalated problems and concerns to facilitate resolutions and avoid impacts on schedules.",
+         "Developed the open banking flow in Reactjs, implementing calls with microservices architecture.",
+         "I worked on anti-fraud protection of transactions on the website with Google ReCaptcha V2 challenges, I also carried out fraudulent usage analysis in loan flows, considerably reducing automated access to the system. ",
+         "Improved the implementation of user experience monitoring in credit operations with A/B tests, validating new action plans in the design. ",
+         "I was responsible for versioning at runtime on the front-end with the implementation of Feature-flagging with Azure Devops, allowing updates to Open Banking services not to affect the user experience, for this I created a library in react for the company, available on NPM",
          "Azure Gateway Maintenance.",
          "Docker and Kubernetes maintenance.",
          "Micro-frontends with Reactjs.",
@@ -372,10 +372,10 @@ export const data = {
        companylogo: require("../assets/images/rumoLogo.png").default,
        desc: "I employed several front-end technologies during development, including Asp.Net, Angular and JQuery.",
        descBullets: [
-       "I developed ready-to-use applications in Asp.Net and Angular 9 for financial purposes and for managing working hours",
-       "I maintained Asp.Net MVC and Asp.Net Web Forms and Xamarin.Forms applications for internal use.",
-       "I developed Webcrawers implementing software design patterns such as Factory, Decorator and Template for a bank client providing a dashboard for court orders across the country",
-       "I implemented Machine Learning solutions with IBM Watson to analyze court order documents and develop institutional page chatbots.",
+       "I used several technologies during development in a software factory, including Asp.Net, Angular, Python, JQuery and Watson.",
+       "Performed maintenance on Asp.Net MVC and Asp.Net Web Forms and Xamarin applications for internal use. ",
+       "During the period of isolation caused by Covid 19, I developed a functionality that allows enabling IP addresses in the company's VPN, with a Xamarin app bridged with Ansible, which whitelists the IP in the company's network. This work made it much easier for employees to work from home.",
+       "Developed Webcrawers implementing software design patterns such as Factory, Decorator and Template for a bank client, providing a dashboard for court orders across the country.",
        ]
      },
      {
@@ -406,7 +406,7 @@ export const data = {
      },
    ],
    achievements: {
-     title: emoji("Achievements and Certifications 🏆 "),
+     title: "Achievements and Certifications 🏆 ",
      subtitle:
        "Achievements, Certifications, Awards and Some Cool Things I Did!",
   
@@ -441,9 +441,9 @@ export const data = {
    },
    talks: {
      title: "TALKS",
-     subtitle: emoji(
+     subtitle: 
        "I LOVE TO SHARE MY LIMITED KNOWLEDGE 😅"
-     ),
+     ,
   
      talks: [
        {
@@ -455,7 +455,7 @@ export const data = {
      ],
      display: false // Set false to hide this section, defaults to true
    },podcasts: {
-    title: emoji("Podcast 🎙️"),
+    title: "Podcast 🎙️",
     subtitle: "I LOVE TALKING ABOUT MYSELF AND TECHNOLOGY",
  
     // Please Provide with Your Podcast embedded Link
@@ -465,7 +465,7 @@ export const data = {
     display: false // Set false to hide this section, defaults to true
   },
   contactInfo: {
-    title: emoji("Contact me ☎️"),
+    title: "Contact me ☎️",
     subtitle:
       "Discussing a proposal or just want to say hi? My inbox is open.",
     number: "+55-31987576467",

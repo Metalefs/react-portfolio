@@ -35,11 +35,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/metalefs",
   linkedin: "https://www.linkedin.com/in/jackson-pires-ramalho-58a2a080/",
-  gmail: "jackson.pires.rm@gmail.com",
-  gitlab: "https://gitlab.com/metalefs",
+  //gmail: "jackson.pires.rm@gmail.com",
+  //gitlab: "https://gitlab.com/metalefs",
   // facebook: "#",
   medium: "https://medium.com/@jackson.pires.rm",
-  stackoverflow: "https://stackoverflow.com/users/10509394",
+  //stackoverflow: "https://stackoverflow.com/users/10509394",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false

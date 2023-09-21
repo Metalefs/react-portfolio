@@ -6,7 +6,7 @@ import ProfileLinks from "./components/profileLinks";
 import { SharedData, SharedDataContext } from "../../hocs/sharedDataProvider";
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
-import headerbg from './herobg.jpg'
+import headerbg from './code.jpeg'
 import "./header.scss";
 import ProfileImage from "./components/profileImage";
 import { LanguageContext } from "../../hocs/languageContext";
@@ -170,9 +170,9 @@ function Header(props) {
             </div>
           <animated.div>
 
-            <div>
+            <div className="left">
               <h1 className="mb-0 name">
-              <span className="title-styles desc"> {name}</span>
+                <span className="title-styles desc"> {name}</span>
               </h1>
               <div className="title-container d-flex">
                 <HeaderTitleTypeAnimation /> <span className="title-styles desc"> DEV</span>

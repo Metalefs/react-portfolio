@@ -29,12 +29,13 @@ import Music from "../components/music";
 import Conferences from "../components/conferences";
 
 const Main = (props) => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  const darkPref = {matches:true}//window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
   useEffect(() => {
+    setIsDark(true);
     if (splashScreen.enabled) {
       const splashTimer = setTimeout(
         () => setIsShowingSplashAnimation(false),

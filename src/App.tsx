@@ -126,7 +126,7 @@ class App extends Component<
               </div>
             </div>
           </div> */}
-          <SharedDataContext.Consumer>
+          {/* <SharedDataContext.Consumer>
             {(data: SharedData | {}) => (
               <div className="d-flex justify-content-center pb-3">
                 <span
@@ -143,7 +143,7 @@ class App extends Component<
               </div>
             )}
           </SharedDataContext.Consumer>
-          <Footer/>
+          <Footer/> */}
         </div>
       </LanguageContext.Provider>
     );

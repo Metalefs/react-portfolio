@@ -7,9 +7,9 @@ function ProfileImage() {
     const profilepic = sharedBasicInfo.basic_info.image;
     return ( <img
         className="profile-image img-fluid mb-1"
-        width="300"
-        height="300"
-        style={{ borderRadius: "20%",border:"none" }}
+        width="200"
+        height="200"
+        style={{ filter: 'greyscale(100%)', borderRadius: "20%",border:"none" }}
         src={process?.env.PUBLIC_URL +profilepic}
         alt="profile"
       /> );

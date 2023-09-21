@@ -57,13 +57,9 @@ export const data = {
     subTitle:
       "DESENVOLVEDOR FULLSTACK QUE QUER EXPLORAR CADA TECH STACK",
     skills: [
-      
-        "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web"
-      ,
+      "⚡ Desenvolvo interfaces de usuário / front-end altamente funcionais e interativas para aplicativos Web",
       "⚡ Progressive Web Applications ( PWA ) em Stacks normais (Dotnet, php) e em SPAs",
-      
-        "⚡ Integração de serviços de terceiros como Firebase & AWS"
-      ,
+      "⚡ Integração de serviços de terceiros como Firebase & AWS",
     ],
     title: `Sou um Autodidata no aprendizado de novas tecnologias de
     desenvolvimento e aspirante a programador 10x.`,
@@ -126,8 +122,8 @@ export const data = {
     },
   ],
   projects: {
-    title: "Projetos Grandes",
-    subtitle: "ALGUMAS STARTUPS EM QUE ESTOU TRABALHANDO",
+    title: "Projetos",
+    subtitle: "ALGUNS PROJETOS EM QUE TRABALHEI",
     projects: [
       {
         image: "/react-portfolio/images/portfolio/schedule/p1.jpeg",
@@ -270,10 +266,11 @@ export const data = {
       companylogo: require("../assets/images/f3Logo.jpg").default,
       desc: "Atuação como Front-End Engineer na F3 Capital.",
       descBullets: [
-      "Desempenhei um papel fundamental no desenvolvimento de uma startup.",
+      "Desenvolvi um motor de regras de negócio para realizar processamento personalizado de folhas de pagamento.",
       "Implementei um motor de regras de negócio ponta a ponta para realizar processamento personalizado de folhas de pagamento",
-      "Implementei diretrizes de estilo para manter o design consistente em toda a equipe e criei uma biblioteca de UI empresarial com Storybook, aumentando a produtividade e a reutilização de código.",
+      "Levantei os requisitos e desenvolvi uma biblioteca de componentes de interface empresarial que possui Storybook para visualização dos designers, aumentando a integração da equipe e a produtividade do desenvolvimento.",
       "Adicionei testes de regressão com Cypress garantindo maior controle sobre funcionalidades.",
+      "Reduzi mais de 80% da duplicidade de código no sistema, realizando refatorações com auxílio do Sonarqube.",
       ]
     },
     {
@@ -294,9 +291,9 @@ export const data = {
       desc: "Atuação como Front-End/Fullstack Developer na Interligados.",
       descBullets: [
       "End to end development de novos websites",
-      "Desenvolvi uma biblioteca UI customizada que aumentou a produtividade do desenvolvedor e a reutilização de código para a empresa",
-      "Desenvolvimento de arquitetura e templates para novas soluções",
-      "Trabalhei em arquitetura de banco de dados, o seu tratamento e exibição no front-end"
+      "Desenvolvi uma biblioteca de componentes em monorepositório contendo um projeto de modelos e interfaces, possibilitando a inversão de controle e Dependency Injection, o que aumentou a produtividade e reutilização de código para toda a empresa.",
+      "Desenvolvi templates de projetos que facilitaram a inicialização de todos os novos projetos.",
+      "Trabalhei em arquitetura de banco de dados, o seu tratamento e exibição no front-end."
       ]
     },
     {
@@ -320,8 +317,8 @@ export const data = {
       descBullets: [
         "Participei do desenvolvimento do módulo 'Open Banking'  para alcançar a compliance com medidas externas em tempo hábil",
         "Analisei os requisitos do projeto, traduzindo especificações em aplicação funcional dos componentes.",
-        "Aprimorei a implementação do monitoramento da experiência do usuário em operações de crédito com testes A/B.",
-        "Escalei problemas e preocupações para facilitar resoluções e evitar impactos nos cronogramas.",
+        "Aprimorei a implementação do monitoramento da experiência do usuário em operações de crédito com testes A/B, validando novos planos de ação no design.",
+        "Fui responsável pelo versionamento em tempo de execução no front-end com a implementação deFeature-flagging com Azure Devops, permitindo com que atualizações nos serviços de Open Banking não afetassem a experiencia do usuário, para isso eu criei uma biblioteca em react para a empresa, disponibilizada no NPM.",
         "Manutenção de Gateway Azure.",
         "Manutenção de Docker e Kubernetes.",
         "Micro-frontends com Reactjs.",
@@ -346,9 +343,9 @@ export const data = {
       companylogo: require("../assets/images/pluralLogo.png").default,
       desc: "Freelance",
       descBullets: [
-      "Desenvolvimento de aplicações web com Angular com Design System próprio",
-      "Event-Driven Architecture",
-      "Multi-Tenancy",
+        "Desenvolvimento de aplicações web com Angular com Design System próprio",
+        "Event-Driven Architecture",
+        "Multi-Tenancy",
       ]
     },
     {
