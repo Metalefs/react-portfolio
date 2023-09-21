@@ -266,11 +266,8 @@ export const data = {
       companylogo: require("../assets/images/f3Logo.jpg").default,
       desc: "Atuação como Front-End Engineer na F3 Capital.",
       descBullets: [
-      "Desenvolvi um motor de regras de negócio para realizar processamento personalizado de folhas de pagamento.",
-      "Implementei um motor de regras de negócio ponta a ponta para realizar processamento personalizado de folhas de pagamento",
-      "Levantei os requisitos e desenvolvi uma biblioteca de componentes de interface empresarial que possui Storybook para visualização dos designers, aumentando a integração da equipe e a produtividade do desenvolvimento.",
-      "Adicionei testes de regressão com Cypress garantindo maior controle sobre funcionalidades.",
-      "Reduzi mais de 80% da duplicidade de código no sistema, realizando refatorações com auxílio do Sonarqube.",
+      "implementei em um motor de regras de  negócio para realizar processamento personalizado de folhas de pagamento do zero, tendo como cliente a maior entidade de previdência fechada do páís, Vivest. Esse projeto vai afetar milhões de pessoas.",
+      "Desenvolvi uma biblioteca de componentes do zero, que possui Storybook para compliance com os designers e Implantei testes de regressão com Cypress, garantindo monitoramento de funcionalidades. Com a abordagem de componentização, reduzi em mais de 50% a duplicidade de código no sistema em relatorio do Sonarqube.",
       ]
     },
     {
@@ -291,9 +288,8 @@ export const data = {
       desc: "Atuação como Front-End/Fullstack Developer na Interligados.",
       descBullets: [
       "End to end development de novos websites",
-      "Desenvolvi uma biblioteca de componentes em monorepositório contendo um projeto de modelos e interfaces, possibilitando a inversão de controle e Dependency Injection, o que aumentou a produtividade e reutilização de código para toda a empresa.",
+      "Como desenvolvedor Fullstack, fui responsável pela criação de projetos de dashboard para vários clientes.",
       "Desenvolvi templates de projetos que facilitaram a inicialização de todos os novos projetos.",
-      "Trabalhei em arquitetura de banco de dados, o seu tratamento e exibição no front-end."
       ]
     },
     {
@@ -315,14 +311,9 @@ export const data = {
       companylogo: require("../assets/images/santanderLogo.png").default,
       desc: `Desenvolvi o fluxo de open banking. Desafios recaptcha. Implementação de análise de uso em fluxos de empréstimo.`,
       descBullets: [
-        "Participei do desenvolvimento do módulo 'Open Banking'  para alcançar a compliance com medidas externas em tempo hábil",
-        "Analisei os requisitos do projeto, traduzindo especificações em aplicação funcional dos componentes.",
-        "Aprimorei a implementação do monitoramento da experiência do usuário em operações de crédito com testes A/B, validando novos planos de ação no design.",
-        "Fui responsável pelo versionamento em tempo de execução no front-end com a implementação deFeature-flagging com Azure Devops, permitindo com que atualizações nos serviços de Open Banking não afetassem a experiencia do usuário, para isso eu criei uma biblioteca em react para a empresa, disponibilizada no NPM.",
-        "Manutenção de Gateway Azure.",
-        "Manutenção de Docker e Kubernetes.",
-        "Micro-frontends com Reactjs.",
-        "Microserviçõs.",
+        "Trabalhei como Desenvolvedor Fullstack na implementação do fluxo de Open Banking do Santander, um dos maiores bancos do mundo. Desenvolvi interfaces responsivas utilizando Reactjs e SCSS e mantive arquivos de Docker, Kubernetes e Gateways.",
+        "Atuei na proteção anti-fraude das transações no site com desafios do Google ReCaptcha V2 reduzindo consideravelmente os acessos robotizados ao sistema.",
+        "Versionei o front-end em tempo de execução com  Feature-flagging, impedindo que atualizações nos serviços de Open Banking afetassem a experiencia do usuário.",
       ]
     },
     {
@@ -367,9 +358,9 @@ export const data = {
         "Dapper",
       ],
       companylogo: require("../assets/images/rumoLogo.png").default,
-      desc: " Empreguei diversas tecnologias front-end durante o desenvolvimento, incluindo Asp.Net, Angular e JQuery.",
+      desc: " Trabalhei como Desenvolvedor .NET em uma fabrica de software renomada, com clientes fortes e outsourcing para diversos bancos da região.",
       descBullets: [
-      "Desenvolvi aplicações prontas para uso em Asp.Net e Angular 9 para fins financeiros e para gestão de horas trabalhadas",
+      "Durante o periodo de isolamento causado pela Covid 19, desenvolvi do zero uma funcionalidade que permite liberar endereços IP no servidor da empresa em Xamarin",
       "Realizei manutenção de aplicações Asp.Net MVC e Asp.Net Web Forms e Xamarin.Forms para uso interno.",
       "Desenvolvi Webcrawers implementando padrões de design de software como Factory, Decorator e Template para um cliente de banco fornecendo um dashboard para precatórios em todo o país",
       "Implementei soluções de Machine Learning com IBM Watson para análise de documentos de ordens judiciais e desenvolvimento de chatbots de página institucional.",
@@ -394,7 +385,7 @@ export const data = {
         "Dapper",
       ],
       companylogo: require("../assets/images/rumoLogo.png").default,
-      desc: "",
+      desc: "Estágio",
       descBullets: [
       "Aprendi ferramentas e processos corretos para diferentes tipos de desenvolvimento para minimizar erros e atingir os objetivos de codificação.",
       "Tecnologias: WebForms, Asp.Net Core, Angular",
@@ -403,7 +394,7 @@ export const data = {
     },
   ],
   achievements: {
-    title: emoji("Conquistas e Certificações 🏆 "),
+    title: "Conquistas e Certificações 🏆 ",
     subtitle:
       "Conquistas, Certificações, Premiações e Algumas Coisas Legais que eu Fiz !",
   
