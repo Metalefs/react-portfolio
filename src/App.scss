@@ -71,10 +71,13 @@
   font-size: 160%;
 }
 
-.language-icon {
-  font-size: 50px;
-  cursor: pointer;
-  margin: 0 1rem;
+.language {
+  margin-top: 1rem;
+  &-icon {
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
 }
 
 .see-through{
